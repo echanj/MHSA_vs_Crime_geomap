@@ -1,0 +1,3143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_38e128602d9b0478f9da22d81deff047 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_38e128602d9b0478f9da22d81deff047" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_38e128602d9b0478f9da22d81deff047 = L.map(
+                "map_38e128602d9b0478f9da22d81deff047",
+                {
+                    center: [35.41604173123894, -93.4655281880531],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_38e128602d9b0478f9da22d81deff047);
+
+            
+
+        
+    
+            var tile_layer_c7a2b55ef1244f4469e89bef36fa7e70 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var heat_map_77ae07617aef8158a21aaf445355b863 = L.heatLayer(
+                [[35.1258638, -118.5741128, 60.0], [33.931116, -117.576657, 60.0], [41.31924219, -72.23297209, 150.0], [38.1505881, -88.87115879, 150.0], [30.85824138, -83.34298883, 150.0], [29.61712324, -95.70437729, 60.0], [29.62594578, -95.70460486, 60.0], [32.32028828, -94.97246874, 150.0], [30.88119642, -95.50161127, 60.0], [29.76396687, -95.35524958, 60.0], [36.77896253, -77.81535969, 150.0], [36.6137617, -76.1867227, 60.0], [36.80123581, -79.4198435, 60.0], [36.83214347, -81.50950741, 150.0], [40.402888, -96.183749, 150.0], [38.16225151, -103.9580518, 150.0], [32.81566547, -115.7778196, 150.0], [33.16332094, -115.4931136, 150.0], [28.46302303, -81.15381029, 60.0], [40.94102251, -90.40275436, 120.0], [38.68986349, -121.1626275, 60.0], [41.66596892, -93.36585532, 30.0], [43.47875645, -116.2341377, 150.0], [39.30114758, -76.61076694, 30.0], [39.29881743, -76.61037199, 60.0], [43.86172046, -89.6450318, 210.0], [40.77247525, -84.10867722, 120.0], [39.4127855, -87.45122361, 120.0], [47.42269549, -122.3015104, 120.0], [45.08399348, -123.3956011, 120.0], [64.833532, -147.758474, 120.0], [39.38954557, -75.16347843, 120.0], [37.770873, -82.65215149, 210.0], [31.57634156, -81.84820809, 210.0], [30.828303, -85.18825253, 120.0], [40.14413178, -120.1644002, 120.0], [36.720151, -120.3967186, 210.0], [34.05334564, -118.2380071, 120.0], [33.23412114, -97.75697178, 180.0], [29.39263285, -95.48146086, 120.0], [31.80572401, -95.88833982, 210.0], [33.13152841, -98.12769573, 180.0], [33.59363955, -96.22573395, 210.0], [31.81349249, -95.16607119, 210.0], [30.72644715, -95.57681537, 120.0], [30.79358036, -94.39581299, 210.0], [30.96031062, -95.70691718, 180.0], [30.72292644, -95.54764414, 120.0], [32.67029812, -96.70389768, 120.0], [30.67203963, -95.51677182, 120.0], [32.40556847, -97.0943639, 120.0], [35.5675925, -100.8868238, 210.0], [28.37321442, -97.72042072, 210.0], [28.46731483, -98.23552991, 180.0], [32.18370554, -94.81629454, 210.0], [33.59011878, -96.23302051, 210.0], [30.10013652, -94.93464785, 120.0], [31.6755558, -96.20701, 210.0], [31.73970612, -95.79621521, 210.0], [31.80237318, -95.8900917, 210.0], [30.73642805, -95.57670638, 120.0], [31.76082553, -95.82515996, 210.0], [30.10013656, -94.93461392, 120.0], [30.04849306, -94.89309163, 120.0], [31.47174365, -97.73851692, 120.0], [29.99226902, -94.04220035, 120.0], [35.39277147, -97.61853565, 120.0], [35.50806722, -97.83712104, 120.0], [34.77736256, -104.9504816, 210.0], [29.75876956, -95.36067713, 120.0], [38.36469783, -78.02181858, 180.0], [37.04020715, -77.22578822, 120.0], [37.56398182, -78.47459204, 210.0], [37.29825938, -77.34053669, 120.0], [37.57051542, -78.47245189, 210.0], [36.72334104, -78.30276638, 210.0], [37.04074289, -77.2271517, 120.0], [36.72594351, -77.24514179, 180.0], [37.18633729, -78.18279115, 210.0], [40.6894419, -76.26031589, 120.0], [40.98495587, -76.91486929, 120.0], [39.32776448, -94.93495228, 180.0], [38.36071195, -105.107127, 210.0], [38.3234006, -121.9705099, 30.0], [36.06509173, -119.557655, 120.0], [41.44010413, -73.47320345, 120.0], [39.29892547, -76.6073934, 60.0], [30.6434941, -86.97200768, 60.0], [45.54105199, -94.11537217, 150.0], [33.72952155, -118.2687562, 120.0], [27.595617, -81.50663149, 120.0], [30.19335156, -82.50247127, 150.0], [41.19887805, -76.8195298, 90.0], [32.98613997, -82.59729432, 210.0], [29.30601869, -82.17769031, 120.0], [40.1132685, -90.64292066, 120.0], [38.3046506, -85.48591732, 60.0], [32.5781576, -86.33810148, 120.0], [33.05813157, -83.23052332, 120.0], [32.53155065, -86.33653571, 60.0], [26.18880073, -97.35314895, 210.0], [34.98946067, -80.17690397, 120.0], [39.30063734, -76.60788015, 120.0], [42.393816, -94.61186549, 180.0], [33.74388167, -86.3867508, 120.0], [31.1870978, -84.1478274, 150.0], [39.85114896, -75.35332892, 30.0], [40.11400196, -89.38779549, 60.0], [21.373263, -157.9000635, 60.0], [41.87811428, -80.36824454, 30.0], [39.89225163, -88.92459822, 60.0], [37.25175053, -89.2787055, 150.0], [34.22304853, -92.07667349, 120.0]],
+                {"blur": 20, "maxZoom": 18, "minOpacity": 0.5, "radius": 20}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var layer_control_3b7bbee4d2867803649ba62a72ecfa25 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_c7a2b55ef1244f4469e89bef36fa7e70,
+                },
+                overlays :  {
+                    "HPSA_Score" : heat_map_77ae07617aef8158a21aaf445355b863,
+                },
+            };
+            L.control.layers(
+                layer_control_3b7bbee4d2867803649ba62a72ecfa25.base_layers,
+                layer_control_3b7bbee4d2867803649ba62a72ecfa25.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1f6a9996085be86ee478ed86f2fb5e35 = L.marker(
+                [35.1258638, -118.5741128],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d27cedb7b005475881df22a8145d37d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96baf3c16c5a90d6abae7f6e25384297 = $(`<div id="html_96baf3c16c5a90d6abae7f6e25384297" style="width: 100.0%; height: 100.0%;">CA, Tehachapi, Kern, state_crime:0.097, degree:7.600</div>`)[0];
+                popup_d27cedb7b005475881df22a8145d37d7.setContent(html_96baf3c16c5a90d6abae7f6e25384297);
+            
+        
+
+        marker_1f6a9996085be86ee478ed86f2fb5e35.bindPopup(popup_d27cedb7b005475881df22a8145d37d7)
+        ;
+
+        
+    
+    
+            var circle_19efefde6788e8280e5367a334e5f53e = L.circle(
+                [35.1258638, -118.5741128],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_e027cc7c6ab4e940b2bf9733d5a8875b = L.marker(
+                [33.931116, -117.576657],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_8fb6de6cd218df852eecba1c1182350f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24138c1bce31e984ef6efb6e5f05d06f = $(`<div id="html_24138c1bce31e984ef6efb6e5f05d06f" style="width: 100.0%; height: 100.0%;">CA, Norco, Riverside, state_crime:0.097, degree:6.100</div>`)[0];
+                popup_8fb6de6cd218df852eecba1c1182350f.setContent(html_24138c1bce31e984ef6efb6e5f05d06f);
+            
+        
+
+        marker_e027cc7c6ab4e940b2bf9733d5a8875b.bindPopup(popup_8fb6de6cd218df852eecba1c1182350f)
+        ;
+
+        
+    
+    
+            var circle_0f0a61a6dd06dcbcc94f98f0782ed1b4 = L.circle(
+                [33.931116, -117.576657],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d27697d467af6d05162e92f660c0b6a4 = L.marker(
+                [41.31924219, -72.23297209],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_37c46312c641b54a2925065eeb84ad60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_849e0be3d10bfde100feab2a8f36774a = $(`<div id="html_849e0be3d10bfde100feab2a8f36774a" style="width: 100.0%; height: 100.0%;">CT, Niantic, New London, state_crime:0.074, degree:6.000</div>`)[0];
+                popup_37c46312c641b54a2925065eeb84ad60.setContent(html_849e0be3d10bfde100feab2a8f36774a);
+            
+        
+
+        marker_d27697d467af6d05162e92f660c0b6a4.bindPopup(popup_37c46312c641b54a2925065eeb84ad60)
+        ;
+
+        
+    
+    
+            var circle_1d556e9ac34d8e9d412097215a784478 = L.circle(
+                [41.31924219, -72.23297209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_5dab2b88bb7ac050a86377f5b3536b54 = L.marker(
+                [38.1505881, -88.87115879],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_e78868ae8c72310bd3c65fdba9383c44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1690c7b42947a8f20e6079960b890ca5 = $(`<div id="html_1690c7b42947a8f20e6079960b890ca5" style="width: 100.0%; height: 100.0%;">IL, Ina, Jefferson, state_crime:0.087, degree:6.000</div>`)[0];
+                popup_e78868ae8c72310bd3c65fdba9383c44.setContent(html_1690c7b42947a8f20e6079960b890ca5);
+            
+        
+
+        marker_5dab2b88bb7ac050a86377f5b3536b54.bindPopup(popup_e78868ae8c72310bd3c65fdba9383c44)
+        ;
+
+        
+    
+    
+            var circle_4dd3019c40ef1c71b526dcd57902c48d = L.circle(
+                [38.1505881, -88.87115879],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_8504d037596c68d44bd4480159389d58 = L.marker(
+                [30.85824138, -83.34298883],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_0a3c8edf972420a105779410833901b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01aad521badb4bd42d59ad608c92d951 = $(`<div id="html_01aad521badb4bd42d59ad608c92d951" style="width: 100.0%; height: 100.0%;">GA, Valdosta, Lowndes, state_crime:0.097, degree:6.000</div>`)[0];
+                popup_0a3c8edf972420a105779410833901b7.setContent(html_01aad521badb4bd42d59ad608c92d951);
+            
+        
+
+        marker_8504d037596c68d44bd4480159389d58.bindPopup(popup_0a3c8edf972420a105779410833901b7)
+        ;
+
+        
+    
+    
+            var circle_1889aaddc9f4dbc46d13ec52aec6e888 = L.circle(
+                [30.85824138, -83.34298883],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_2507f5a3e8eee6a75ea831408e50620f = L.marker(
+                [29.61712324, -95.70437729],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_cee165818e2cb6c8ec6151485321e7b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ba9b8a7c62a11ebd50d550cf037a5de = $(`<div id="html_3ba9b8a7c62a11ebd50d550cf037a5de" style="width: 100.0%; height: 100.0%;">TX, Richmond, Fort Bend, state_crime:0.106, degree:6.000</div>`)[0];
+                popup_cee165818e2cb6c8ec6151485321e7b0.setContent(html_3ba9b8a7c62a11ebd50d550cf037a5de);
+            
+        
+
+        marker_2507f5a3e8eee6a75ea831408e50620f.bindPopup(popup_cee165818e2cb6c8ec6151485321e7b0)
+        ;
+
+        
+    
+    
+            var circle_92884f3867a204b69ec66929b9ee167b = L.circle(
+                [29.61712324, -95.70437729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_f813f5674f3baf855209a03896dd8ddd = L.marker(
+                [29.62594578, -95.70460486],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_5eaeb39536c675d7976f4b1c98698684 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a22d687a416972e168ef10f8799c7e2d = $(`<div id="html_a22d687a416972e168ef10f8799c7e2d" style="width: 100.0%; height: 100.0%;">TX, Richmond, Fort Bend, state_crime:0.106, degree:6.000</div>`)[0];
+                popup_5eaeb39536c675d7976f4b1c98698684.setContent(html_a22d687a416972e168ef10f8799c7e2d);
+            
+        
+
+        marker_f813f5674f3baf855209a03896dd8ddd.bindPopup(popup_5eaeb39536c675d7976f4b1c98698684)
+        ;
+
+        
+    
+    
+            var circle_60a3f8f0aaa60cc562d2b4d82014327f = L.circle(
+                [29.62594578, -95.70460486],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_ac9d85eff86acc56914a6180ace37ce0 = L.marker(
+                [32.32028828, -94.97246874],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_444f7e61af96990dfa5420e02fc26b88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463ac6485fe98e27e2e6496c1eb2642a = $(`<div id="html_463ac6485fe98e27e2e6496c1eb2642a" style="width: 100.0%; height: 100.0%;">TX, Overton, Rusk, state_crime:0.106, degree:6.000</div>`)[0];
+                popup_444f7e61af96990dfa5420e02fc26b88.setContent(html_463ac6485fe98e27e2e6496c1eb2642a);
+            
+        
+
+        marker_ac9d85eff86acc56914a6180ace37ce0.bindPopup(popup_444f7e61af96990dfa5420e02fc26b88)
+        ;
+
+        
+    
+    
+            var circle_32b73f434b734514404275bf8a2dde13 = L.circle(
+                [32.32028828, -94.97246874],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_cbe297e2ae473d7998813c178d28ca64 = L.marker(
+                [30.88119642, -95.50161127],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d18e1457f93966dc1c430b9a21e37630 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9cf1c0b04bd75b3886888e03e72ad65 = $(`<div id="html_a9cf1c0b04bd75b3886888e03e72ad65" style="width: 100.0%; height: 100.0%;">TX, Huntsville, Walker, state_crime:0.106, degree:6.000</div>`)[0];
+                popup_d18e1457f93966dc1c430b9a21e37630.setContent(html_a9cf1c0b04bd75b3886888e03e72ad65);
+            
+        
+
+        marker_cbe297e2ae473d7998813c178d28ca64.bindPopup(popup_d18e1457f93966dc1c430b9a21e37630)
+        ;
+
+        
+    
+    
+            var circle_414300eeb4f3a635e5b708219d34e009 = L.circle(
+                [30.88119642, -95.50161127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_0abb70dc40fc5512a5c971dd04752dd1 = L.marker(
+                [29.76396687, -95.35524958],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_86f08bf43ddabea2203898730dae482b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87039d6b280b1a87da4a527ddbfc1a78 = $(`<div id="html_87039d6b280b1a87da4a527ddbfc1a78" style="width: 100.0%; height: 100.0%;">TX, Houston, Harris, state_crime:0.106, degree:6.000</div>`)[0];
+                popup_86f08bf43ddabea2203898730dae482b.setContent(html_87039d6b280b1a87da4a527ddbfc1a78);
+            
+        
+
+        marker_0abb70dc40fc5512a5c971dd04752dd1.bindPopup(popup_86f08bf43ddabea2203898730dae482b)
+        ;
+
+        
+    
+    
+            var circle_f4e90af0a902c665871e38f4c637b3be = L.circle(
+                [29.76396687, -95.35524958],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b7980f3569ff386675229f46f7200140 = L.marker(
+                [36.77896253, -77.81535969],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ceed477d23f0d01a3c0759acef115a5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d66fa70e7bf1185289d39a11cd52d21e = $(`<div id="html_d66fa70e7bf1185289d39a11cd52d21e" style="width: 100.0%; height: 100.0%;">VA, Lawrenceville, Brunswick, state_crime:0.066, degree:6.000</div>`)[0];
+                popup_ceed477d23f0d01a3c0759acef115a5e.setContent(html_d66fa70e7bf1185289d39a11cd52d21e);
+            
+        
+
+        marker_b7980f3569ff386675229f46f7200140.bindPopup(popup_ceed477d23f0d01a3c0759acef115a5e)
+        ;
+
+        
+    
+    
+            var circle_93a54b0594041666426f3c306604f2aa = L.circle(
+                [36.77896253, -77.81535969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1822b2c30c84c208bc9e3672bb664766 = L.marker(
+                [36.6137617, -76.1867227],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_42b59255e430f4d795570e5b7dc65557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec313ec05486e09496b0e73d3d9a23ef = $(`<div id="html_ec313ec05486e09496b0e73d3d9a23ef" style="width: 100.0%; height: 100.0%;">VA, Chesapeake, Chesapeake City, state_crime:0.066, degree:6.000</div>`)[0];
+                popup_42b59255e430f4d795570e5b7dc65557.setContent(html_ec313ec05486e09496b0e73d3d9a23ef);
+            
+        
+
+        marker_1822b2c30c84c208bc9e3672bb664766.bindPopup(popup_42b59255e430f4d795570e5b7dc65557)
+        ;
+
+        
+    
+    
+            var circle_c139a13b4a6b3726dd5e8f65de7039f4 = L.circle(
+                [36.6137617, -76.1867227],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_247f906061841b3636caee7600a27631 = L.marker(
+                [36.80123581, -79.4198435],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_45dfe7a2174fc5c79349b6f3b51be246 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e709baa91fe048134e121387beb695c7 = $(`<div id="html_e709baa91fe048134e121387beb695c7" style="width: 100.0%; height: 100.0%;">VA, Chatham, Pittsylvania, state_crime:0.066, degree:6.000</div>`)[0];
+                popup_45dfe7a2174fc5c79349b6f3b51be246.setContent(html_e709baa91fe048134e121387beb695c7);
+            
+        
+
+        marker_247f906061841b3636caee7600a27631.bindPopup(popup_45dfe7a2174fc5c79349b6f3b51be246)
+        ;
+
+        
+    
+    
+            var circle_755998b21a9d0101a7fbcc34a376a837 = L.circle(
+                [36.80123581, -79.4198435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_e331204ab90a436439fb1ead52f2ca83 = L.marker(
+                [36.83214347, -81.50950741],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_135331e263e1fa95fb0c265dcbe1f661 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c110bdbcf5d3ed27798dae8f1947b6c = $(`<div id="html_7c110bdbcf5d3ed27798dae8f1947b6c" style="width: 100.0%; height: 100.0%;">VA, Marion, Smyth, state_crime:0.066, degree:6.000</div>`)[0];
+                popup_135331e263e1fa95fb0c265dcbe1f661.setContent(html_7c110bdbcf5d3ed27798dae8f1947b6c);
+            
+        
+
+        marker_e331204ab90a436439fb1ead52f2ca83.bindPopup(popup_135331e263e1fa95fb0c265dcbe1f661)
+        ;
+
+        
+    
+    
+            var circle_4af524dde99b389b1dbdd955964fd4a8 = L.circle(
+                [36.83214347, -81.50950741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_df2ae2ea0567c7ea8053e5868a50eb3e = L.marker(
+                [40.402888, -96.183749],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_84e06801432ca010091ff8bbf6973229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fcb880572318e0e8e78895caf0f493e = $(`<div id="html_5fcb880572318e0e8e78895caf0f493e" style="width: 100.0%; height: 100.0%;">NE, Tecumseh, Johnson, state_crime:0.074, degree:6.000</div>`)[0];
+                popup_84e06801432ca010091ff8bbf6973229.setContent(html_5fcb880572318e0e8e78895caf0f493e);
+            
+        
+
+        marker_df2ae2ea0567c7ea8053e5868a50eb3e.bindPopup(popup_84e06801432ca010091ff8bbf6973229)
+        ;
+
+        
+    
+    
+            var circle_a1753f4b935ea8bf039b24c243719e38 = L.circle(
+                [40.402888, -96.183749],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_3a2a61106a4ed0ebac1c5f43b090c802 = L.marker(
+                [38.16225151, -103.9580518],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_7b8033e1873d763b7c6193619aa8bfbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e028a433a748e53782ea7f35123775d = $(`<div id="html_2e028a433a748e53782ea7f35123775d" style="width: 100.0%; height: 100.0%;">CO, Olney Springs, Crowley, state_crime:0.095, degree:6.000</div>`)[0];
+                popup_7b8033e1873d763b7c6193619aa8bfbf.setContent(html_2e028a433a748e53782ea7f35123775d);
+            
+        
+
+        marker_3a2a61106a4ed0ebac1c5f43b090c802.bindPopup(popup_7b8033e1873d763b7c6193619aa8bfbf)
+        ;
+
+        
+    
+    
+            var circle_a6b5b4da0893171b61213cfaec924b58 = L.circle(
+                [38.16225151, -103.9580518],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_4b5434f707319d5c4f44c640ece9d66a = L.marker(
+                [32.81566547, -115.7778196],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ae6633b3c79586c41960ae3ffcacaf87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53cacd1d5ecf0ceabe52f7dd8ad35572 = $(`<div id="html_53cacd1d5ecf0ceabe52f7dd8ad35572" style="width: 100.0%; height: 100.0%;">CA, Thermal, Imperial, state_crime:0.097, degree:4.900</div>`)[0];
+                popup_ae6633b3c79586c41960ae3ffcacaf87.setContent(html_53cacd1d5ecf0ceabe52f7dd8ad35572);
+            
+        
+
+        marker_4b5434f707319d5c4f44c640ece9d66a.bindPopup(popup_ae6633b3c79586c41960ae3ffcacaf87)
+        ;
+
+        
+    
+    
+            var circle_819c963fd22b80ce83d7a067802ed0a3 = L.circle(
+                [32.81566547, -115.7778196],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_33fa8c19621c41b93eff1ad8e8f17472 = L.marker(
+                [33.16332094, -115.4931136],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_25984f6c4330df84e8d273a92b903b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7559be49ef89d7eb0b628866d6f2876c = $(`<div id="html_7559be49ef89d7eb0b628866d6f2876c" style="width: 100.0%; height: 100.0%;">CA, Calipatria, Imperial, state_crime:0.097, degree:3.600</div>`)[0];
+                popup_25984f6c4330df84e8d273a92b903b44.setContent(html_7559be49ef89d7eb0b628866d6f2876c);
+            
+        
+
+        marker_33fa8c19621c41b93eff1ad8e8f17472.bindPopup(popup_25984f6c4330df84e8d273a92b903b44)
+        ;
+
+        
+    
+    
+            var circle_324ea3287d8f50f03aa0e974e44b152e = L.circle(
+                [33.16332094, -115.4931136],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_144e4b26a35a78dd9146e61ebf5267bd = L.marker(
+                [28.46302303, -81.15381029],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_3d373ab0994de15c2041795f54bd3f9f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59e493129accff681b152b9a69704d4d = $(`<div id="html_59e493129accff681b152b9a69704d4d" style="width: 100.0%; height: 100.0%;">FL, Orlando, Orange, state_crime:0.120, degree:3.100</div>`)[0];
+                popup_3d373ab0994de15c2041795f54bd3f9f.setContent(html_59e493129accff681b152b9a69704d4d);
+            
+        
+
+        marker_144e4b26a35a78dd9146e61ebf5267bd.bindPopup(popup_3d373ab0994de15c2041795f54bd3f9f)
+        ;
+
+        
+    
+    
+            var circle_9893b644b5644b1745b1fe42e9707787 = L.circle(
+                [28.46302303, -81.15381029],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_db8d662e04e6bca8caaaa956fc29b0bc = L.marker(
+                [40.94102251, -90.40275436],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_7020b52ed6508bad1700176ba0b3f392 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99dd42d9d9574abe1025f0c5312aba64 = $(`<div id="html_99dd42d9d9574abe1025f0c5312aba64" style="width: 100.0%; height: 100.0%;">IL, Galesburg, Knox, state_crime:0.087, degree:3.000</div>`)[0];
+                popup_7020b52ed6508bad1700176ba0b3f392.setContent(html_99dd42d9d9574abe1025f0c5312aba64);
+            
+        
+
+        marker_db8d662e04e6bca8caaaa956fc29b0bc.bindPopup(popup_7020b52ed6508bad1700176ba0b3f392)
+        ;
+
+        
+    
+    
+            var circle_bddaa6d72e91e6145842dfac6d334c22 = L.circle(
+                [40.94102251, -90.40275436],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9ae9852a657f2622c312ac83b9eaf30c = L.marker(
+                [38.68986349, -121.1626275],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_61a431e7d13bdb8e9a6150d5960064da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd36e927acab67bd3294c98d9144997 = $(`<div id="html_efd36e927acab67bd3294c98d9144997" style="width: 100.0%; height: 100.0%;">CA, Represa, Sacramento, state_crime:0.097, degree:3.000</div>`)[0];
+                popup_61a431e7d13bdb8e9a6150d5960064da.setContent(html_efd36e927acab67bd3294c98d9144997);
+            
+        
+
+        marker_9ae9852a657f2622c312ac83b9eaf30c.bindPopup(popup_61a431e7d13bdb8e9a6150d5960064da)
+        ;
+
+        
+    
+    
+            var circle_5b013674ab518a4c4c84e7e8a2775c72 = L.circle(
+                [38.68986349, -121.1626275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_ac1c0fc137a1f2d5b32d8de0f6de4c44 = L.marker(
+                [41.66596892, -93.36585532],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_e04a6e989ef79d9b71690247138d6377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85d47881b7122371c7e39f7a772cddd8 = $(`<div id="html_85d47881b7122371c7e39f7a772cddd8" style="width: 100.0%; height: 100.0%;">IA, Mitchellville, Polk, state_crime:0.067, degree:3.000</div>`)[0];
+                popup_e04a6e989ef79d9b71690247138d6377.setContent(html_85d47881b7122371c7e39f7a772cddd8);
+            
+        
+
+        marker_ac1c0fc137a1f2d5b32d8de0f6de4c44.bindPopup(popup_e04a6e989ef79d9b71690247138d6377)
+        ;
+
+        
+    
+    
+            var circle_ef14de1f06915af5f014b4519e24b340 = L.circle(
+                [41.66596892, -93.36585532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_35da39b81ae6d6f6c3452268b35aa69f = L.marker(
+                [43.47875645, -116.2341377],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_72bf83fff359d6406630382ca618b018 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_216e8bfbc04044601dd3a00efc46a499 = $(`<div id="html_216e8bfbc04044601dd3a00efc46a499" style="width: 100.0%; height: 100.0%;">ID, Kuna, Ada, state_crime:0.064, degree:2.800</div>`)[0];
+                popup_72bf83fff359d6406630382ca618b018.setContent(html_216e8bfbc04044601dd3a00efc46a499);
+            
+        
+
+        marker_35da39b81ae6d6f6c3452268b35aa69f.bindPopup(popup_72bf83fff359d6406630382ca618b018)
+        ;
+
+        
+    
+    
+            var circle_9d6d891b909a3e7bcc16447289743a31 = L.circle(
+                [43.47875645, -116.2341377],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_2fecee2a99206bab014dc872483f91f8 = L.marker(
+                [39.30114758, -76.61076694],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_1d818f60e70b78de4bcff788362c6c7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de3d9838eeab76c145dac1a80d84e396 = $(`<div id="html_de3d9838eeab76c145dac1a80d84e396" style="width: 100.0%; height: 100.0%;">MD, Baltimore, Baltimore City, state_crime:0.095, degree:2.800</div>`)[0];
+                popup_1d818f60e70b78de4bcff788362c6c7f.setContent(html_de3d9838eeab76c145dac1a80d84e396);
+            
+        
+
+        marker_2fecee2a99206bab014dc872483f91f8.bindPopup(popup_1d818f60e70b78de4bcff788362c6c7f)
+        ;
+
+        
+    
+    
+            var circle_d34a15622b55531a8087d9f30e6a3fab = L.circle(
+                [39.30114758, -76.61076694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_bb7c4e10301837e0c62f9968358ba72c = L.marker(
+                [39.29881743, -76.61037199],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_642c46a494604e77dadaf0cb3de63071 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8835d327cca30239203da0b18ad3be8d = $(`<div id="html_8835d327cca30239203da0b18ad3be8d" style="width: 100.0%; height: 100.0%;">MD, Baltimore, Baltimore City, state_crime:0.095, degree:15.400</div>`)[0];
+                popup_642c46a494604e77dadaf0cb3de63071.setContent(html_8835d327cca30239203da0b18ad3be8d);
+            
+        
+
+        marker_bb7c4e10301837e0c62f9968358ba72c.bindPopup(popup_642c46a494604e77dadaf0cb3de63071)
+        ;
+
+        
+    
+    
+            var circle_dd9e0860404599cf7dc74ecccc0c1021 = L.circle(
+                [39.29881743, -76.61037199],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1406b57f02e42c3770a9afc52cac40c1 = L.marker(
+                [43.86172046, -89.6450318],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_40dbb79f6bfd4da54836dbcffebe5049 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5be1e6495c903b7e90e6b313e65839b = $(`<div id="html_c5be1e6495c903b7e90e6b313e65839b" style="width: 100.0%; height: 100.0%;">WI, Oxford, Adams, state_crime:0.068, degree:12.000</div>`)[0];
+                popup_40dbb79f6bfd4da54836dbcffebe5049.setContent(html_c5be1e6495c903b7e90e6b313e65839b);
+            
+        
+
+        marker_1406b57f02e42c3770a9afc52cac40c1.bindPopup(popup_40dbb79f6bfd4da54836dbcffebe5049)
+        ;
+
+        
+    
+    
+            var circle_27e7835e3f562654c7f666777535a5eb = L.circle(
+                [43.86172046, -89.6450318],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_a7cba81365b86a074452f62f0ab6df20 = L.marker(
+                [40.77247525, -84.10867722],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_57483ea4a58f6da9c94bff290f236052 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5772dcc77ffb43dfc1a8cd4590acf9da = $(`<div id="html_5772dcc77ffb43dfc1a8cd4590acf9da" style="width: 100.0%; height: 100.0%;">OH, Lima, Allen, state_crime:0.081, degree:12.000</div>`)[0];
+                popup_57483ea4a58f6da9c94bff290f236052.setContent(html_5772dcc77ffb43dfc1a8cd4590acf9da);
+            
+        
+
+        marker_a7cba81365b86a074452f62f0ab6df20.bindPopup(popup_57483ea4a58f6da9c94bff290f236052)
+        ;
+
+        
+    
+    
+            var circle_56a7a2baec33e042fed9926925eb2359 = L.circle(
+                [40.77247525, -84.10867722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_57d2c42a63de40ec8c63ee7c97404193 = L.marker(
+                [39.4127855, -87.45122361],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_8abffe06fbf4842d519ea786c37469fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4577440780140a12364c6580fe2e94 = $(`<div id="html_cf4577440780140a12364c6580fe2e94" style="width: 100.0%; height: 100.0%;">IN, Terre Haute, Vigo, state_crime:0.077, degree:12.000</div>`)[0];
+                popup_8abffe06fbf4842d519ea786c37469fe.setContent(html_cf4577440780140a12364c6580fe2e94);
+            
+        
+
+        marker_57d2c42a63de40ec8c63ee7c97404193.bindPopup(popup_8abffe06fbf4842d519ea786c37469fe)
+        ;
+
+        
+    
+    
+            var circle_1a497c9514e039e2b58084a8038ba8b3 = L.circle(
+                [39.4127855, -87.45122361],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_4b8acdff267119d71b9281b341860f17 = L.marker(
+                [47.42269549, -122.3015104],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_333fbefcf4649dc192ada6e589031d16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bff6955a6a9c441b4679c8d7e0851c9 = $(`<div id="html_6bff6955a6a9c441b4679c8d7e0851c9" style="width: 100.0%; height: 100.0%;">WA, Seatac, King, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_333fbefcf4649dc192ada6e589031d16.setContent(html_6bff6955a6a9c441b4679c8d7e0851c9);
+            
+        
+
+        marker_4b8acdff267119d71b9281b341860f17.bindPopup(popup_333fbefcf4649dc192ada6e589031d16)
+        ;
+
+        
+    
+    
+            var circle_facc388493501247c69b0d817b41c7f4 = L.circle(
+                [47.42269549, -122.3015104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_40d68deca211aac2b380ff9674e11000 = L.marker(
+                [45.08399348, -123.3956011],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_f90676d92943edeb819e828c0080892f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f37e40a0fb488a3ee4a431f2f0b95e = $(`<div id="html_78f37e40a0fb488a3ee4a431f2f0b95e" style="width: 100.0%; height: 100.0%;">OR, Sheridan, Yamhill, state_crime:0.101, degree:12.000</div>`)[0];
+                popup_f90676d92943edeb819e828c0080892f.setContent(html_78f37e40a0fb488a3ee4a431f2f0b95e);
+            
+        
+
+        marker_40d68deca211aac2b380ff9674e11000.bindPopup(popup_f90676d92943edeb819e828c0080892f)
+        ;
+
+        
+    
+    
+            var circle_619e48ba9b6077a4c284f5fb1570c84a = L.circle(
+                [45.08399348, -123.3956011],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_ae64eae4590f056c9043e4bc906aa317 = L.marker(
+                [64.833532, -147.758474],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_6897292ee795b3b657649a6179dff82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ea5cf561a2207ee36cafa7691027eb = $(`<div id="html_c5ea5cf561a2207ee36cafa7691027eb" style="width: 100.0%; height: 100.0%;">AK, Fairbanks, Fairbanks North Star, state_crime:0.095, degree:12.000</div>`)[0];
+                popup_6897292ee795b3b657649a6179dff82e.setContent(html_c5ea5cf561a2207ee36cafa7691027eb);
+            
+        
+
+        marker_ae64eae4590f056c9043e4bc906aa317.bindPopup(popup_6897292ee795b3b657649a6179dff82e)
+        ;
+
+        
+    
+    
+            var circle_40bffa3982952b460c3d87ceff7cf332 = L.circle(
+                [64.833532, -147.758474],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_679b039eb41d56796801f4dbc93913a4 = L.marker(
+                [39.38954557, -75.16347843],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_0ecbaba5f0075fcf628d369269d6fa93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_252740b95f01f54b860696ac2a563ffb = $(`<div id="html_252740b95f01f54b860696ac2a563ffb" style="width: 100.0%; height: 100.0%;">NJ, Fairton, Cumberland, state_crime:0.074, degree:12.000</div>`)[0];
+                popup_0ecbaba5f0075fcf628d369269d6fa93.setContent(html_252740b95f01f54b860696ac2a563ffb);
+            
+        
+
+        marker_679b039eb41d56796801f4dbc93913a4.bindPopup(popup_0ecbaba5f0075fcf628d369269d6fa93)
+        ;
+
+        
+    
+    
+            var circle_5d4bde5630662d366c6b5a08dad1dc10 = L.circle(
+                [39.38954557, -75.16347843],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d961de232f1ebc28a667b353eebc788e = L.marker(
+                [37.770873, -82.65215149],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_e5dabdf831b3becfc5294130e575528f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb8e061aa9a7c7d056b2ca4a552d49c7 = $(`<div id="html_bb8e061aa9a7c7d056b2ca4a552d49c7" style="width: 100.0%; height: 100.0%;">KY, Inez, Martin, state_crime:0.059, degree:12.000</div>`)[0];
+                popup_e5dabdf831b3becfc5294130e575528f.setContent(html_bb8e061aa9a7c7d056b2ca4a552d49c7);
+            
+        
+
+        marker_d961de232f1ebc28a667b353eebc788e.bindPopup(popup_e5dabdf831b3becfc5294130e575528f)
+        ;
+
+        
+    
+    
+            var circle_0353ddc081af3d5d01117032af95025e = L.circle(
+                [37.770873, -82.65215149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_5ec8d596e97a93236a472435fb8bb675 = L.marker(
+                [31.57634156, -81.84820809],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_422f1142f2d2f21c11549cb4b13a0ad7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2447afcc6959fa2b28cff386e101ca28 = $(`<div id="html_2447afcc6959fa2b28cff386e101ca28" style="width: 100.0%; height: 100.0%;">GA, Jesup, Wayne, state_crime:0.097, degree:12.000</div>`)[0];
+                popup_422f1142f2d2f21c11549cb4b13a0ad7.setContent(html_2447afcc6959fa2b28cff386e101ca28);
+            
+        
+
+        marker_5ec8d596e97a93236a472435fb8bb675.bindPopup(popup_422f1142f2d2f21c11549cb4b13a0ad7)
+        ;
+
+        
+    
+    
+            var circle_539a5b50920bc98301558997c6b61e98 = L.circle(
+                [31.57634156, -81.84820809],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_561328b5faaa43ed853bdf58a648936e = L.marker(
+                [30.828303, -85.18825253],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d73145183382a4fb292d81b38fffc38b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ae854744f6c7abfd8784bb870ee1778 = $(`<div id="html_0ae854744f6c7abfd8784bb870ee1778" style="width: 100.0%; height: 100.0%;">FL, Marianna, Jackson, state_crime:0.120, degree:12.000</div>`)[0];
+                popup_d73145183382a4fb292d81b38fffc38b.setContent(html_0ae854744f6c7abfd8784bb870ee1778);
+            
+        
+
+        marker_561328b5faaa43ed853bdf58a648936e.bindPopup(popup_d73145183382a4fb292d81b38fffc38b)
+        ;
+
+        
+    
+    
+            var circle_fc8a8c08946683463f17db26ac278626 = L.circle(
+                [30.828303, -85.18825253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d34cd8c4a0fd71fd37511de6018b52bf = L.marker(
+                [40.14413178, -120.1644002],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d9ab910c9ee2ca1071b5ff3807d8861f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fc38b1c9aeff6c64e42241c9c9cb67d = $(`<div id="html_6fc38b1c9aeff6c64e42241c9c9cb67d" style="width: 100.0%; height: 100.0%;">CA, Herlong, Lassen, state_crime:0.097, degree:12.000</div>`)[0];
+                popup_d9ab910c9ee2ca1071b5ff3807d8861f.setContent(html_6fc38b1c9aeff6c64e42241c9c9cb67d);
+            
+        
+
+        marker_d34cd8c4a0fd71fd37511de6018b52bf.bindPopup(popup_d9ab910c9ee2ca1071b5ff3807d8861f)
+        ;
+
+        
+    
+    
+            var circle_c8a3f30c761c4b828c67b41929176f6e = L.circle(
+                [40.14413178, -120.1644002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_370adf6795acc45dc24b24ca70ed05e7 = L.marker(
+                [36.720151, -120.3967186],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_594633b757c79482f8e4d357089aa8e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a954a21df6beddcb4df2657a2b095257 = $(`<div id="html_a954a21df6beddcb4df2657a2b095257" style="width: 100.0%; height: 100.0%;">CA, Mendota, Fresno, state_crime:0.097, degree:12.000</div>`)[0];
+                popup_594633b757c79482f8e4d357089aa8e4.setContent(html_a954a21df6beddcb4df2657a2b095257);
+            
+        
+
+        marker_370adf6795acc45dc24b24ca70ed05e7.bindPopup(popup_594633b757c79482f8e4d357089aa8e4)
+        ;
+
+        
+    
+    
+            var circle_ad81f0525b75ebbb543a39a5956f3e9a = L.circle(
+                [36.720151, -120.3967186],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_8da4d2297475d44b1728cf32c4947586 = L.marker(
+                [34.05334564, -118.2380071],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_fb4ea33fd624b820a5d0723f97c79995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fb4eff023787fd6961cf1f1aa1cbece = $(`<div id="html_7fb4eff023787fd6961cf1f1aa1cbece" style="width: 100.0%; height: 100.0%;">CA, Los Angeles, Los Angeles, state_crime:0.097, degree:12.000</div>`)[0];
+                popup_fb4ea33fd624b820a5d0723f97c79995.setContent(html_7fb4eff023787fd6961cf1f1aa1cbece);
+            
+        
+
+        marker_8da4d2297475d44b1728cf32c4947586.bindPopup(popup_fb4ea33fd624b820a5d0723f97c79995)
+        ;
+
+        
+    
+    
+            var circle_b6035ed6fe5a9f813fcef7f99c69fcfe = L.circle(
+                [34.05334564, -118.2380071],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_4bfa7bff2f6d971c9b46b05c52c5d249 = L.marker(
+                [33.23412114, -97.75697178],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_278817e6d63ec83f5c148ce5e452d8b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81cc9e48283a6649985c5224c7dd93f9 = $(`<div id="html_81cc9e48283a6649985c5224c7dd93f9" style="width: 100.0%; height: 100.0%;">TX, Bridgeport, Wise, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_278817e6d63ec83f5c148ce5e452d8b1.setContent(html_81cc9e48283a6649985c5224c7dd93f9);
+            
+        
+
+        marker_4bfa7bff2f6d971c9b46b05c52c5d249.bindPopup(popup_278817e6d63ec83f5c148ce5e452d8b1)
+        ;
+
+        
+    
+    
+            var circle_7014fa6bf36eaba2d76ed71e20e5e083 = L.circle(
+                [33.23412114, -97.75697178],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_3ce208690b0bb0155e289b2340a986a7 = L.marker(
+                [29.39263285, -95.48146086],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_8858e236644d74ff4b374087fd4c74a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a55d2ac820bf70fbbf006c63c9fa091a = $(`<div id="html_a55d2ac820bf70fbbf006c63c9fa091a" style="width: 100.0%; height: 100.0%;">TX, Rosharon, Brazoria, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_8858e236644d74ff4b374087fd4c74a3.setContent(html_a55d2ac820bf70fbbf006c63c9fa091a);
+            
+        
+
+        marker_3ce208690b0bb0155e289b2340a986a7.bindPopup(popup_8858e236644d74ff4b374087fd4c74a3)
+        ;
+
+        
+    
+    
+            var circle_87e361a54bb4c51cf11e82329481be2e = L.circle(
+                [29.39263285, -95.48146086],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_68e9a6a4eb168aa09875c42bc457d19e = L.marker(
+                [31.80572401, -95.88833982],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2a0a584f6b54423141455e62d8db6ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c9ac2166c5f741b1dd3b05877509983 = $(`<div id="html_6c9ac2166c5f741b1dd3b05877509983" style="width: 100.0%; height: 100.0%;">TX, Tennessee Colony, Anderson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_2a0a584f6b54423141455e62d8db6ba2.setContent(html_6c9ac2166c5f741b1dd3b05877509983);
+            
+        
+
+        marker_68e9a6a4eb168aa09875c42bc457d19e.bindPopup(popup_2a0a584f6b54423141455e62d8db6ba2)
+        ;
+
+        
+    
+    
+            var circle_eed326d2cee5df46d3351ec3001235be = L.circle(
+                [31.80572401, -95.88833982],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_21508b0c2403627004aabc5ac8c1dc72 = L.marker(
+                [33.13152841, -98.12769573],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_b40174fafbecae179dbfcde8a82cebbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d8c2a19335dcff3863ccfc623618ef = $(`<div id="html_c2d8c2a19335dcff3863ccfc623618ef" style="width: 100.0%; height: 100.0%;">TX, Jacksboro, Jack, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_b40174fafbecae179dbfcde8a82cebbf.setContent(html_c2d8c2a19335dcff3863ccfc623618ef);
+            
+        
+
+        marker_21508b0c2403627004aabc5ac8c1dc72.bindPopup(popup_b40174fafbecae179dbfcde8a82cebbf)
+        ;
+
+        
+    
+    
+            var circle_328ac9fa3db6b408fd2252dd16f58c8c = L.circle(
+                [33.13152841, -98.12769573],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_34065a7972d0aed2b55553ab7a503b27 = L.marker(
+                [33.59363955, -96.22573395],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_c340dffd70e2c66eb1462af47a168357 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97feabb1f52ef92ff2367b3cac851cb8 = $(`<div id="html_97feabb1f52ef92ff2367b3cac851cb8" style="width: 100.0%; height: 100.0%;">TX, Bonham, Fannin, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_c340dffd70e2c66eb1462af47a168357.setContent(html_97feabb1f52ef92ff2367b3cac851cb8);
+            
+        
+
+        marker_34065a7972d0aed2b55553ab7a503b27.bindPopup(popup_c340dffd70e2c66eb1462af47a168357)
+        ;
+
+        
+    
+    
+            var circle_41c32e5285ff949c22053386a9542df1 = L.circle(
+                [33.59363955, -96.22573395],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_3e5684384454cd5d4b0979179f4df46c = L.marker(
+                [31.81349249, -95.16607119],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_c6fbdfb16ec327e545780a7f181f307e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43ef5dda902c53fd0d018a55e1029ed8 = $(`<div id="html_43ef5dda902c53fd0d018a55e1029ed8" style="width: 100.0%; height: 100.0%;">TX, Rusk, Cherokee, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_c6fbdfb16ec327e545780a7f181f307e.setContent(html_43ef5dda902c53fd0d018a55e1029ed8);
+            
+        
+
+        marker_3e5684384454cd5d4b0979179f4df46c.bindPopup(popup_c6fbdfb16ec327e545780a7f181f307e)
+        ;
+
+        
+    
+    
+            var circle_1e380250f9e9f59d510f87bd96af3cfb = L.circle(
+                [31.81349249, -95.16607119],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9a3cf6875b21a4d9e3f1c820265ee144 = L.marker(
+                [30.72644715, -95.57681537],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_4f2b1f5885a44d75212439da7633572b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_468c4e1f07f54b844f05a45834ec1b9d = $(`<div id="html_468c4e1f07f54b844f05a45834ec1b9d" style="width: 100.0%; height: 100.0%;">TX, Huntsville, Walker, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_4f2b1f5885a44d75212439da7633572b.setContent(html_468c4e1f07f54b844f05a45834ec1b9d);
+            
+        
+
+        marker_9a3cf6875b21a4d9e3f1c820265ee144.bindPopup(popup_4f2b1f5885a44d75212439da7633572b)
+        ;
+
+        
+    
+    
+            var circle_e7776815cc5d752c526974fd66d16f76 = L.circle(
+                [30.72644715, -95.57681537],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b41668c42d2d15631e4952957c159e98 = L.marker(
+                [30.79358036, -94.39581299],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_bb82b105ad891700f6b6bcab07f25f3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79a677739a195c6d64641d34b349cff4 = $(`<div id="html_79a677739a195c6d64641d34b349cff4" style="width: 100.0%; height: 100.0%;">TX, Woodville, Tyler, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_bb82b105ad891700f6b6bcab07f25f3e.setContent(html_79a677739a195c6d64641d34b349cff4);
+            
+        
+
+        marker_b41668c42d2d15631e4952957c159e98.bindPopup(popup_bb82b105ad891700f6b6bcab07f25f3e)
+        ;
+
+        
+    
+    
+            var circle_9b9775f2657b5ea145004305d709d7a4 = L.circle(
+                [30.79358036, -94.39581299],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1e4ae16765d4f7c5487d50555ae20925 = L.marker(
+                [30.96031062, -95.70691718],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_8292681ed8189cd45d3d51bd04568378 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7dd1ed9d2dcfc5dc2c2298c75ded2d = $(`<div id="html_ab7dd1ed9d2dcfc5dc2c2298c75ded2d" style="width: 100.0%; height: 100.0%;">TX, Midway, Madison, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_8292681ed8189cd45d3d51bd04568378.setContent(html_ab7dd1ed9d2dcfc5dc2c2298c75ded2d);
+            
+        
+
+        marker_1e4ae16765d4f7c5487d50555ae20925.bindPopup(popup_8292681ed8189cd45d3d51bd04568378)
+        ;
+
+        
+    
+    
+            var circle_5ec99081cdf9fae929d323aef6a017ea = L.circle(
+                [30.96031062, -95.70691718],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_852cd1c8845635b523e508bd95345b32 = L.marker(
+                [30.72292644, -95.54764414],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2f47b43a3e0972924ef3812dfd69d5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe991ab73794e698e526d64539d59352 = $(`<div id="html_fe991ab73794e698e526d64539d59352" style="width: 100.0%; height: 100.0%;">TX, Huntsville, Walker, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_2f47b43a3e0972924ef3812dfd69d5b9.setContent(html_fe991ab73794e698e526d64539d59352);
+            
+        
+
+        marker_852cd1c8845635b523e508bd95345b32.bindPopup(popup_2f47b43a3e0972924ef3812dfd69d5b9)
+        ;
+
+        
+    
+    
+            var circle_e54c9c41d8043b7f08e2bb8604196232 = L.circle(
+                [30.72292644, -95.54764414],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_6af15e794674eb5a39137ee242bc77b5 = L.marker(
+                [32.67029812, -96.70389768],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_cf40620c6a6bdf239646177a8c13f64e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c02652a451a88ed4c5743f99e5eb3ff6 = $(`<div id="html_c02652a451a88ed4c5743f99e5eb3ff6" style="width: 100.0%; height: 100.0%;">TX, Dallas, Dallas, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_cf40620c6a6bdf239646177a8c13f64e.setContent(html_c02652a451a88ed4c5743f99e5eb3ff6);
+            
+        
+
+        marker_6af15e794674eb5a39137ee242bc77b5.bindPopup(popup_cf40620c6a6bdf239646177a8c13f64e)
+        ;
+
+        
+    
+    
+            var circle_3f8daf6b599b68a88b966cf7994e0a6f = L.circle(
+                [32.67029812, -96.70389768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_8afc1dff5388194c9fda05bb407c86f5 = L.marker(
+                [30.67203963, -95.51677182],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2f1fb68950d2b70e1439f01943a8c471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2782392dcabc32a465979a4c100caa6 = $(`<div id="html_b2782392dcabc32a465979a4c100caa6" style="width: 100.0%; height: 100.0%;">TX, Huntsville, Walker, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_2f1fb68950d2b70e1439f01943a8c471.setContent(html_b2782392dcabc32a465979a4c100caa6);
+            
+        
+
+        marker_8afc1dff5388194c9fda05bb407c86f5.bindPopup(popup_2f1fb68950d2b70e1439f01943a8c471)
+        ;
+
+        
+    
+    
+            var circle_1c0b8347a8d53cc1de9d8ae986b6efa1 = L.circle(
+                [30.67203963, -95.51677182],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_16494800041de36e3012bccf5c2fc6f3 = L.marker(
+                [32.40556847, -97.0943639],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d3b64ae490ddf22392d58888b542db28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cf702158304e1e7fb475137594e9706 = $(`<div id="html_9cf702158304e1e7fb475137594e9706" style="width: 100.0%; height: 100.0%;">TX, Venus, Johnson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_d3b64ae490ddf22392d58888b542db28.setContent(html_9cf702158304e1e7fb475137594e9706);
+            
+        
+
+        marker_16494800041de36e3012bccf5c2fc6f3.bindPopup(popup_d3b64ae490ddf22392d58888b542db28)
+        ;
+
+        
+    
+    
+            var circle_f352c92991651fce491e0d8d86dc274c = L.circle(
+                [32.40556847, -97.0943639],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_a3153637ff0935d98d71729dffc98ce2 = L.marker(
+                [35.5675925, -100.8868238],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_a97c02e11319e03dd3c95be66ea180d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aeb36c8bc743c6d1a88c1576318a19b = $(`<div id="html_2aeb36c8bc743c6d1a88c1576318a19b" style="width: 100.0%; height: 100.0%;">TX, Pampa, Gray, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_a97c02e11319e03dd3c95be66ea180d1.setContent(html_2aeb36c8bc743c6d1a88c1576318a19b);
+            
+        
+
+        marker_a3153637ff0935d98d71729dffc98ce2.bindPopup(popup_a97c02e11319e03dd3c95be66ea180d1)
+        ;
+
+        
+    
+    
+            var circle_a3338ca1ab80caf92a14f907730462d9 = L.circle(
+                [35.5675925, -100.8868238],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_c1c56c5455e73770be31d06f6d7d9db5 = L.marker(
+                [28.37321442, -97.72042072],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_05c476e17a679dc88dd88af0a88f3f75 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94a6d89577bc67e8a6eb130f3a5dc640 = $(`<div id="html_94a6d89577bc67e8a6eb130f3a5dc640" style="width: 100.0%; height: 100.0%;">TX, Beeville, Bee, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_05c476e17a679dc88dd88af0a88f3f75.setContent(html_94a6d89577bc67e8a6eb130f3a5dc640);
+            
+        
+
+        marker_c1c56c5455e73770be31d06f6d7d9db5.bindPopup(popup_05c476e17a679dc88dd88af0a88f3f75)
+        ;
+
+        
+    
+    
+            var circle_0b4e5839bb40ac1460eebe435258fdaf = L.circle(
+                [28.37321442, -97.72042072],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_6ff8507ed293790afdaf12845de9c44b = L.marker(
+                [28.46731483, -98.23552991],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_747bed10b37b2dce62e0b85a1f043d7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d076a3cedd93c33974f65cffafdb1db = $(`<div id="html_9d076a3cedd93c33974f65cffafdb1db" style="width: 100.0%; height: 100.0%;">TX, Three Rivers, Live Oak, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_747bed10b37b2dce62e0b85a1f043d7d.setContent(html_9d076a3cedd93c33974f65cffafdb1db);
+            
+        
+
+        marker_6ff8507ed293790afdaf12845de9c44b.bindPopup(popup_747bed10b37b2dce62e0b85a1f043d7d)
+        ;
+
+        
+    
+    
+            var circle_8868ea68ad6bbaf85d91e39c4cbff202 = L.circle(
+                [28.46731483, -98.23552991],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_63b690b0bf9a411c01db927b24b7ae66 = L.marker(
+                [32.18370554, -94.81629454],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_b651e25a73210d171b2193ffea304b61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76adc55f5f68248f326f95ccc8f73333 = $(`<div id="html_76adc55f5f68248f326f95ccc8f73333" style="width: 100.0%; height: 100.0%;">TX, Henderson, Rusk, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_b651e25a73210d171b2193ffea304b61.setContent(html_76adc55f5f68248f326f95ccc8f73333);
+            
+        
+
+        marker_63b690b0bf9a411c01db927b24b7ae66.bindPopup(popup_b651e25a73210d171b2193ffea304b61)
+        ;
+
+        
+    
+    
+            var circle_7a9889801994dbceba631e5aedbc7078 = L.circle(
+                [32.18370554, -94.81629454],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_85b4310db2b4aca5d59bcea008b0286e = L.marker(
+                [33.59011878, -96.23302051],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_da68d94e02d7158d842dcb1cd75f3a62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768a2d207d1b0859e474e58c50ed2f93 = $(`<div id="html_768a2d207d1b0859e474e58c50ed2f93" style="width: 100.0%; height: 100.0%;">TX, Bonham, Fannin, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_da68d94e02d7158d842dcb1cd75f3a62.setContent(html_768a2d207d1b0859e474e58c50ed2f93);
+            
+        
+
+        marker_85b4310db2b4aca5d59bcea008b0286e.bindPopup(popup_da68d94e02d7158d842dcb1cd75f3a62)
+        ;
+
+        
+    
+    
+            var circle_ace300e3fbd51571a2c403bbaabadccb = L.circle(
+                [33.59011878, -96.23302051],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_efb98fd5f639e96a1bee38b91e319f03 = L.marker(
+                [30.10013652, -94.93464785],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_6732e734109b7350325968d1d81d8380 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e899f950a3261418937ab3710d67fcc = $(`<div id="html_2e899f950a3261418937ab3710d67fcc" style="width: 100.0%; height: 100.0%;">TX, Dayton, Liberty, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_6732e734109b7350325968d1d81d8380.setContent(html_2e899f950a3261418937ab3710d67fcc);
+            
+        
+
+        marker_efb98fd5f639e96a1bee38b91e319f03.bindPopup(popup_6732e734109b7350325968d1d81d8380)
+        ;
+
+        
+    
+    
+            var circle_9d987d336e68b61fd2e3d61a5735eb50 = L.circle(
+                [30.10013652, -94.93464785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_3b1834e258f3a608eded035c3d50bc32 = L.marker(
+                [31.6755558, -96.20701],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_84d0faec4de8ddb4dae6078871c3f940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_802789c8ae190f9eb127fe4370fcc748 = $(`<div id="html_802789c8ae190f9eb127fe4370fcc748" style="width: 100.0%; height: 100.0%;">TX, Teague, Freestone, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_84d0faec4de8ddb4dae6078871c3f940.setContent(html_802789c8ae190f9eb127fe4370fcc748);
+            
+        
+
+        marker_3b1834e258f3a608eded035c3d50bc32.bindPopup(popup_84d0faec4de8ddb4dae6078871c3f940)
+        ;
+
+        
+    
+    
+            var circle_e62db1a89d030b48f370f1e46051a267 = L.circle(
+                [31.6755558, -96.20701],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b9576715da0a64ef593ca48340caaf5c = L.marker(
+                [31.73970612, -95.79621521],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ec60e6d038102e25ec13c8703e343427 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c53f8a1e489426e02fb3463336c60b52 = $(`<div id="html_c53f8a1e489426e02fb3463336c60b52" style="width: 100.0%; height: 100.0%;">TX, Palestine, Anderson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_ec60e6d038102e25ec13c8703e343427.setContent(html_c53f8a1e489426e02fb3463336c60b52);
+            
+        
+
+        marker_b9576715da0a64ef593ca48340caaf5c.bindPopup(popup_ec60e6d038102e25ec13c8703e343427)
+        ;
+
+        
+    
+    
+            var circle_e44cface0e3033909aabf90c0532093b = L.circle(
+                [31.73970612, -95.79621521],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_c86d93f49ccc6f5f02b415b830357d31 = L.marker(
+                [31.80237318, -95.8900917],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d6f50449b26e7fc3907023159ab0a3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8346a42c345892095f97fe4ae3aefe56 = $(`<div id="html_8346a42c345892095f97fe4ae3aefe56" style="width: 100.0%; height: 100.0%;">TX, Tennessee Colony, Anderson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_d6f50449b26e7fc3907023159ab0a3af.setContent(html_8346a42c345892095f97fe4ae3aefe56);
+            
+        
+
+        marker_c86d93f49ccc6f5f02b415b830357d31.bindPopup(popup_d6f50449b26e7fc3907023159ab0a3af)
+        ;
+
+        
+    
+    
+            var circle_a5e8900f020c4af737252c08309b1cd9 = L.circle(
+                [31.80237318, -95.8900917],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d68e734429cf94ba60b37d4b768d9a07 = L.marker(
+                [30.73642805, -95.57670638],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_1f76851ee9fbacb95a7e691171aed83b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd2c5dbf451ad0f6220110f7b55ed0b3 = $(`<div id="html_bd2c5dbf451ad0f6220110f7b55ed0b3" style="width: 100.0%; height: 100.0%;">TX, Huntsville, Walker, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_1f76851ee9fbacb95a7e691171aed83b.setContent(html_bd2c5dbf451ad0f6220110f7b55ed0b3);
+            
+        
+
+        marker_d68e734429cf94ba60b37d4b768d9a07.bindPopup(popup_1f76851ee9fbacb95a7e691171aed83b)
+        ;
+
+        
+    
+    
+            var circle_48589fa5213832c55e30079be3ac7da9 = L.circle(
+                [30.73642805, -95.57670638],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9831cd359120c42f5b4f1edd4255822d = L.marker(
+                [31.76082553, -95.82515996],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_de2e9f3da7ab0f5cfe8dd2c8a3b7a4ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf066a2e5d7ad7072c33332a6f50dff = $(`<div id="html_adf066a2e5d7ad7072c33332a6f50dff" style="width: 100.0%; height: 100.0%;">TX, Palestine, Anderson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_de2e9f3da7ab0f5cfe8dd2c8a3b7a4ef.setContent(html_adf066a2e5d7ad7072c33332a6f50dff);
+            
+        
+
+        marker_9831cd359120c42f5b4f1edd4255822d.bindPopup(popup_de2e9f3da7ab0f5cfe8dd2c8a3b7a4ef)
+        ;
+
+        
+    
+    
+            var circle_0c18a9a77bfb63502d81988f66224234 = L.circle(
+                [31.76082553, -95.82515996],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_c174cd7a67b15e756056fd74d8845c1c = L.marker(
+                [30.10013656, -94.93461392],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_502817281016b8b3ef394c36186cf488 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62331084ac3952b979e62683769bfbd2 = $(`<div id="html_62331084ac3952b979e62683769bfbd2" style="width: 100.0%; height: 100.0%;">TX, Dayton, Liberty, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_502817281016b8b3ef394c36186cf488.setContent(html_62331084ac3952b979e62683769bfbd2);
+            
+        
+
+        marker_c174cd7a67b15e756056fd74d8845c1c.bindPopup(popup_502817281016b8b3ef394c36186cf488)
+        ;
+
+        
+    
+    
+            var circle_b3950ad36f380a9df68d9cb9030809fb = L.circle(
+                [30.10013656, -94.93461392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_bf60d311efd9802941a6f35f67a7d583 = L.marker(
+                [30.04849306, -94.89309163],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_1176b1bb4e685b1da76f21c4b4a3caaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_958df358bdaca10c6a1f1c59d783ef79 = $(`<div id="html_958df358bdaca10c6a1f1c59d783ef79" style="width: 100.0%; height: 100.0%;">TX, Dayton, Liberty, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_1176b1bb4e685b1da76f21c4b4a3caaa.setContent(html_958df358bdaca10c6a1f1c59d783ef79);
+            
+        
+
+        marker_bf60d311efd9802941a6f35f67a7d583.bindPopup(popup_1176b1bb4e685b1da76f21c4b4a3caaa)
+        ;
+
+        
+    
+    
+            var circle_79fafb537c2c60095f996f6433f5adcf = L.circle(
+                [30.04849306, -94.89309163],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_cfc4ede60920a9ec6e78d8af11f64f30 = L.marker(
+                [31.47174365, -97.73851692],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_65ba50503ee1221b0ebbb51523714267 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58ac3ef16edee4bed0ba6d88a3807c8d = $(`<div id="html_58ac3ef16edee4bed0ba6d88a3807c8d" style="width: 100.0%; height: 100.0%;">TX, Gatesville, Coryell, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_65ba50503ee1221b0ebbb51523714267.setContent(html_58ac3ef16edee4bed0ba6d88a3807c8d);
+            
+        
+
+        marker_cfc4ede60920a9ec6e78d8af11f64f30.bindPopup(popup_65ba50503ee1221b0ebbb51523714267)
+        ;
+
+        
+    
+    
+            var circle_b444fde7d8325384d81a68cfd75568da = L.circle(
+                [31.47174365, -97.73851692],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_f424b4c4a1cdb10dab74ecf1828764ba = L.marker(
+                [29.99226902, -94.04220035],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_da6cf11ef850d7c063f5e30ba4c7f90f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1962a3d2165183935a0b24679f4608a = $(`<div id="html_f1962a3d2165183935a0b24679f4608a" style="width: 100.0%; height: 100.0%;">TX, Beaumont, Jefferson, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_da6cf11ef850d7c063f5e30ba4c7f90f.setContent(html_f1962a3d2165183935a0b24679f4608a);
+            
+        
+
+        marker_f424b4c4a1cdb10dab74ecf1828764ba.bindPopup(popup_da6cf11ef850d7c063f5e30ba4c7f90f)
+        ;
+
+        
+    
+    
+            var circle_640f6473b073fac3951fb764bc50ca26 = L.circle(
+                [29.99226902, -94.04220035],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_7a443163fcad4dd95e032ecbd004b7e4 = L.marker(
+                [35.39277147, -97.61853565],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ed18e2b00db3756a0d3cbcf46275088f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a2bb0dd3139260d7ea5561cf7ec28db = $(`<div id="html_9a2bb0dd3139260d7ea5561cf7ec28db" style="width: 100.0%; height: 100.0%;">OK, Oklahoma City, Oklahoma, state_crime:0.093, degree:12.000</div>`)[0];
+                popup_ed18e2b00db3756a0d3cbcf46275088f.setContent(html_9a2bb0dd3139260d7ea5561cf7ec28db);
+            
+        
+
+        marker_7a443163fcad4dd95e032ecbd004b7e4.bindPopup(popup_ed18e2b00db3756a0d3cbcf46275088f)
+        ;
+
+        
+    
+    
+            var circle_22726930fb45e7fcf1b1d0ec05dc90c8 = L.circle(
+                [35.39277147, -97.61853565],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_0fe752398c9f826ac11f4807ce705c13 = L.marker(
+                [35.50806722, -97.83712104],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_0fbbffc7440b9ca2a54f8e5c94901ce7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39b621ef85ae39bdcaa742157cdecc94 = $(`<div id="html_39b621ef85ae39bdcaa742157cdecc94" style="width: 100.0%; height: 100.0%;">OK, El Reno, Canadian, state_crime:0.093, degree:12.000</div>`)[0];
+                popup_0fbbffc7440b9ca2a54f8e5c94901ce7.setContent(html_39b621ef85ae39bdcaa742157cdecc94);
+            
+        
+
+        marker_0fe752398c9f826ac11f4807ce705c13.bindPopup(popup_0fbbffc7440b9ca2a54f8e5c94901ce7)
+        ;
+
+        
+    
+    
+            var circle_d4d727c5b2c813452aa7d4eadcd4f569 = L.circle(
+                [35.50806722, -97.83712104],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_dde8dedc292a1d9a4868918bdd520342 = L.marker(
+                [34.77736256, -104.9504816],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_5d9cc48b036b8158d9f34e1de30257ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_150f28b7ef6e32d5cd7a2c5a32e34ede = $(`<div id="html_150f28b7ef6e32d5cd7a2c5a32e34ede" style="width: 100.0%; height: 100.0%;">NM, Santa Rosa, Guadalupe, state_crime:0.110, degree:12.000</div>`)[0];
+                popup_5d9cc48b036b8158d9f34e1de30257ec.setContent(html_150f28b7ef6e32d5cd7a2c5a32e34ede);
+            
+        
+
+        marker_dde8dedc292a1d9a4868918bdd520342.bindPopup(popup_5d9cc48b036b8158d9f34e1de30257ec)
+        ;
+
+        
+    
+    
+            var circle_1e0eb8b95ae1be2b288e491eb7735314 = L.circle(
+                [34.77736256, -104.9504816],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9d7607ed772b25a6f8ccdb1620133960 = L.marker(
+                [29.75876956, -95.36067713],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_9a4c247980749eb08b07ef36686c4a3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e3b1b5d5ae1eadd6ca12e3aa72ffeb0 = $(`<div id="html_5e3b1b5d5ae1eadd6ca12e3aa72ffeb0" style="width: 100.0%; height: 100.0%;">TX, Houston, Harris, state_crime:0.106, degree:12.000</div>`)[0];
+                popup_9a4c247980749eb08b07ef36686c4a3e.setContent(html_5e3b1b5d5ae1eadd6ca12e3aa72ffeb0);
+            
+        
+
+        marker_9d7607ed772b25a6f8ccdb1620133960.bindPopup(popup_9a4c247980749eb08b07ef36686c4a3e)
+        ;
+
+        
+    
+    
+            var circle_9687111107cd52576a84c78e4de4fb4f = L.circle(
+                [29.75876956, -95.36067713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b101a47fcc56e3e623adc4ce6f878edf = L.marker(
+                [38.36469783, -78.02181858],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ee36fc393ffbf10a3b789b49977353a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201eec98b67c2a38206321f122e59c70 = $(`<div id="html_201eec98b67c2a38206321f122e59c70" style="width: 100.0%; height: 100.0%;">VA, Mitchells, Culpeper, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_ee36fc393ffbf10a3b789b49977353a9.setContent(html_201eec98b67c2a38206321f122e59c70);
+            
+        
+
+        marker_b101a47fcc56e3e623adc4ce6f878edf.bindPopup(popup_ee36fc393ffbf10a3b789b49977353a9)
+        ;
+
+        
+    
+    
+            var circle_1ae7d1fd9e001e2677c93294606c0a4e = L.circle(
+                [38.36469783, -78.02181858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_aa0fa06b66d89494196b20b6ef24b26f = L.marker(
+                [37.04020715, -77.22578822],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_e05e6dd041c3b6acd07facaa0d637bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23212731b3402db424aeeda1f8c49429 = $(`<div id="html_23212731b3402db424aeeda1f8c49429" style="width: 100.0%; height: 100.0%;">VA, Waverly, Sussex, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_e05e6dd041c3b6acd07facaa0d637bb0.setContent(html_23212731b3402db424aeeda1f8c49429);
+            
+        
+
+        marker_aa0fa06b66d89494196b20b6ef24b26f.bindPopup(popup_e05e6dd041c3b6acd07facaa0d637bb0)
+        ;
+
+        
+    
+    
+            var circle_3091b38cc20b00b900f6852099686c38 = L.circle(
+                [37.04020715, -77.22578822],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9fe14d4ccded7ec39284720e851febc5 = L.marker(
+                [37.56398182, -78.47459204],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2b43cb1970d208e540e6a7e155418f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ec75a7bbf7f97537e492ec27354b460 = $(`<div id="html_4ec75a7bbf7f97537e492ec27354b460" style="width: 100.0%; height: 100.0%;">VA, Dillwyn, Buckingham, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_2b43cb1970d208e540e6a7e155418f69.setContent(html_4ec75a7bbf7f97537e492ec27354b460);
+            
+        
+
+        marker_9fe14d4ccded7ec39284720e851febc5.bindPopup(popup_2b43cb1970d208e540e6a7e155418f69)
+        ;
+
+        
+    
+    
+            var circle_fb637951cbca7693413d9cf3a202ebac = L.circle(
+                [37.56398182, -78.47459204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_7b468858272a3d31a8a4e7967d425d95 = L.marker(
+                [37.29825938, -77.34053669],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_cc31352991e90130d7c54dcd1af398db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47ff84f6be35a3348f2f0d3cb0fc534a = $(`<div id="html_47ff84f6be35a3348f2f0d3cb0fc534a" style="width: 100.0%; height: 100.0%;">VA, North Prince George, Prince George, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_cc31352991e90130d7c54dcd1af398db.setContent(html_47ff84f6be35a3348f2f0d3cb0fc534a);
+            
+        
+
+        marker_7b468858272a3d31a8a4e7967d425d95.bindPopup(popup_cc31352991e90130d7c54dcd1af398db)
+        ;
+
+        
+    
+    
+            var circle_491a0a096d1ac807fca53f5f52aa1c70 = L.circle(
+                [37.29825938, -77.34053669],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b2435c5422191509a6a3ccc0ee5c1aeb = L.marker(
+                [37.57051542, -78.47245189],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_818dc72c58f9dda733c2e8017ab2a4b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17a0b2cb2d27bbee06a4fcac3485b2cc = $(`<div id="html_17a0b2cb2d27bbee06a4fcac3485b2cc" style="width: 100.0%; height: 100.0%;">VA, Dillwyn, Buckingham, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_818dc72c58f9dda733c2e8017ab2a4b6.setContent(html_17a0b2cb2d27bbee06a4fcac3485b2cc);
+            
+        
+
+        marker_b2435c5422191509a6a3ccc0ee5c1aeb.bindPopup(popup_818dc72c58f9dda733c2e8017ab2a4b6)
+        ;
+
+        
+    
+    
+            var circle_8d9a8281ce6663f4da8af1e80363531f = L.circle(
+                [37.57051542, -78.47245189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_4d5e8518a8b4667680d4c670b0cc0a26 = L.marker(
+                [36.72334104, -78.30276638],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_7dd5a862643821a26bc7623c9f8a7024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64b2d65f91f132d7a467336dd3f770e3 = $(`<div id="html_64b2d65f91f132d7a467336dd3f770e3" style="width: 100.0%; height: 100.0%;">VA, Baskerville, Mecklenburg, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_7dd5a862643821a26bc7623c9f8a7024.setContent(html_64b2d65f91f132d7a467336dd3f770e3);
+            
+        
+
+        marker_4d5e8518a8b4667680d4c670b0cc0a26.bindPopup(popup_7dd5a862643821a26bc7623c9f8a7024)
+        ;
+
+        
+    
+    
+            var circle_c3b529c706d3d19116ab738cf4ee60e1 = L.circle(
+                [36.72334104, -78.30276638],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_669d0776dadbd8bdbcb961a53c108df1 = L.marker(
+                [37.04074289, -77.2271517],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_c761bf6142ec410b8fa4ede667881429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79ecbc6db132c7ec3dd90b9699cbdbcf = $(`<div id="html_79ecbc6db132c7ec3dd90b9699cbdbcf" style="width: 100.0%; height: 100.0%;">VA, Waverly, Sussex, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_c761bf6142ec410b8fa4ede667881429.setContent(html_79ecbc6db132c7ec3dd90b9699cbdbcf);
+            
+        
+
+        marker_669d0776dadbd8bdbcb961a53c108df1.bindPopup(popup_c761bf6142ec410b8fa4ede667881429)
+        ;
+
+        
+    
+    
+            var circle_206127103f96783c5f7a7fcb96d74b09 = L.circle(
+                [37.04074289, -77.2271517],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_c868ba3bc7b2a73e947f2bcea01d5120 = L.marker(
+                [36.72594351, -77.24514179],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_fce2b62a876077df72b801ffc5409947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_105dcfaf194d7f79b97eb004c702a0e0 = $(`<div id="html_105dcfaf194d7f79b97eb004c702a0e0" style="width: 100.0%; height: 100.0%;">VA, Capron, Southampton, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_fce2b62a876077df72b801ffc5409947.setContent(html_105dcfaf194d7f79b97eb004c702a0e0);
+            
+        
+
+        marker_c868ba3bc7b2a73e947f2bcea01d5120.bindPopup(popup_fce2b62a876077df72b801ffc5409947)
+        ;
+
+        
+    
+    
+            var circle_2a5ce732850a9c05f864f7c3ade3d45d = L.circle(
+                [36.72594351, -77.24514179],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_283b59289ffcec1c036d4a005e9a3b69 = L.marker(
+                [37.18633729, -78.18279115],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_f22115fa78cd5233660218aa18ccf5d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70e4b91706aaf4902e6e2c8810f5370d = $(`<div id="html_70e4b91706aaf4902e6e2c8810f5370d" style="width: 100.0%; height: 100.0%;">VA, Burkeville, Nottoway, state_crime:0.066, degree:12.000</div>`)[0];
+                popup_f22115fa78cd5233660218aa18ccf5d8.setContent(html_70e4b91706aaf4902e6e2c8810f5370d);
+            
+        
+
+        marker_283b59289ffcec1c036d4a005e9a3b69.bindPopup(popup_f22115fa78cd5233660218aa18ccf5d8)
+        ;
+
+        
+    
+    
+            var circle_11910ed3ef702597fd8236885b3deab6 = L.circle(
+                [37.18633729, -78.18279115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_325577f40db5044bdcb6504ba2a3b964 = L.marker(
+                [40.6894419, -76.26031589],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d0676fb0aae7b0e8298f38f4b6b6e909 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19f43a18bf2fc081905d887524340e77 = $(`<div id="html_19f43a18bf2fc081905d887524340e77" style="width: 100.0%; height: 100.0%;">PA, Minersville, Schuylkill, state_crime:0.059, degree:12.000</div>`)[0];
+                popup_d0676fb0aae7b0e8298f38f4b6b6e909.setContent(html_19f43a18bf2fc081905d887524340e77);
+            
+        
+
+        marker_325577f40db5044bdcb6504ba2a3b964.bindPopup(popup_d0676fb0aae7b0e8298f38f4b6b6e909)
+        ;
+
+        
+    
+    
+            var circle_c100a8d7e44a95041f5763e37d07945f = L.circle(
+                [40.6894419, -76.26031589],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_71571adf330e8e78027137dbf25c41c8 = L.marker(
+                [40.98495587, -76.91486929],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2d0cb297f84e1ae057e8b78461a4f6ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44d14a57ba448e15f889900b5be905e = $(`<div id="html_c44d14a57ba448e15f889900b5be905e" style="width: 100.0%; height: 100.0%;">PA, Lewisburg, Union, state_crime:0.059, degree:12.000</div>`)[0];
+                popup_2d0cb297f84e1ae057e8b78461a4f6ce.setContent(html_c44d14a57ba448e15f889900b5be905e);
+            
+        
+
+        marker_71571adf330e8e78027137dbf25c41c8.bindPopup(popup_2d0cb297f84e1ae057e8b78461a4f6ce)
+        ;
+
+        
+    
+    
+            var circle_ddaebd4fde83d717b8801c666a4ec12a = L.circle(
+                [40.98495587, -76.91486929],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_b1d5526bdfd6b5aa0b659d98be65e4bf = L.marker(
+                [39.32776448, -94.93495228],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_6136004e2277b401f5065b00faaecf81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c38a01ff98026c256b02e3042dee5fd = $(`<div id="html_6c38a01ff98026c256b02e3042dee5fd" style="width: 100.0%; height: 100.0%;">KS, Leavenworth, Leavenworth, state_crime:0.086, degree:12.000</div>`)[0];
+                popup_6136004e2277b401f5065b00faaecf81.setContent(html_6c38a01ff98026c256b02e3042dee5fd);
+            
+        
+
+        marker_b1d5526bdfd6b5aa0b659d98be65e4bf.bindPopup(popup_6136004e2277b401f5065b00faaecf81)
+        ;
+
+        
+    
+    
+            var circle_c32e998bf54cfb7347c33d5a4daa7d41 = L.circle(
+                [39.32776448, -94.93495228],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_251dd33f2a6080c0d1ecb67bda1131e1 = L.marker(
+                [38.36071195, -105.107127],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_4807ecf012ae15bf8ab3f3aa017f4ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f283c2882314bdfafe2aab6488bc677 = $(`<div id="html_2f283c2882314bdfafe2aab6488bc677" style="width: 100.0%; height: 100.0%;">CO, Florence, Fremont, state_crime:0.095, degree:12.000</div>`)[0];
+                popup_4807ecf012ae15bf8ab3f3aa017f4ee3.setContent(html_2f283c2882314bdfafe2aab6488bc677);
+            
+        
+
+        marker_251dd33f2a6080c0d1ecb67bda1131e1.bindPopup(popup_4807ecf012ae15bf8ab3f3aa017f4ee3)
+        ;
+
+        
+    
+    
+            var circle_91bfe6fe3b61eeeed3e0d15c83d627a5 = L.circle(
+                [38.36071195, -105.107127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1ed46280099e243ad54fedbf4a3eec89 = L.marker(
+                [38.3234006, -121.9705099],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_4167d0f0110a663a6ad3254b68e2f8b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d1197d54b409ba4a6402ea48b4e82d4 = $(`<div id="html_0d1197d54b409ba4a6402ea48b4e82d4" style="width: 100.0%; height: 100.0%;">CA, Vacaville, Solano, state_crime:0.097, degree:1.900</div>`)[0];
+                popup_4167d0f0110a663a6ad3254b68e2f8b6.setContent(html_0d1197d54b409ba4a6402ea48b4e82d4);
+            
+        
+
+        marker_1ed46280099e243ad54fedbf4a3eec89.bindPopup(popup_4167d0f0110a663a6ad3254b68e2f8b6)
+        ;
+
+        
+    
+    
+            var circle_d6c199b34a4fe264a01e3a80038ae119 = L.circle(
+                [38.3234006, -121.9705099],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_e557dfa1358db0d197574759c6dafb6f = L.marker(
+                [36.06509173, -119.557655],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_0cde3bcdc4654f37460cd207a7635259 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a426f0cdbba8f668fb53c6baacf6dad = $(`<div id="html_8a426f0cdbba8f668fb53c6baacf6dad" style="width: 100.0%; height: 100.0%;">CA, Corcoran, Kings, state_crime:0.097, degree:1.700</div>`)[0];
+                popup_0cde3bcdc4654f37460cd207a7635259.setContent(html_8a426f0cdbba8f668fb53c6baacf6dad);
+            
+        
+
+        marker_e557dfa1358db0d197574759c6dafb6f.bindPopup(popup_0cde3bcdc4654f37460cd207a7635259)
+        ;
+
+        
+    
+    
+            var circle_d43402281f8c2cbb70b97c12dba15744 = L.circle(
+                [36.06509173, -119.557655],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d0661f1e27a68fd2a84223cd234ae32f = L.marker(
+                [41.44010413, -73.47320345],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_9822f0cb1ed96416649a902544846891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e88915dd6d3543d238f386750c32fcc6 = $(`<div id="html_e88915dd6d3543d238f386750c32fcc6" style="width: 100.0%; height: 100.0%;">CT, Danbury, Fairfield, state_crime:0.074, degree:1.600</div>`)[0];
+                popup_9822f0cb1ed96416649a902544846891.setContent(html_e88915dd6d3543d238f386750c32fcc6);
+            
+        
+
+        marker_d0661f1e27a68fd2a84223cd234ae32f.bindPopup(popup_9822f0cb1ed96416649a902544846891)
+        ;
+
+        
+    
+    
+            var circle_be9ba68feebd534365a3069ea36cffec = L.circle(
+                [41.44010413, -73.47320345],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_50dd0007b36422a486c2446df24c0ad6 = L.marker(
+                [39.29892547, -76.6073934],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_16ea085767c0d52743aca4dbd92f39e5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbe7fe8574ffc2f7ea518fea78105e34 = $(`<div id="html_dbe7fe8574ffc2f7ea518fea78105e34" style="width: 100.0%; height: 100.0%;">MD, Baltimore, Baltimore City, state_crime:0.095, degree:1.600</div>`)[0];
+                popup_16ea085767c0d52743aca4dbd92f39e5.setContent(html_dbe7fe8574ffc2f7ea518fea78105e34);
+            
+        
+
+        marker_50dd0007b36422a486c2446df24c0ad6.bindPopup(popup_16ea085767c0d52743aca4dbd92f39e5)
+        ;
+
+        
+    
+    
+            var circle_01d8936e5203230a019731eee31666f5 = L.circle(
+                [39.29892547, -76.6073934],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_627a4ce47d03fb8c8f6080bdc6fcab31 = L.marker(
+                [30.6434941, -86.97200768],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_7779d7729299d77828154e9da8f7fb82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1dba48450928e005587cd3cef5b0826 = $(`<div id="html_d1dba48450928e005587cd3cef5b0826" style="width: 100.0%; height: 100.0%;">FL, Milton, Santa Rosa, state_crime:0.120, degree:1.500</div>`)[0];
+                popup_7779d7729299d77828154e9da8f7fb82.setContent(html_d1dba48450928e005587cd3cef5b0826);
+            
+        
+
+        marker_627a4ce47d03fb8c8f6080bdc6fcab31.bindPopup(popup_7779d7729299d77828154e9da8f7fb82)
+        ;
+
+        
+    
+    
+            var circle_4be0a1c07030373d3aad2ed351f5e080 = L.circle(
+                [30.6434941, -86.97200768],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_4cd4d55c01799846ad66f2202a856dd2 = L.marker(
+                [45.54105199, -94.11537217],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_b6d7d91859c0778b64780d03314b03fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a623c78342e7bfcc5a8a783d53fbf020 = $(`<div id="html_a623c78342e7bfcc5a8a783d53fbf020" style="width: 100.0%; height: 100.0%;">MN, Saint Cloud, Sherburne, state_crime:0.073, degree:1.300</div>`)[0];
+                popup_b6d7d91859c0778b64780d03314b03fb.setContent(html_a623c78342e7bfcc5a8a783d53fbf020);
+            
+        
+
+        marker_4cd4d55c01799846ad66f2202a856dd2.bindPopup(popup_b6d7d91859c0778b64780d03314b03fb)
+        ;
+
+        
+    
+    
+            var circle_e7d938039cb26e4a43f7e56dbbab4dc2 = L.circle(
+                [45.54105199, -94.11537217],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_7d879d77a9b84b33f32d7514020c61a2 = L.marker(
+                [33.72952155, -118.2687562],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_bd625b030ccfae5bca73530ed1a55891 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa455518833c18e87b2a32c787cba483 = $(`<div id="html_fa455518833c18e87b2a32c787cba483" style="width: 100.0%; height: 100.0%;">CA, San Pedro, Los Angeles, state_crime:0.097, degree:1.300</div>`)[0];
+                popup_bd625b030ccfae5bca73530ed1a55891.setContent(html_fa455518833c18e87b2a32c787cba483);
+            
+        
+
+        marker_7d879d77a9b84b33f32d7514020c61a2.bindPopup(popup_bd625b030ccfae5bca73530ed1a55891)
+        ;
+
+        
+    
+    
+            var circle_cbd2e5a164c7233629e44e677b129326 = L.circle(
+                [33.72952155, -118.2687562],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_0492110b7926d557e27e345411a62c86 = L.marker(
+                [27.595617, -81.50663149],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_d3aeb98639dd855e5e661b2e6701b3ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8b2d6b70b57936bca5323da73271c4d = $(`<div id="html_c8b2d6b70b57936bca5323da73271c4d" style="width: 100.0%; height: 100.0%;">FL, Avon Park, Highlands, state_crime:0.120, degree:1.100</div>`)[0];
+                popup_d3aeb98639dd855e5e661b2e6701b3ad.setContent(html_c8b2d6b70b57936bca5323da73271c4d);
+            
+        
+
+        marker_0492110b7926d557e27e345411a62c86.bindPopup(popup_d3aeb98639dd855e5e661b2e6701b3ad)
+        ;
+
+        
+    
+    
+            var circle_11db5f41b2ba46000ba43d384a16bdb3 = L.circle(
+                [27.595617, -81.50663149],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_7c74c47cd1aba20bccf7ca737470c1eb = L.marker(
+                [30.19335156, -82.50247127],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_da31487f68df34396b2232d43cdcb3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9876b488f079ac8faa4316168b6afda8 = $(`<div id="html_9876b488f079ac8faa4316168b6afda8" style="width: 100.0%; height: 100.0%;">FL, Lake City, Columbia, state_crime:0.120, degree:0.900</div>`)[0];
+                popup_da31487f68df34396b2232d43cdcb3f3.setContent(html_9876b488f079ac8faa4316168b6afda8);
+            
+        
+
+        marker_7c74c47cd1aba20bccf7ca737470c1eb.bindPopup(popup_da31487f68df34396b2232d43cdcb3f3)
+        ;
+
+        
+    
+    
+            var circle_b408d6264e0805a8e9913849ef6c3cf9 = L.circle(
+                [30.19335156, -82.50247127],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_58aabd7c7b091f760567ff7f2dab785b = L.marker(
+                [41.19887805, -76.8195298],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_5f89b55e0d4f05cc546c986975002851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e47ff1dd526791a0de90eb28490577f = $(`<div id="html_3e47ff1dd526791a0de90eb28490577f" style="width: 100.0%; height: 100.0%;">PA, Muncy, Lycoming, state_crime:0.059, degree:0.900</div>`)[0];
+                popup_5f89b55e0d4f05cc546c986975002851.setContent(html_3e47ff1dd526791a0de90eb28490577f);
+            
+        
+
+        marker_58aabd7c7b091f760567ff7f2dab785b.bindPopup(popup_5f89b55e0d4f05cc546c986975002851)
+        ;
+
+        
+    
+    
+            var circle_ca641157298b8013f7cd29d34159e16f = L.circle(
+                [41.19887805, -76.8195298],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_589f617f38e6107ebe7e991fec05f1a8 = L.marker(
+                [32.98613997, -82.59729432],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_22086b93a821376d469e305a08304213 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_034cfbf18ede5cbe88cdd8fe4aba9d6a = $(`<div id="html_034cfbf18ede5cbe88cdd8fe4aba9d6a" style="width: 100.0%; height: 100.0%;">GA, Davisboro, Washington, state_crime:0.097, degree:0.800</div>`)[0];
+                popup_22086b93a821376d469e305a08304213.setContent(html_034cfbf18ede5cbe88cdd8fe4aba9d6a);
+            
+        
+
+        marker_589f617f38e6107ebe7e991fec05f1a8.bindPopup(popup_22086b93a821376d469e305a08304213)
+        ;
+
+        
+    
+    
+            var circle_937110db128d722f572dbc3f5293f3a7 = L.circle(
+                [32.98613997, -82.59729432],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_357e78fd050826c6c71bcc59da69043b = L.marker(
+                [29.30601869, -82.17769031],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_81ed79fc099b9c33dd241e721581b97a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c4948f66087f2dd00d2a7f230d44645 = $(`<div id="html_6c4948f66087f2dd00d2a7f230d44645" style="width: 100.0%; height: 100.0%;">FL, Ocala, Marion, state_crime:0.120, degree:0.800</div>`)[0];
+                popup_81ed79fc099b9c33dd241e721581b97a.setContent(html_6c4948f66087f2dd00d2a7f230d44645);
+            
+        
+
+        marker_357e78fd050826c6c71bcc59da69043b.bindPopup(popup_81ed79fc099b9c33dd241e721581b97a)
+        ;
+
+        
+    
+    
+            var circle_faa887281cca32942618ec41e39eabae = L.circle(
+                [29.30601869, -82.17769031],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_dcf266627c4fc7d2c0660087b7e0a8ff = L.marker(
+                [40.1132685, -90.64292066],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ff830a3551167887702f06db4937125d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee292ada4e12275d0bae4430b1859648 = $(`<div id="html_ee292ada4e12275d0bae4430b1859648" style="width: 100.0%; height: 100.0%;">IL, Rushville, Schuyler, state_crime:0.087, degree:0.700</div>`)[0];
+                popup_ff830a3551167887702f06db4937125d.setContent(html_ee292ada4e12275d0bae4430b1859648);
+            
+        
+
+        marker_dcf266627c4fc7d2c0660087b7e0a8ff.bindPopup(popup_ff830a3551167887702f06db4937125d)
+        ;
+
+        
+    
+    
+            var circle_839508d3f7fbec6ee411725268000280 = L.circle(
+                [40.1132685, -90.64292066],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_45149e1aef737d026f489f9a06b747dc = L.marker(
+                [38.3046506, -85.48591732],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_3d0638fc890fc7b7bf8e7ed9bc6ce097 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4b86da0a97d9a0ee7146e45d1b26410 = $(`<div id="html_b4b86da0a97d9a0ee7146e45d1b26410" style="width: 100.0%; height: 100.0%;">KY, Pewee Valley, Oldham, state_crime:0.059, degree:0.700</div>`)[0];
+                popup_3d0638fc890fc7b7bf8e7ed9bc6ce097.setContent(html_b4b86da0a97d9a0ee7146e45d1b26410);
+            
+        
+
+        marker_45149e1aef737d026f489f9a06b747dc.bindPopup(popup_3d0638fc890fc7b7bf8e7ed9bc6ce097)
+        ;
+
+        
+    
+    
+            var circle_f7beed0cd6094b34ae6a18f61e61f0fd = L.circle(
+                [38.3046506, -85.48591732],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_cdc0648ee20733bf3578d1e0961be9d4 = L.marker(
+                [32.5781576, -86.33810148],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_0cdb6693a008820212ff5c19460ff6b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a29128d85b804325ba31b734456174a = $(`<div id="html_0a29128d85b804325ba31b734456174a" style="width: 100.0%; height: 100.0%;">AL, Elmore, Elmore, state_crime:0.086, degree:0.700</div>`)[0];
+                popup_0cdb6693a008820212ff5c19460ff6b0.setContent(html_0a29128d85b804325ba31b734456174a);
+            
+        
+
+        marker_cdc0648ee20733bf3578d1e0961be9d4.bindPopup(popup_0cdb6693a008820212ff5c19460ff6b0)
+        ;
+
+        
+    
+    
+            var circle_9dab884b3dc55048a50af159435b2667 = L.circle(
+                [32.5781576, -86.33810148],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_08721a26e76a9178198c525bd75e7ba1 = L.marker(
+                [33.05813157, -83.23052332],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_4c326a74dcf22b30ff16bad38ec3a729 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1d20281880c746ac87e2e0de61fe4ea = $(`<div id="html_b1d20281880c746ac87e2e0de61fe4ea" style="width: 100.0%; height: 100.0%;">GA, Hardwick, Baldwin, state_crime:0.097, degree:0.600</div>`)[0];
+                popup_4c326a74dcf22b30ff16bad38ec3a729.setContent(html_b1d20281880c746ac87e2e0de61fe4ea);
+            
+        
+
+        marker_08721a26e76a9178198c525bd75e7ba1.bindPopup(popup_4c326a74dcf22b30ff16bad38ec3a729)
+        ;
+
+        
+    
+    
+            var circle_8eb3688652207179ebd2d017058cf336 = L.circle(
+                [33.05813157, -83.23052332],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_03fea6a886cac8e8b7ac95cfc51473ec = L.marker(
+                [32.53155065, -86.33653571],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_bca9e5aab94daa29ac90e784e5d85717 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b098fb33ab4eec4fa6092baa3f895924 = $(`<div id="html_b098fb33ab4eec4fa6092baa3f895924" style="width: 100.0%; height: 100.0%;">AL, Elmore, Elmore, state_crime:0.086, degree:0.600</div>`)[0];
+                popup_bca9e5aab94daa29ac90e784e5d85717.setContent(html_b098fb33ab4eec4fa6092baa3f895924);
+            
+        
+
+        marker_03fea6a886cac8e8b7ac95cfc51473ec.bindPopup(popup_bca9e5aab94daa29ac90e784e5d85717)
+        ;
+
+        
+    
+    
+            var circle_298e7ad606603efffedb1dfaf33fd5d9 = L.circle(
+                [32.53155065, -86.33653571],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_5690e6d84cee78a88c8a46c73e3bead1 = L.marker(
+                [26.18880073, -97.35314895],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_fd3e96958dfba912789bdf18134e87da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95fafe673e9d28b393550b76aeebcb3a = $(`<div id="html_95fafe673e9d28b393550b76aeebcb3a" style="width: 100.0%; height: 100.0%;">TX, Los Fresnos, Cameron, state_crime:0.106, degree:0.600</div>`)[0];
+                popup_fd3e96958dfba912789bdf18134e87da.setContent(html_95fafe673e9d28b393550b76aeebcb3a);
+            
+        
+
+        marker_5690e6d84cee78a88c8a46c73e3bead1.bindPopup(popup_fd3e96958dfba912789bdf18134e87da)
+        ;
+
+        
+    
+    
+            var circle_ca49cc7308b63e265a4b0204e913f7bb = L.circle(
+                [26.18880073, -97.35314895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_3c7b227b90f52743b356b04c6d1132f6 = L.marker(
+                [34.98946067, -80.17690397],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_ae25ab9d7f762fc40c9aa2671d7adb0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9afaed70d62679e563e7ef50891a790 = $(`<div id="html_c9afaed70d62679e563e7ef50891a790" style="width: 100.0%; height: 100.0%;">NC, Polkton, Anson, state_crime:0.089, degree:0.500</div>`)[0];
+                popup_ae25ab9d7f762fc40c9aa2671d7adb0d.setContent(html_c9afaed70d62679e563e7ef50891a790);
+            
+        
+
+        marker_3c7b227b90f52743b356b04c6d1132f6.bindPopup(popup_ae25ab9d7f762fc40c9aa2671d7adb0d)
+        ;
+
+        
+    
+    
+            var circle_4379cb2dbd1e323809ecfd0c29000fbd = L.circle(
+                [34.98946067, -80.17690397],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_d5a6b027ef5456828f7b44708cb63bf2 = L.marker(
+                [39.30063734, -76.60788015],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_866184de805ae33ab2687fc311d68756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d3db638cc4f9ac2186729cb04b17e27 = $(`<div id="html_6d3db638cc4f9ac2186729cb04b17e27" style="width: 100.0%; height: 100.0%;">MD, Baltimore, Baltimore City, state_crime:0.095, degree:0.500</div>`)[0];
+                popup_866184de805ae33ab2687fc311d68756.setContent(html_6d3db638cc4f9ac2186729cb04b17e27);
+            
+        
+
+        marker_d5a6b027ef5456828f7b44708cb63bf2.bindPopup(popup_866184de805ae33ab2687fc311d68756)
+        ;
+
+        
+    
+    
+            var circle_ee1cf511cf597cca058289d5c2d2f59c = L.circle(
+                [39.30063734, -76.60788015],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_84f5aad8979d404a12e323a01be9dee1 = L.marker(
+                [42.393816, -94.61186549],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_c9f51ce3520292b79d75a0cdd20c209e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af9aa030b12a732d9bea47d197a4be01 = $(`<div id="html_af9aa030b12a732d9bea47d197a4be01" style="width: 100.0%; height: 100.0%;">IA, Rockwell City, Calhoun, state_crime:0.067, degree:0.500</div>`)[0];
+                popup_c9f51ce3520292b79d75a0cdd20c209e.setContent(html_af9aa030b12a732d9bea47d197a4be01);
+            
+        
+
+        marker_84f5aad8979d404a12e323a01be9dee1.bindPopup(popup_c9f51ce3520292b79d75a0cdd20c209e)
+        ;
+
+        
+    
+    
+            var circle_8bfb97cb9ce5c36ef4d693428a93701e = L.circle(
+                [42.393816, -94.61186549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_29876c26cb67165b7f0894314f675e40 = L.marker(
+                [33.74388167, -86.3867508],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_b20df8332671ac430a3150424f66802e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ceeaa6947c13c7651341f3b7d487550 = $(`<div id="html_6ceeaa6947c13c7651341f3b7d487550" style="width: 100.0%; height: 100.0%;">AL, Springville, St. Clair, state_crime:0.086, degree:0.400</div>`)[0];
+                popup_b20df8332671ac430a3150424f66802e.setContent(html_6ceeaa6947c13c7651341f3b7d487550);
+            
+        
+
+        marker_29876c26cb67165b7f0894314f675e40.bindPopup(popup_b20df8332671ac430a3150424f66802e)
+        ;
+
+        
+    
+    
+            var circle_45653eaf6626a90953c1bda2f16cd055 = L.circle(
+                [33.74388167, -86.3867508],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_bde5f5b54d4f4aab59349c465ca62ca0 = L.marker(
+                [31.1870978, -84.1478274],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_93d8027c6fd66fc8b0ece8feac328cfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d930f62775d86c02c584902de0660860 = $(`<div id="html_d930f62775d86c02c584902de0660860" style="width: 100.0%; height: 100.0%;">GA, Pelham, Mitchell, state_crime:0.097, degree:0.300</div>`)[0];
+                popup_93d8027c6fd66fc8b0ece8feac328cfb.setContent(html_d930f62775d86c02c584902de0660860);
+            
+        
+
+        marker_bde5f5b54d4f4aab59349c465ca62ca0.bindPopup(popup_93d8027c6fd66fc8b0ece8feac328cfb)
+        ;
+
+        
+    
+    
+            var circle_36f7189cd973bd10621f1ea3781e92fc = L.circle(
+                [31.1870978, -84.1478274],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_f67be5ddbcdf164a322b81de34b64390 = L.marker(
+                [39.85114896, -75.35332892],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_49e8590407503bf8ee142e9bf24e5399 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e990b01eefefd6835f7579e068a44fc = $(`<div id="html_7e990b01eefefd6835f7579e068a44fc" style="width: 100.0%; height: 100.0%;">PA, Chester, Delaware, state_crime:0.059, degree:0.300</div>`)[0];
+                popup_49e8590407503bf8ee142e9bf24e5399.setContent(html_7e990b01eefefd6835f7579e068a44fc);
+            
+        
+
+        marker_f67be5ddbcdf164a322b81de34b64390.bindPopup(popup_49e8590407503bf8ee142e9bf24e5399)
+        ;
+
+        
+    
+    
+            var circle_1bf026ff1f9b65aa827ffb2e999c9ac7 = L.circle(
+                [39.85114896, -75.35332892],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_21de1c27c40b69b00f53e01940ba8aa1 = L.marker(
+                [40.11400196, -89.38779549],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_bd6507771b0fe7c37cc3339f940c6b3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fccfd1cc26b238e8e7ebdb1728385fc = $(`<div id="html_0fccfd1cc26b238e8e7ebdb1728385fc" style="width: 100.0%; height: 100.0%;">IL, Lincoln, Logan, state_crime:0.087, degree:0.200</div>`)[0];
+                popup_bd6507771b0fe7c37cc3339f940c6b3d.setContent(html_0fccfd1cc26b238e8e7ebdb1728385fc);
+            
+        
+
+        marker_21de1c27c40b69b00f53e01940ba8aa1.bindPopup(popup_bd6507771b0fe7c37cc3339f940c6b3d)
+        ;
+
+        
+    
+    
+            var circle_ddeaa5d2456f25e01ac9792569215a3d = L.circle(
+                [40.11400196, -89.38779549],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_21ab241c94b30fd0e1bf164dcf018edf = L.marker(
+                [21.373263, -157.9000635],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_c2e3ebdd86405fb40fbaf159dc30b647 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6832b4bad5ed0452d892e162af11cf20 = $(`<div id="html_6832b4bad5ed0452d892e162af11cf20" style="width: 100.0%; height: 100.0%;">HI, Aiea, Honolulu, state_crime:0.102, degree:0.200</div>`)[0];
+                popup_c2e3ebdd86405fb40fbaf159dc30b647.setContent(html_6832b4bad5ed0452d892e162af11cf20);
+            
+        
+
+        marker_21ab241c94b30fd0e1bf164dcf018edf.bindPopup(popup_c2e3ebdd86405fb40fbaf159dc30b647)
+        ;
+
+        
+    
+    
+            var circle_d5ebe7231cc4d03033247fcdbf59d6bf = L.circle(
+                [21.373263, -157.9000635],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_842aa982cd44f016c8faf1e6f9060d92 = L.marker(
+                [41.87811428, -80.36824454],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_4832a742a74b98781940581f539dcc3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998f86413334e6253567c1a4db3e50c4 = $(`<div id="html_998f86413334e6253567c1a4db3e50c4" style="width: 100.0%; height: 100.0%;">PA, Albion, Erie, state_crime:0.059, degree:0.200</div>`)[0];
+                popup_4832a742a74b98781940581f539dcc3d.setContent(html_998f86413334e6253567c1a4db3e50c4);
+            
+        
+
+        marker_842aa982cd44f016c8faf1e6f9060d92.bindPopup(popup_4832a742a74b98781940581f539dcc3d)
+        ;
+
+        
+    
+    
+            var circle_6d1fdb0b20855d943faf25dd9cd78d72 = L.circle(
+                [41.87811428, -80.36824454],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_1a0250dfc7a939b9b4794f40dcdaaba6 = L.marker(
+                [39.89225163, -88.92459822],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_101959fbe70274c70273b937157c4bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ac367d2f02678cda044e398f891809 = $(`<div id="html_e8ac367d2f02678cda044e398f891809" style="width: 100.0%; height: 100.0%;">IL, Decatur, Macon, state_crime:0.087, degree:0.100</div>`)[0];
+                popup_101959fbe70274c70273b937157c4bb9.setContent(html_e8ac367d2f02678cda044e398f891809);
+            
+        
+
+        marker_1a0250dfc7a939b9b4794f40dcdaaba6.bindPopup(popup_101959fbe70274c70273b937157c4bb9)
+        ;
+
+        
+    
+    
+            var circle_fbbee9e34e9b265cbaf4cd1aa8baf96f = L.circle(
+                [39.89225163, -88.92459822],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_6aad7bd78e948c28910619e7154984e4 = L.marker(
+                [37.25175053, -89.2787055],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_1cc9a3f8573a9023652b6d7c16b191ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99d20a564892b3f0dd2e7c682d5d34b5 = $(`<div id="html_99d20a564892b3f0dd2e7c682d5d34b5" style="width: 100.0%; height: 100.0%;">IL, Tamms, Alexander, state_crime:0.087, degree:0.100</div>`)[0];
+                popup_1cc9a3f8573a9023652b6d7c16b191ae.setContent(html_99d20a564892b3f0dd2e7c682d5d34b5);
+            
+        
+
+        marker_6aad7bd78e948c28910619e7154984e4.bindPopup(popup_1cc9a3f8573a9023652b6d7c16b191ae)
+        ;
+
+        
+    
+    
+            var circle_458871951619e7fc6c97c11abdea10d1 = L.circle(
+                [37.25175053, -89.2787055],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+            var marker_9f283d0b996446efd87f036984cb9fa2 = L.marker(
+                [34.22304853, -92.07667349],
+                {}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+    
+        var popup_2364a9c9baa4667ea3dc19cf0918165d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa5073680ab9d5bf7b75bc34be534bd3 = $(`<div id="html_fa5073680ab9d5bf7b75bc34be534bd3" style="width: 100.0%; height: 100.0%;">AR, Pine Bluff, Jefferson, state_crime:0.083, degree:0.000</div>`)[0];
+                popup_2364a9c9baa4667ea3dc19cf0918165d.setContent(html_fa5073680ab9d5bf7b75bc34be534bd3);
+            
+        
+
+        marker_9f283d0b996446efd87f036984cb9fa2.bindPopup(popup_2364a9c9baa4667ea3dc19cf0918165d)
+        ;
+
+        
+    
+    
+            var circle_f351476612118c70f8fb5b3cacba977c = L.circle(
+                [34.22304853, -92.07667349],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20000, "stroke": true, "weight": 3}
+            ).addTo(map_38e128602d9b0478f9da22d81deff047);
+        
+</script>
+</html>

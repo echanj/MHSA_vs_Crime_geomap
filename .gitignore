@@ -1,5 +1,6 @@
 notes_*
 *.swp
+.ipynb_checkpoints
 FBI_CDE_test.ipynb
 bigquery_sqlite_test.ipynb
 commit_to_git.sh
