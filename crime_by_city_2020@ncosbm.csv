@@ -1,0 +1,1502 @@
+﻿Area Name;Area Type;Year;Violent Crime Total;Murder and nonnegligent manslaughter;Rape;Robbery;Aggravated assault;Property Crime Total;Burglary;Larceny-theft;Motor vehicle theft;Arson
+Catawba;County;2020;150;1;39;18;92;1050;261;654;135;15
+Rowan;County;2020;185;3;24;21;137;1100;272;690;138;9
+Wayne;County;2020;176;5;7;17;147;1145;359;601;185;10
+Avery;County;2020;25;0;3;0;22;124;34;82;8;1
+Bertie;County;2020;7;0;1;4;2;43;12;26;5;0
+Dare;County;2020;23;2;6;0;15;261;64;190;7;2
+Jackson;County;2020;95;0;18;1;76;886;405;413;68;19
+Mitchell;County;2020;7;0;4;1;2;33;4;24;5;1
+Surry;County;2020;97;3;25;11;58;778;149;481;148;15
+Wilkes;County;2020;134;2;19;4;109;659;213;356;90;13
+Currituck;County;2018;40;1;;3;36;312;73;231;8;0
+Guilford;County;2018;192;3;;29;160;969;336;560;73;11
+Pamlico;County;2018;18;1;;3;14;191;39;134;18;1
+Greene;County;2018;34;3;;8;23;328;169;145;14;0
+Hertford;County;2018;38;4;;9;25;201;87;105;9;6
+Jackson;County;2018;51;0;;8;43;813;443;310;60;2
+McDowell;County;2018;34;4;;7;23;836;229;493;114;8
+Pasquotank;County;2018;46;2;;2;42;250;103;142;5;0
+Gaston;County;2017;177;2;;14;161;1070;374;586;110;20
+Hoke;County;2017;75;6;;14;55;1045;445;558;42;1
+Stokes;County;2017;75;2;;2;71;763;216;488;59;2
+Halifax;County;2017;95;7;;18;70;553;274;275;4;4
+Jackson;County;2017;63;0;;0;63;772;477;249;46;4
+Martin;County;2017;35;1;;1;33;239;101;121;17;2
+Richmond;County;2017;162;4;;33;125;1079;471;537;71;6
+Tyrrell;County;2017;11;0;;2;9;30;8;21;1;0
+Chowan;County;2019;21;0;3;1;17;95;47;42;6;0
+Mitchell;County;2019;2;0;0;1;1;55;24;28;3;1
+Richmond;County;2019;178;2;21;27;128;1007;411;505;91;11
+Ahoskie;Municipality;2019;56;2;1;20;33;253;68;174;11;2
+Bald Head Island;Municipality;2019;0;0;0;0;0;24;4;19;1;0
+Beech Mountain;Municipality;2019;0;0;0;0;0;15;6;9;0;0
+Chapel Hill;Municipality;2019;58;0;10;17;31;926;184;706;36;4
+Clayton;Municipality;2019;40;1;7;8;24;497;49;434;14;1
+Creedmoor;Municipality;2019;10;0;2;0;8;55;19;33;3;0
+Drexel;Municipality;2019;0;0;0;0;0;33;9;15;9;0
+Edenton;Municipality;2019;39;2;3;5;29;145;37;99;9;0
+Fayetteville;Municipality;2019;1835;24;117;281;1413;7391;1365;5641;385;59
+Four Oaks;Municipality;2019;7;0;0;1;6;35;1;32;2;0
+Goldsboro;Municipality;2019;267;2;7;50;208;1985;380;1506;99;3
+Hudson;Municipality;2019;8;0;0;1;7;89;11;76;2;1
+Indian Beach;Municipality;2019;0;0;0;0;0;21;2;19;0;0
+King;Municipality;2019;9;2;0;2;5;222;14;207;1;1
+Laurinburg;Municipality;2019;160;3;5;27;125;762;386;328;48;28
+Lowell;Municipality;2019;9;0;2;0;7;36;5;18;13;0
+Manteo;Municipality;2019;5;0;0;1;4;34;4;28;2;0
+Marshville;Municipality;2019;16;0;3;3;10;130;67;58;5;0
+Matthews;Municipality;2019;58;3;8;18;29;1112;111;959;42;0
+Middlesex;Municipality;2019;0;0;0;0;0;12;3;7;2;0
+Mocksville;Municipality;2019;14;0;5;4;5;109;16;90;3;4
+Mooresville;Municipality;2019;65;1;11;9;44;1050;81;913;56;8
+Mount Olive;Municipality;2019;28;0;1;8;19;132;27;100;5;0
+North Wilkesboro;Municipality;2019;16;0;1;4;11;131;3;114;14;0
+Princeton;Municipality;2019;0;0;0;0;0;16;4;11;1;0
+Red Springs;Municipality;2019;52;1;2;6;43;197;57;128;12;3
+Siler City;Municipality;2019;67;1;13;10;43;325;44;255;26;1
+Snow Hill;Municipality;2019;5;0;1;0;4;58;24;34;0;0
+Southern Shores;Municipality;2019;1;0;1;0;0;19;7;11;1;0
+Swansboro;Municipality;2019;2;1;0;0;1;127;16;106;5;0
+Troutman;Municipality;2019;4;0;2;2;0;67;16;49;2;0
+West Jefferson;Municipality;2019;2;0;1;0;1;70;6;62;2;0
+Windsor;Municipality;2019;18;0;2;0;16;22;2;18;2;0
+Ayden;Municipality;2020;25;3;2;2;18;91;14;69;8;0
+Bailey;Municipality;2020;0;0;0;0;0;10;3;6;1;0
+Brevard;Municipality;2020;13;0;5;1;7;133;22;104;7;0
+Carthage;Municipality;2020;6;0;2;0;4;92;27;60;5;1
+Cary;Municipality;2020;116;1;13;25;77;1651;197;1342;112;6
+Conover;Municipality;2020;40;0;2;3;35;394;55;317;22;0
+Durham;Municipality;2020;2447;36;125;626;1660;10650;1906;7779;965;43
+Eden;Municipality;2020;87;1;4;9;73;430;112;295;23;7
+Elizabethtown;Municipality;2020;32;2;1;5;24;121;33;86;2;0
+Greensboro;Municipality;2020;2704;59;95;581;1969;10830;2212;7503;1115;103
+Kenansville;Municipality;2020;6;0;0;0;6;10;1;8;1;1
+Kings Mountain;Municipality;2020;25;1;7;1;16;299;67;190;42;2
+Knightdale;Municipality;2020;48;0;0;10;38;354;39;283;32;0
+Long View;Municipality;2020;15;1;3;3;8;179;40;111;28;1
+Murfreesboro;Municipality;2020;6;0;1;1;4;61;15;40;6;0
+North Topsail Beach;Municipality;2020;2;0;0;0;2;28;11;16;1;0
+Pittsboro;Municipality;2020;15;0;3;2;10;74;6;64;4;0
+Rockwell;Municipality;2020;3;0;2;0;1;33;8;22;3;0
+Rowland;Municipality;2020;9;0;0;1;8;38;11;25;2;1
+Selma;Municipality;2020;47;1;1;8;37;199;47;133;19;2
+Surf City;Municipality;2020;17;0;0;1;16;118;13;104;1;1
+Wadesboro;Municipality;2020;124;3;5;19;97;365;118;225;22;2
+Weaverville;Municipality;2020;5;0;2;1;2;178;3;164;11;0
+Weldon;Municipality;2020;17;0;2;4;11;62;17;37;8;0
+Whispering Pines;Municipality;2020;1;0;0;0;1;14;1;13;0;0
+Williamston;Municipality;2020;66;0;3;11;52;297;106;183;8;2
+Aberdeen;Municipality;2018;14;0;;5;9;232;40;187;5;2
+Archdale;Municipality;2018;27;1;;6;20;235;49;166;20;0
+Biltmore Forest;Municipality;2018;0;0;;0;0;17;3;14;0;0
+Brevard;Municipality;2018;14;0;;2;12;151;23;122;6;0
+Carrboro;Municipality;2018;31;2;;12;17;407;98;280;29;0
+Carthage;Municipality;2018;10;0;;1;9;80;17;54;9;0
+China Grove;Municipality;2018;5;0;;2;3;80;18;58;4;0
+Chocowinity;Municipality;2018;3;0;;1;2;16;8;8;0;0
+Creedmoor;Municipality;2018;6;0;;1;5;93;33;58;2;0
+Mayodan;Municipality;2018;2;0;;1;1;113;13;99;1;0
+Mint Hill;Municipality;2018;58;0;;13;45;471;99;345;27;1
+Mocksville;Municipality;2018;5;0;;1;4;165;36;124;5;1
+Mount Holly;Municipality;2018;23;1;;2;20;302;68;210;24;5
+North Wilkesboro;Municipality;2018;17;0;;2;15;125;1;112;12;1
+Pinehurst;Municipality;2018;15;0;;0;15;111;33;77;1;0
+Pine Knoll Shores;Municipality;2018;1;0;;0;1;21;6;15;0;0
+Richlands;Municipality;2018;0;0;;0;0;21;3;18;0;0
+Sanford;Municipality;2018;64;5;;20;39;782;160;587;35;2
+Scotland Neck;Municipality;2018;8;0;;0;8;42;14;26;2;0
+Thomasville;Municipality;2018;83;0;;26;57;1009;252;695;62;1
+Valdese;Municipality;2018;9;0;;0;9;54;8;35;11;0
+Whiteville;Municipality;2018;56;1;;11;44;471;122;325;24;5
+Wilkesboro;Municipality;2018;8;0;;4;4;255;23;221;11;0
+Atlantic Beach;Municipality;2016;14;0;4;1;9;130;42;84;4;0
+Belmont;Municipality;2016;35;0;2;12;21;513;58;445;10;0
+Carrboro;Municipality;2016;35;0;3;7;25;434;88;334;12;3
+Chapel Hill;Municipality;2016;113;2;15;33;63;1363;280;1017;66;3
+Clyde;Municipality;2016;5;0;0;1;4;38;11;27;0;0
+Creedmoor;Municipality;2016;7;0;1;0;6;127;53;70;4;0
+Drexel;Municipality;2016;0;0;0;0;0;22;8;12;2;0
+Elkin;Municipality;2016;24;1;1;4;18;378;40;337;1;0
+Hickory;Municipality;2016;165;6;19;56;84;1953;362;1482;109;8
+Holly Ridge;Municipality;2016;1;0;1;0;0;76;26;47;3;0
+Holly Springs;Municipality;2016;9;0;1;2;6;295;45;245;5;0
+Kannapolis;Municipality;2016;118;1;15;32;70;936;228;636;72;3
+Kernersville;Municipality;2016;102;1;7;23;71;1143;151;956;36;3
+Roanoke Rapids;Municipality;2016;108;2;9;25;72;1045;265;747;33;4
+Robersonville;Municipality;2016;11;0;0;2;9;58;19;37;2;0
+Rockingham;Municipality;2016;50;2;2;13;33;707;163;528;16;3
+Southern Pines;Municipality;2016;69;3;3;16;47;360;76;272;12;0
+Thomasville;Municipality;2016;87;1;3;25;58;1101;221;842;38;7
+Warrenton;Municipality;2016;2;0;1;0;1;36;3;32;1;0
+Archdale;Municipality;2017;12;1;;3;8;192;57;126;9;0
+Burgaw;Municipality;2017;7;0;;4;3;211;33;172;6;0
+Cary;Municipality;2017;107;0;;44;63;1795;285;1438;72;10
+Drexel;Municipality;2017;1;0;;0;1;22;4;15;3;0
+Duck;Municipality;2017;1;0;;0;1;46;27;19;0;0
+Edenton;Municipality;2017;56;1;;1;54;118;34;81;3;0
+Fayetteville;Municipality;2017;1421;24;;292;1105;8811;1818;6578;415;39
+Jefferson;Municipality;2017;0;0;;0;0;17;6;10;1;0
+Kill Devil Hills;Municipality;2017;21;0;;1;20;444;219;214;11;0
+Laurel Park;Municipality;2017;2;0;;1;1;11;1;9;1;0
+Mebane;Municipality;2017;58;0;;9;49;579;46;514;19;0
+Morehead City;Municipality;2017;23;0;;6;17;462;45;408;9;2
+Pine Level;Municipality;2017;4;0;;1;3;34;2;32;0;0
+Rockingham;Municipality;2017;60;0;;20;40;754;137;592;25;4
+Rocky Mount;Municipality;2017;380;15;;95;270;1984;554;1310;120;16
+Winterville;Municipality;2017;8;0;;5;3;114;48;64;2;0
+Alexander;County;2016;83;4;10;2;67;546;213;312;21;5
+Catawba;County;2016;165;3;21;16;125;1261;476;712;73;14
+Franklin;County;2016;69;4;7;9;49;889;376;451;62;6
+Iredell;County;2016;205;3;11;17;174;1449;457;874;118;4
+Union;County;2016;182;6;21;38;117;2102;618;1387;97;16
+Martin;County;2016;49;0;1;6;42;234;100;115;19;5
+Vance;County;2016;69;5;1;13;50;707;309;362;36;6
+Wilkes;County;2016;115;2;8;12;93;740;330;373;37;12
+Albemarle;Municipality;2020;152;6;8;17;121;921;164;701;56;14
+Belhaven;Municipality;2020;1;0;0;0;1;16;3;12;1;0
+Benson;Municipality;2020;43;0;4;8;31;219;54;144;21;2
+Carrboro;Municipality;2020;46;0;4;6;36;365;65;263;37;4
+Clayton;Municipality;2020;38;2;3;4;29;597;58;517;22;1
+Clinton;Municipality;2020;97;0;7;10;80;446;95;330;21;1
+Elizabeth City;Municipality;2020;72;5;6;9;52;570;172;357;41;5
+Fairmont;Municipality;2020;29;0;2;0;27;85;20;64;1;1
+Gastonia;Municipality;2020;720;9;37;124;550;3172;445;2414;313;29
+Goldsboro;Municipality;2020;397;2;11;46;338;1709;349;1272;88;3
+Henderson;Municipality;2020;303;10;6;41;246;855;244;541;70;18
+Holly Ridge;Municipality;2020;3;0;0;1;2;52;23;23;6;0
+Indian Beach;Municipality;2020;1;0;1;0;0;20;5;14;1;0
+Jonesville;Municipality;2020;13;0;1;1;11;78;21;56;1;0
+King;Municipality;2020;12;0;1;2;9;198;5;187;6;0
+Madison;Municipality;2020;17;1;7;1;8;70;17;51;2;2
+Maggie Valley;Municipality;2020;6;0;0;0;6;80;24;49;7;0
+Maxton;Municipality;2020;8;0;0;8;0;85;26;52;7;3
+Mayodan;Municipality;2020;5;0;4;1;0;109;17;85;7;0
+Mooresville;Municipality;2020;80;0;10;14;56;972;78;828;66;6
+New Bern;Municipality;2020;190;4;11;21;154;930;199;701;30;1
+Oak Island;Municipality;2020;16;1;2;0;13;162;57;93;12;1
+Siler City;Municipality;2020;57;0;5;6;46;326;65;239;22;4
+Spencer;Municipality;2020;9;0;3;0;6;72;13;52;7;2
+Troutman;Municipality;2020;5;0;3;0;2;55;4;50;1;0
+Troy;Municipality;2020;25;0;1;2;22;130;35;84;11;0
+West Jefferson;Municipality;2020;4;0;2;1;1;71;7;58;6;0
+Asheville;Municipality;2019;695;6;59;163;467;5923;833;4552;538;20
+Bailey;Municipality;2019;2;1;1;0;0;15;7;8;0;0
+Boone;Municipality;2019;26;0;6;5;15;261;34;214;13;3
+Carthage;Municipality;2019;4;0;1;2;1;72;15;52;5;0
+Duck;Municipality;2019;0;0;0;0;0;21;7;14;0;0
+East Spencer;Municipality;2019;7;1;0;1;5;25;3;16;6;0
+Fair Bluff;Municipality;2019;1;0;1;0;0;14;2;12;0;0
+Fairmont;Municipality;2019;14;0;4;2;8;125;31;88;6;1
+Greenville;Municipality;2019;437;5;17;94;321;2837;415;2308;114;11
+Havelock;Municipality;2019;52;0;11;6;35;536;146;376;14;5
+Haw River;Municipality;2019;5;0;0;1;4;46;12;29;5;1
+Hertford;Municipality;2019;13;0;1;5;7;75;25;47;3;2
+Kannapolis;Municipality;2019;132;1;20;36;75;1154;182;872;100;2
+Kernersville;Municipality;2019;65;0;8;20;37;1141;113;989;39;3
+Morganton;Municipality;2019;82;1;13;4;64;613;182;402;29;1
+Murphy;Municipality;2019;15;0;2;1;12;119;43;68;8;0
+New Bern;Municipality;2019;125;0;5;21;99;999;195;787;17;5
+Oak Island;Municipality;2019;15;0;3;1;11;135;28;99;8;0
+Reidsville;Municipality;2019;105;0;7;19;79;890;121;704;65;2
+Rockwell;Municipality;2019;7;0;2;1;4;30;4;24;2;0
+Rocky Mount;Municipality;2019;424;16;20;103;285;1627;420;1098;109;9
+Troy;Municipality;2019;19;0;0;3;16;98;30;63;5;0
+Whiteville;Municipality;2019;78;2;2;10;64;509;88;402;19;0
+Wilson;Municipality;2019;220;2;18;60;140;1545;364;1066;115;8
+Wrightsville Beach;Municipality;2019;30;0;7;2;21;96;15;77;4;1
+Apex;Municipality;2018;50;0;;15;35;663;74;577;12;2
+Asheville;Municipality;2018;552;12;;148;392;4798;691;3707;400;13
+Butner;Municipality;2018;30;0;;4;26;177;59;112;6;1
+Cary;Municipality;2018;105;0;;37;68;1666;247;1357;62;5
+Clayton;Municipality;2018;27;0;;5;22;417;58;352;7;5
+Columbus;Municipality;2018;0;0;;0;0;38;5;31;2;0
+Fletcher;Municipality;2018;5;0;;1;4;128;58;61;9;1
+Greenville;Municipality;2018;441;5;;109;327;2707;475;2121;111;5
+Havelock;Municipality;2018;26;0;;8;18;530;183;332;15;2
+High Point2;Municipality;2018;652;19;;116;517;3682;590;2812;280;
+Hillsborough;Municipality;2018;29;0;;5;24;310;34;265;11;2
+Hope Mills;Municipality;2018;104;0;;28;76;681;84;580;17;0
+Kannapolis;Municipality;2018;109;2;;31;76;968;190;711;67;4
+New Bern;Municipality;2018;108;0;;27;81;940;195;718;27;2
+North Topsail Beach;Municipality;2018;2;2;;0;0;35;19;15;1;0
+Pittsboro;Municipality;2018;14;0;;1;13;114;13;99;2;0
+Plymouth;Municipality;2018;36;0;;3;33;146;40;97;9;4
+Raeford;Municipality;2018;26;1;;4;21;150;57;90;3;1
+Randleman;Municipality;2018;1;0;;0;1;141;32;104;5;0
+Rockingham;Municipality;2018;51;2;;6;43;602;133;450;19;3
+Siler City;Municipality;2018;65;1;;9;55;369;71;280;18;1
+Swansboro;Municipality;2018;14;0;;0;14;127;15;110;2;0
+Woodfin;Municipality;2018;12;0;;2;10;116;53;52;11;3
+Yadkinville;Municipality;2018;11;0;;1;10;90;15;72;3;2
+Asheville;Municipality;2016;537;10;48;144;335;4357;752;3345;260;7
+Biscoe;Municipality;2016;3;0;0;1;2;150;13;136;1;4
+Cape Carteret;Municipality;2016;4;0;0;0;4;22;3;19;0;0
+Charlotte-Mecklenburg;Municipality;2016;6560;67;219;2121;4153;36732;6691;27280;2761;220
+Columbus;Municipality;2016;1;0;0;0;1;28;2;22;4;0
+Eden;Municipality;2016;81;2;3;27;49;567;126;419;22;4
+Edenton;Municipality;2016;70;0;2;3;65;157;53;101;3;0
+Fairmont;Municipality;2016;31;3;1;15;12;123;43;77;3;5
+Fletcher;Municipality;2016;7;2;1;0;4;161;71;84;6;1
+Goldsboro;Municipality;2016;389;11;3;84;291;1999;484;1416;99;5
+Hamlet;Municipality;2016;51;1;3;13;34;224;103;109;12;4
+Maxton;Municipality;2016;7;0;1;5;1;143;68;71;4;2
+Mint Hill;Municipality;2016;36;5;5;13;13;632;114;491;27;5
+Morehead City;Municipality;2016;38;1;2;4;31;382;56;322;4;0
+Newton;Municipality;2016;34;0;2;5;27;446;103;325;18;2
+Pine Level;Municipality;2016;1;0;0;1;0;37;9;26;2;0
+Pineville;Municipality;2016;53;1;5;24;23;1221;127;1055;39;6
+Randleman;Municipality;2016;14;0;0;9;5;394;94;295;5;1
+Stallings;Municipality;2016;14;0;0;6;8;207;48;140;19;1
+St. Pauls;Municipality;2016;6;1;0;3;2;126;29;97;0;0
+Waxhaw;Municipality;2016;20;0;1;3;16;145;35;109;1;0
+West Jefferson;Municipality;2016;5;0;1;0;4;85;2;80;3;0
+Atlantic Beach;Municipality;2017;7;0;;0;7;108;31;75;2;1
+Benson;Municipality;2017;22;1;;8;13;187;60;118;9;0
+Biltmore Forest;Municipality;2017;0;0;;0;0;15;1;13;1;0
+Biscoe;Municipality;2017;4;0;;2;2;119;3;114;2;0
+Black Mountain;Municipality;2017;7;2;;0;5;111;27;75;9;0
+Brevard;Municipality;2017;12;1;;2;9;174;23;142;9;1
+Columbus;Municipality;2017;0;0;;0;0;27;2;22;3;0
+Concord;Municipality;2017;94;1;;31;62;1791;293;1433;65;4
+Hertford;Municipality;2017;20;0;;5;15;50;13;34;3;0
+Hickory;Municipality;2017;214;8;;54;152;2093;325;1590;178;9
+Jonesville;Municipality;2017;13;0;;1;12;109;24;79;6;1
+Lenoir;Municipality;2017;49;0;;13;36;791;150;592;49;1
+Louisburg;Municipality;2017;16;0;;4;12;110;31;75;4;1
+Pineville;Municipality;2017;50;0;;27;23;1236;68;1127;41;0
+Pittsboro;Municipality;2017;9;1;;2;6;88;12;72;4;0
+Ramseur;Municipality;2017;11;2;;5;4;90;21;65;4;0
+Rolesville;Municipality;2017;2;0;;1;1;107;15;85;7;0
+Smithfield;Municipality;2017;70;0;;21;49;568;100;454;14;0
+Southern Pines;Municipality;2017;42;1;;16;25;471;85;380;6;8
+Wake Forest;Municipality;2017;41;0;;7;34;741;84;642;15;2
+Washington;Municipality;2017;72;0;;16;56;515;95;402;18;2
+Weldon;Municipality;2017;16;1;;4;11;59;22;34;3;0
+Wendell;Municipality;2017;4;0;;0;4;94;33;57;4;0
+Williamston;Municipality;2017;40;4;;11;25;334;80;240;14;0
+Youngsville;Municipality;2017;1;0;;0;1;39;6;31;2;0
+Caldwell;County;2017;70;0;;16;54;1306;448;729;129;6
+Currituck;County;2017;39;0;;3;36;347;97;237;13;2
+Durham;County;2017;62;1;;35;26;672;285;339;48;1
+Lincoln;County;2017;89;1;;4;84;1010;315;644;51;5
+Madison;County;2017;8;0;;1;7;138;53;72;13;4
+Pender;County;2017;74;2;;10;62;1017;256;721;40;5
+Wayne;County;2017;182;1;;33;148;1610;636;829;145;3
+Anson;County;2017;34;1;;4;29;260;187;69;4;2
+Beaufort;County;2017;65;1;;7;57;464;191;252;21;4
+Chowan;County;2017;9;3;;1;5;114;51;56;7;0
+Dare;County;2017;20;1;;1;18;384;101;279;4;2
+Harnett;County;2017;252;8;;39;205;1702;616;996;90;19
+Northampton;County;2017;38;4;;7;27;344;175;144;25;1
+Perquimans;County;2017;4;1;;1;2;82;43;35;4;1
+Polk;County;2017;6;0;;0;6;187;70;102;15;2
+Wilson;County;2017;53;3;;4;46;535;184;316;35;8
+Davidson;County;2016;105;5;5;21;74;1621;938;562;121;5
+Rockingham;County;2016;66;6;2;14;44;916;406;466;44;4
+Caswell;County;2016;73;4;1;6;62;381;98;267;16;0
+Duplin;County;2016;93;5;5;7;76;750;284;415;51;8
+Northampton;County;2016;34;2;4;4;24;276;163;97;16;3
+Yancey;County;2016;7;0;2;0;5;66;36;28;2;0
+Cabarrus;County;2020;52;0;5;5;42;675;168;453;54;4
+Craven;County;2020;142;6;5;9;122;767;251;438;78;2
+Gates;County;2020;16;0;3;0;13;89;21;59;9;1
+Onslow;County;2020;162;1;14;16;131;1427;403;906;118;7
+Pamlico;County;2020;26;1;6;0;19;196;40;135;21;1
+Moore;County;2020;58;2;8;5;43;595;150;420;25;6
+Robeson;County;2020;1035;35;17;81;902;2412;990;1200;222;45
+Sampson;County;2020;140;3;24;13;100;767;316;353;98;17
+Transylvania;County;2020;37;1;6;0;30;214;63;130;21;1
+Vance;County;2020;199;3;18;23;155;465;173;240;52;12
+Wilson;County;2020;44;1;1;4;38;291;61;197;33;2
+Cumberland;County;2019;458;3;43;65;347;1964;494;1324;146;63
+Franklin;County;2019;77;1;8;5;63;616;198;368;50;4
+Onslow;County;2019;214;3;26;19;166;1773;504;1161;108;13
+Rockingham;County;2019;70;1;22;10;37;700;232;415;53;0
+Bladen;County;2019;65;0;3;4;58;481;158;273;50;5
+Hertford;County;2019;28;5;4;11;8;184;62;102;20;2
+Chatham;County;2018;67;1;;5;61;552;239;288;25;2
+Gaston;County;2018;14;0;;0;14;1;0;0;1;0
+Person;County;2018;47;0;;2;45;295;122;154;19;1
+Halifax;County;2018;92;11;;22;59;539;297;210;32;7
+Sampson;County;2018;116;3;;17;96;854;424;344;86;6
+Transylvania;County;2018;18;1;;2;15;236;87;143;6;2
+Albemarle;Municipality;2017;89;1;;21;67;738;221;486;31;5
+Ayden;Municipality;2017;16;0;;2;14;167;35;125;7;0
+Bunn;Municipality;2017;0;0;;0;0;21;5;16;0;0
+Burlington;Municipality;2017;499;4;;114;381;2016;502;1402;112;7
+Cleveland;Municipality;2017;0;0;;0;0;29;10;16;3;0
+Clinton;Municipality;2017;76;0;;19;57;477;101;357;19;2
+Cramerton;Municipality;2017;3;0;;1;2;106;23;80;3;0
+Garner;Municipality;2017;96;1;;32;63;1082;217;822;43;1
+Gibsonville;Municipality;2017;15;1;;1;13;99;53;39;7;0
+Haw River;Municipality;2017;13;0;;4;9;78;30;44;4;0
+Hendersonville;Municipality;2017;47;0;;21;26;691;126;530;35;0
+High Point;Municipality;2017;756;20;;206;530;4161;754;3127;280;14
+Maiden;Municipality;2017;2;0;;0;2;117;21;93;3;3
+Manteo;Municipality;2017;8;0;;1;7;68;11;55;2;1
+Marshville;Municipality;2017;28;0;;9;19;137;59;75;3;0
+Maysville;Municipality;2017;0;0;;0;0;16;3;13;0;0
+Mooresville;Municipality;2017;59;0;;16;43;998;80;885;33;3
+Morrisville;Municipality;2017;19;0;;10;9;411;59;344;8;4
+Pinebluff;Municipality;2017;0;0;;0;0;22;12;8;2;0
+Robersonville;Municipality;2017;13;0;;0;13;35;11;23;1;0
+Rockwell;Municipality;2017;2;0;;0;2;53;14;35;4;0
+Selma;Municipality;2017;39;0;;13;26;287;113;163;11;1
+Spencer;Municipality;2017;19;0;;4;15;123;19;98;6;0
+Trent Woods;Municipality;2017;0;0;;0;0;29;13;15;1;0
+Troy;Municipality;2017;6;0;;1;5;102;25;72;5;0
+Waynesville;Municipality;2017;18;2;;5;11;516;155;327;34;2
+Wilkesboro;Municipality;2017;16;0;;2;14;293;10;276;7;1
+Albemarle;Municipality;2016;107;1;6;24;76;771;201;538;32;4
+Ayden;Municipality;2016;29;0;0;5;24;195;49;137;9;0
+Biltmore Forest;Municipality;2016;1;0;0;0;1;14;3;11;0;0
+Brevard;Municipality;2016;16;0;4;4;8;206;33;168;5;0
+Cary;Municipality;2016;151;1;20;68;62;1656;234;1363;59;7
+Erwin;Municipality;2016;20;2;1;6;11;193;57;129;7;1
+Gibsonville;Municipality;2016;16;0;0;4;12;85;43;36;6;0
+Graham;Municipality;2016;77;2;2;15;58;475;118;338;19;2
+High Point;Municipality;2016;721;7;36;220;458;3983;781;2992;210;9
+Huntersville;Municipality;2016;63;0;7;19;37;1157;148;959;50;3
+Jefferson;Municipality;2016;0;0;0;0;0;16;2;14;0;0
+Kill Devil Hills;Municipality;2016;41;0;7;1;33;344;150;188;6;1
+Laurinburg;Municipality;2016;201;3;4;43;151;901;521;358;22;4
+Marion;Municipality;2016;35;2;0;6;27;612;179;403;30;1
+Mount Holly;Municipality;2016;27;1;2;7;17;305;85;199;21;3
+Nags Head;Municipality;2016;14;0;1;1;12;247;123;119;5;1
+Oxford;Municipality;2016;100;0;2;24;74;536;122;388;26;4
+Pine Knoll Shores;Municipality;2016;1;0;0;1;0;21;2;19;0;0
+Siler City;Municipality;2016;39;0;1;13;25;350;71;266;13;0
+Waynesville;Municipality;2016;26;2;4;3;17;450;171;233;46;0
+Weaverville;Municipality;2016;4;0;0;1;3;;;80;5;0
+Wilkesboro;Municipality;2016;8;0;0;1;7;267;7;254;6;1
+Biltmore Forest;Municipality;2019;0;0;0;0;0;16;4;12;0;0
+Butner;Municipality;2019;33;0;4;4;25;113;19;91;3;0
+Columbus;Municipality;2019;1;0;0;0;1;47;9;33;5;1
+Dunn;Municipality;2019;56;1;5;23;27;514;111;374;29;2
+Elizabethtown;Municipality;2019;17;0;2;0;15;225;47;168;10;0
+Gibsonville;Municipality;2019;17;0;5;2;10;136;84;46;6;2
+Hope Mills;Municipality;2019;111;1;5;22;83;773;94;655;24;2
+Kenansville;Municipality;2019;2;0;1;1;0;9;3;6;0;0
+Lenoir;Municipality;2019;78;0;17;13;48;799;234;476;89;3
+Long View;Municipality;2019;5;0;2;0;3;88;20;55;13;0
+Monroe;Municipality;2019;332;2;37;70;223;1881;343;1407;131;9
+Morrisville;Municipality;2019;12;0;1;2;9;379;39;324;16;2
+Newland;Municipality;2019;1;0;1;0;0;17;2;10;5;0
+Plymouth;Municipality;2019;37;1;4;4;28;139;57;68;14;2
+Roanoke Rapids;Municipality;2019;128;4;8;32;84;706;166;518;22;1
+Robersonville;Municipality;2019;9;0;1;2;6;35;12;20;3;0
+Rowland;Municipality;2019;8;1;2;2;3;45;13;29;3;1
+Salisbury;Municipality;2019;249;2;15;69;163;1413;220;1094;99;9
+Wilmington;Municipality;2019;759;7;74;127;551;3593;771;2564;258;18
+Biltmore Forest;Municipality;2020;1;0;0;0;1;13;2;10;1;0
+Bunn;Municipality;2020;3;1;2;0;0;16;2;14;0;0
+Columbus;Municipality;2020;4;0;0;2;2;75;39;34;2;1
+Drexel;Municipality;2020;1;0;0;1;0;8;2;5;1;0
+Fair Bluff;Municipality;2020;0;0;0;0;0;18;8;8;2;0
+Fletcher;Municipality;2020;18;0;1;1;16;172;76;72;24;0
+Grifton;Municipality;2020;5;0;1;1;3;23;7;11;5;0
+Havelock;Municipality;2020;62;0;10;9;43;444;94;343;7;0
+Hillsborough;Municipality;2020;30;0;3;6;21;374;18;338;18;1
+Middlesex;Municipality;2020;0;0;0;0;0;17;0;16;1;0
+Robersonville;Municipality;2020;11;1;1;3;6;48;12;33;3;0
+Rockingham;Municipality;2020;66;4;6;14;42;410;110;284;16;0
+Rolesville;Municipality;2020;5;0;0;0;5;37;5;30;2;0
+Scotland Neck;Municipality;2020;19;0;0;6;13;157;125;27;5;1
+Snow Hill;Municipality;2020;5;1;0;1;3;26;5;20;1;0
+Southern Pines;Municipality;2020;66;1;8;11;46;285;59;217;9;4
+Zebulon;Municipality;2020;31;0;1;7;23;286;54;223;9;1
+Blowing Rock;Municipality;2018;1;0;;1;0;21;3;18;0;0
+Burgaw;Municipality;2018;10;1;;0;9;155;36;117;2;0
+Kernersville;Municipality;2018;67;1;;14;52;970;111;820;39;2
+Lake Lure;Municipality;2018;0;0;;0;0;5;1;4;0;0
+Lexington;Municipality;2018;119;0;;26;93;489;113;335;41;6
+Marshville;Municipality;2018;11;0;;1;10;117;39;73;5;0
+Maysville;Municipality;2018;4;0;;0;4;13;6;6;1;0
+Mooresville;Municipality;2018;72;0;;17;55;1018;99;885;34;2
+Newport;Municipality;2018;5;1;;1;3;50;13;35;2;0
+Ocean Isle Beach;Municipality;2018;3;0;;1;2;45;28;17;0;0
+Pilot Mountain;Municipality;2018;3;0;;0;3;42;4;34;4;0
+Pinebluff;Municipality;2018;1;0;;0;1;19;7;10;2;0
+Rocky Mount;Municipality;2018;420;13;;87;320;1577;424;1053;100;9
+St. Pauls;Municipality;2018;8;0;;4;4;68;24;43;1;0
+Surf City;Municipality;2018;4;0;;0;4;151;6;142;3;0
+Troy;Municipality;2018;14;1;;2;11;81;18;63;0;0
+Caldwell;County;2016;95;1;11;12;71;1271;492;686;93;6
+Chatham;County;2016;55;2;6;9;38;602;258;323;21;1
+Haywood;County;2016;148;1;13;10;124;975;454;457;64;7
+Cherokee;County;2016;36;0;6;5;25;611;172;404;35;9
+Columbus;County;2016;72;2;4;13;53;1004;523;416;65;2
+Lenoir;County;2016;122;3;10;24;85;663;285;348;30;5
+Pasquotank;County;2016;35;1;2;3;29;259;92;160;7;0
+Transylvania;County;2016;24;0;5;6;13;309;137;156;16;3
+Watauga;County;2016;26;0;0;3;23;293;28;257;8;0
+Wilson;County;2016;57;6;2;4;45;731;201;501;29;2
+Davidson;County;2020;83;1;3;11;68;1305;368;757;180;12
+Durham;County;2020;101;1;1;25;74;622;186;368;68;5
+Edgecombe;County;2020;140;1;3;10;126;346;123;198;25;3
+Gaston;County;2020;247;3;38;27;179;1079;302;608;169;17
+Harnett;County;2020;229;5;18;18;188;1552;462;905;185;31
+Iredell;County;2020;140;2;8;9;121;793;271;454;68;9
+Madison;County;2020;16;0;5;0;11;164;58;83;23;2
+Orange;County;2020;65;2;5;3;55;414;108;267;39;2
+Wake;County;2020;254;8;13;29;204;1258;341;785;132;13
+Bladen;County;2020;137;5;11;7;114;498;172;259;67;6
+Cleveland;County;2020;138;3;24;17;94;690;232;362;96;3
+McDowell;County;2020;65;2;18;5;40;666;235;349;82;14
+Stanly;County;2020;47;0;7;2;38;389;142;205;42;1
+Watauga;County;2020;20;1;4;1;14;185;57;121;7;3
+Edgecombe;County;2017;40;3;;9;28;479;212;249;18;5
+Forsyth;County;2017;259;0;;42;217;2105;459;1494;152;12
+Franklin;County;2017;79;5;;9;65;790;309;421;60;6
+Rockingham;County;2017;37;4;;7;26;721;296;380;45;0
+Rowan;County;2017;87;1;;20;66;990;306;604;80;7
+Union;County;2017;158;1;;26;131;2168;536;1533;99;11
+Columbus;County;2017;109;3;;15;91;1014;547;398;69;5
+Hertford;County;2017;26;1;;2;23;211;104;91;16;1
+Lee;County;2017;48;2;;13;33;391;107;263;21;3
+Moore;County;2017;61;2;;10;49;567;236;325;6;2
+Pasquotank;County;2017;62;0;;7;55;289;104;174;11;2
+Yancey;County;2017;6;1;;1;4;79;47;28;4;2
+Alexander;County;2019;86;8;27;1;50;429;138;247;44;3
+Buncombe;County;2019;219;0;14;27;178;1830;520;1071;239;19
+Chatham;County;2019;60;0;13;6;41;478;173;278;27;9
+Wake;County;2019;215;6;16;24;169;1376;375;857;144;22
+Wayne;County;2019;206;2;2;24;178;1181;458;574;149;6
+Alleghany;County;2019;19;0;11;1;7;72;26;39;7;1
+Robeson;County;2019;717;22;12;90;593;2525;1238;1110;177;39
+Watauga;County;2019;30;4;2;1;23;266;85;159;22;3
+Cumberland;County;2018;406;2;;66;338;2512;797;1555;160;41
+Davie;County;2018;72;1;;6;65;471;169;286;16;1
+Hoke;County;2018;21;1;;8;12;943;331;531;81;0
+Montgomery;County;2018;41;0;;3;38;254;109;126;19;5
+Ahoskie;Municipality;2020;42;2;1;3;36;187;42;132;13;1
+Archdale;Municipality;2020;24;0;2;5;17;232;42;163;27;0
+Asheville;Municipality;2020;761;11;54;153;543;5395;730;4142;523;28
+Belmont;Municipality;2020;54;0;1;15;38;618;32;561;25;1
+Bessemer City;Municipality;2020;18;1;0;4;13;106;20;71;15;0
+Candor;Municipality;2020;2;0;0;2;0;15;4;11;0;0
+Chapel Hill;Municipality;2020;93;0;7;22;64;1140;198;885;57;4
+Dallas;Municipality;2020;25;2;4;6;13;140;34;93;13;1
+Emerald Isle;Municipality;2020;11;0;0;1;10;137;37;92;8;0
+Fayetteville;Municipality;2020;2074;30;87;262;1695;7210;1327;5418;465;49
+Four Oaks;Municipality;2020;2;0;1;1;0;33;4;25;4;0
+Hickory;Municipality;2020;223;5;14;38;166;1718;266;1293;159;11
+Highlands;Municipality;2020;2;0;0;0;2;55;14;38;3;0
+Jacksonville;Municipality;2020;245;3;24;23;195;1481;263;1153;65;5
+Kernersville;Municipality;2020;81;0;14;12;55;1036;107;871;58;4
+Laurinburg;Municipality;2020;266;9;10;19;228;692;401;246;45;12
+Monroe;Municipality;2020;364;2;30;57;275;1736;265;1344;127;7
+Morehead City;Municipality;2020;40;0;9;1;30;354;39;302;13;1
+Morrisville;Municipality;2020;24;0;1;13;10;639;57;540;42;1
+Newton;Municipality;2020;43;0;1;3;39;443;116;297;30;1
+Pine Knoll Shores;Municipality;2020;1;0;0;0;1;28;15;13;0;0
+Reidsville;Municipality;2020;138;6;5;12;115;689;111;526;52;0
+Roanoke Rapids;Municipality;2020;149;7;7;35;100;598;125;453;20;9
+Rocky Mount;Municipality;2020;615;13;16;90;496;1564;366;1101;97;13
+Saluda;Municipality;2020;2;0;2;0;0;3;0;3;0;0
+Swansboro;Municipality;2020;4;0;1;0;3;135;17;115;3;0
+Washington;Municipality;2020;124;1;5;12;106;374;69;300;5;4
+Woodland;Municipality;2020;3;0;0;1;2;22;18;2;2;1
+Wrightsville Beach;Municipality;2020;6;0;1;0;5;92;15;75;2;0
+Bailey;Municipality;2016;1;0;0;0;1;21;3;17;1;0
+Beech Mountain;Municipality;2016;1;0;0;1;0;15;3;11;1;0
+Belhaven;Municipality;2016;3;0;1;0;2;35;12;22;1;0
+Burlington;Municipality;2016;392;6;15;71;300;1833;430;1309;94;1
+Butner;Municipality;2016;26;0;0;3;23;166;52;104;10;2
+Claremont;Municipality;2016;8;0;2;0;6;28;6;21;1;0
+Conover;Municipality;2016;17;0;3;1;13;271;46;216;9;0
+Emerald Isle;Municipality;2016;9;0;2;3;4;198;85;110;3;1
+Hope Mills;Municipality;2016;63;1;3;28;31;789;163;603;23;2
+Long View;Municipality;2016;47;1;2;6;38;243;88;131;24;3
+Maiden;Municipality;2016;4;0;0;1;3;109;23;79;7;0
+Marshville;Municipality;2016;20;0;2;2;16;95;25;67;3;0
+Mayodan;Municipality;2016;11;0;1;4;6;182;34;145;3;0
+Newport;Municipality;2016;7;0;1;2;4;85;14;67;4;0
+Richlands;Municipality;2016;0;0;0;0;0;14;7;7;0;0
+Rolesville;Municipality;2016;6;1;1;1;3;121;15;103;3;0
+Rose Hill;Municipality;2016;2;0;1;0;1;23;5;17;1;0
+Rutherfordton;Municipality;2016;0;0;0;0;0;139;0;136;3;0
+Shallotte;Municipality;2016;7;0;0;3;4;156;27;122;7;0
+Shelby;Municipality;2016;123;5;6;30;82;728;203;475;50;6
+Swansboro;Municipality;2016;6;0;0;1;5;81;4;73;4;0
+Wake Forest;Municipality;2016;54;0;3;11;40;954;77;866;11;2
+Washington;Municipality;2016;66;1;7;16;42;509;98;403;8;1
+Weldon;Municipality;2016;20;0;0;2;18;54;12;36;6;0
+Windsor;Municipality;2016;13;0;2;3;8;42;12;24;6;0
+Brevard;Municipality;2019;18;0;6;4;8;188;23;162;3;1
+Burlington;Municipality;2019;460;10;42;66;342;2490;534;1815;141;5
+Cape Carteret;Municipality;2019;4;0;0;0;4;30;3;25;2;0
+Cherryville;Municipality;2019;16;0;2;1;13;153;30;117;6;0
+Fuquay-Varina;Municipality;2019;26;0;3;10;13;295;48;234;13;0
+Granite Falls;Municipality;2019;4;0;0;2;2;332;124;191;17;1
+Hillsborough;Municipality;2019;38;0;1;11;26;392;30;350;12;0
+Holly Springs;Municipality;2019;25;1;7;1;16;256;22;225;9;1
+Nags Head;Municipality;2019;18;2;2;1;13;107;23;81;3;1
+Oxford;Municipality;2019;91;4;0;15;72;231;31;190;10;2
+Pine Level;Municipality;2019;8;0;2;1;5;25;5;19;1;1
+Selma;Municipality;2019;55;1;3;9;42;204;36;138;30;0
+Southern Pines;Municipality;2019;46;1;3;11;31;366;57;295;14;2
+Spencer;Municipality;2019;11;0;1;5;5;73;17;48;8;0
+Stallings;Municipality;2019;20;0;5;2;13;199;43;139;17;1
+Wake Forest;Municipality;2019;24;1;3;4;16;393;33;344;16;0
+Warrenton;Municipality;2019;4;0;0;1;3;40;11;28;1;0
+Waxhaw;Municipality;2019;25;0;4;4;17;156;46;107;3;0
+Whispering Pines;Municipality;2019;0;0;0;0;0;31;3;28;0;0
+Williamston;Municipality;2019;66;1;6;3;56;348;80;260;8;2
+Apex;Municipality;2017;24;1;;7;16;643;81;548;14;4
+Asheville;Municipality;2017;551;7;;181;363;4248;733;3191;324;7
+Belhaven;Municipality;2017;5;0;;0;5;26;7;17;2;0
+Blowing Rock;Municipality;2017;1;0;;0;1;22;4;16;2;0
+Butner;Municipality;2017;16;0;;3;13;157;41;111;5;2
+Chapel Hill;Municipality;2017;79;1;;40;38;1284;251;980;53;5
+Farmville;Municipality;2017;41;0;;8;33;217;55;157;5;1
+Holly Ridge;Municipality;2017;10;0;;0;10;48;12;32;4;0
+Hudson;Municipality;2017;10;0;;0;10;96;10;80;6;1
+Lake Lure;Municipality;2017;1;0;;0;1;35;7;27;1;0
+Lincolnton;Municipality;2017;46;0;;9;37;369;48;304;17;4
+Mayodan;Municipality;2017;2;0;;1;1;163;20;141;2;0
+Mocksville;Municipality;2017;25;0;;6;19;219;55;152;12;1
+Nags Head;Municipality;2017;18;0;;1;17;207;100;105;2;0
+Oak Island;Municipality;2017;21;1;;0;20;233;82;144;7;0
+Siler City;Municipality;2017;57;0;;11;46;369;72;287;10;0
+Snow Hill;Municipality;2017;6;0;;2;4;56;14;42;0;0
+Waxhaw;Municipality;2017;14;0;;2;12;170;26;142;2;0
+Wilmington;Municipality;2017;748;18;;195;535;4318;998;3039;281;6
+Woodfin;Municipality;2017;4;0;;0;4;121;49;66;6;0
+Albemarle;Municipality;2018;119;2;;22;95;853;176;634;43;8
+Ayden;Municipality;2018;16;0;;2;14;149;31;111;7;0
+Carolina Beach;Municipality;2018;18;0;;3;15;144;23;112;9;3
+Charlotte-Mecklenburg;Municipality;2018;6228;59;;1761;4408;34881;5670;26186;3025;157
+Conover;Municipality;2018;16;0;;7;9;299;61;219;19;0
+Eden;Municipality;2018;67;1;;14;52;530;146;361;23;5
+Gastonia;Municipality;2018;525;7;;140;378;3839;624;2919;296;16
+Jonesville;Municipality;2018;18;0;;2;16;123;34;86;3;2
+Lillington;Municipality;2018;11;0;;3;8;130;27;103;0;0
+Matthews;Municipality;2018;66;2;;22;42;949;95;801;53;2
+Rowland;Municipality;2018;4;0;;3;1;47;21;25;1;2
+Roxboro;Municipality;2018;73;2;;9;62;318;83;221;14;0
+Salisbury;Municipality;2018;236;6;;72;158;1579;313;1139;127;5
+Whispering Pines;Municipality;2018;0;0;;0;0;17;3;14;0;0
+Wilmington;Municipality;2018;734;9;;145;580;3639;954;2467;218;9
+Youngsville;Municipality;2018;2;0;;0;2;28;4;24;0;0
+Alamance;County;2020;147;5;7;9;126;576;164;338;74;5
+Caldwell;County;2020;60;1;5;5;49;950;294;537;119;6
+Camden;County;2020;13;2;2;1;8;53;15;35;3;2
+Forsyth;County;2020;254;1;22;20;211;1568;381;1057;130;12
+Franklin;County;2020;106;3;9;7;87;531;142;345;44;3
+Rockingham;County;2020;81;3;20;8;50;639;204;367;68;2
+Union;County;2020;206;2;34;22;148;1850;362;1339;149;11
+Chowan;County;2020;19;1;3;2;13;87;43;40;4;0
+Richmond;County;2020;188;6;15;25;142;1059;407;569;83;20
+Swain;County;2020;36;2;4;2;28;310;197;99;14;3
+Anson;County;2019;26;3;4;3;16;181;92;82;7;1
+Burke;County;2019;110;4;16;9;81;1045;349;553;143;3
+Cabarrus;County;2019;38;2;3;8;25;640;156;435;49;6
+Camden;County;2019;11;0;0;1;10;74;32;38;4;1
+New Hanover;County;2019;179;0;25;24;130;1593;264;1269;60;14
+Cherokee;County;2019;68;0;13;4;51;763;228;477;58;7
+Pasquotank;County;2019;64;0;6;7;51;233;93;118;22;4
+Sampson;County;2019;195;4;22;24;145;877;425;385;67;12
+Scotland;County;2019;59;1;5;12;41;325;170;128;27;8
+Vance;County;2019;125;4;12;8;101;546;206;299;41;13
+Buncombe;County;2017;133;3;;24;106;1570;561;863;146;15
+Cabarrus;County;2017;34;0;;14;20;657;213;404;40;2
+Johnston;County;2017;125;2;;18;105;1670;667;885;118;4
+Person;County;2017;58;1;;6;51;346;163;165;18;2
+Pitt;County;2017;164;1;;25;138;1065;347;655;63;5
+Wake;County;2017;160;0;;25;135;1649;607;910;132;12
+Yadkin;County;2017;52;1;;3;48;584;192;370;22;4
+Cleveland;County;2017;16;0;;8;8;732;276;402;54;0
+Macon;County;2017;37;0;;2;35;491;155;298;38;3
+McDowell;County;2017;31;2;;4;25;802;278;425;99;13
+Swain;County;2017;24;0;;1;23;197;89;80;28;0
+Alamance;County;2016;95;3;6;6;80;752;328;372;52;2
+Cabarrus;County;2016;38;1;3;19;15;730;231;461;38;4
+Johnston;County;2016;160;3;16;39;102;1874;776;1000;98;7
+New Hanover;County;2016;155;2;15;44;94;1779;468;1249;62;19
+Stokes;County;2016;45;1;0;0;44;772;216;514;42;1
+Perquimans;County;2016;4;0;0;0;4;86;59;24;3;2
+Rockingham;County;2018;35;2;;7;26;720;280;395;45;0
+Chowan;County;2018;17;1;;0;16;131;52;72;7;0
+Rutherford;County;2018;114;2;;4;108;915;492;322;101;10
+Aberdeen;Municipality;2020;21;0;2;6;13;278;24;245;9;3
+Banner Elk;Municipality;2020;0;0;0;0;0;7;0;7;0;0
+Beaufort;Municipality;2020;6;0;1;0;5;77;14;62;1;0
+Boone;Municipality;2020;23;0;6;2;15;269;24;232;13;2
+Bryson City;Municipality;2020;11;0;0;0;11;24;1;16;7;0
+Burlington;Municipality;2020;527;3;43;56;425;2391;419;1782;190;12
+Carolina Beach;Municipality;2020;29;0;7;2;20;186;35;139;12;1
+Cherryville;Municipality;2020;19;0;3;4;12;154;31;110;13;0
+East Spencer;Municipality;2020;11;6;0;2;3;19;3;12;4;0
+Farmville;Municipality;2020;28;0;1;3;24;107;21;78;8;1
+Garner;Municipality;2020;84;2;10;18;54;979;81;834;64;0
+Hendersonville;Municipality;2020;57;2;9;10;36;638;171;444;23;2
+High Point;Municipality;2020;773;14;28;123;608;3417;515;2571;331;26
+Holly Springs;Municipality;2020;31;1;3;0;27;370;34;330;6;0
+Hudson;Municipality;2020;3;0;0;1;2;116;40;71;5;0
+Kinston;Municipality;2020;235;7;13;21;194;1206;270;875;61;22
+Lexington;Municipality;2020;105;3;5;16;81;596;127;408;61;2
+Marion;Municipality;2020;15;1;3;1;10;439;111;283;45;1
+Marshville;Municipality;2020;10;1;1;0;8;91;29;56;6;1
+Mount Olive;Municipality;2020;12;0;0;2;10;106;25;69;12;0
+Nags Head;Municipality;2020;4;0;0;0;4;107;15;90;2;1
+Pinehurst;Municipality;2020;19;1;2;1;15;133;43;81;9;0
+Princeton;Municipality;2020;0;0;0;0;0;12;1;11;0;0
+Raleigh;Municipality;2020;1891;21;165;468;1237;9745;1302;7081;1362;50
+Roxboro;Municipality;2020;79;1;2;7;69;287;66;214;7;2
+Southern Shores;Municipality;2020;1;0;1;0;0;31;7;24;0;0
+Taylorsville;Municipality;2020;1;0;0;0;1;113;32;73;8;0
+Taylortown;Municipality;2020;4;0;1;0;3;27;5;20;2;0
+Trent Woods;Municipality;2020;0;0;0;0;0;14;3;11;0;0
+Wilmington;Municipality;2020;791;22;66;143;560;3204;595;2410;199;27
+Apex;Municipality;2019;53;0;13;3;37;527;79;432;16;0
+Biscoe;Municipality;2019;6;0;0;2;4;186;9;175;2;0
+Boiling Spring Lakes;Municipality;2019;10;1;3;0;6;83;19;63;1;1
+Cary;Municipality;2019;114;1;12;34;67;1560;185;1298;77;1
+Chocowinity;Municipality;2019;6;0;2;1;3;23;1;21;1;0
+Cooleemee;Municipality;2019;0;0;0;0;0;20;4;14;2;1
+Dallas;Municipality;2019;20;0;2;5;13;153;24;109;20;1
+Eden;Municipality;2019;88;4;9;9;66;513;154;339;20;3
+Erwin;Municipality;2019;10;0;2;3;5;109;40;66;3;1
+Farmville;Municipality;2019;27;0;4;4;19;183;38;140;5;0
+Garner;Municipality;2019;79;2;7;27;43;1076;110;912;54;3
+Henderson;Municipality;2019;242;8;9;30;195;828;211;576;41;10
+Hendersonville;Municipality;2019;61;2;9;17;33;680;124;515;41;2
+Highlands;Municipality;2019;4;0;2;0;2;69;23;43;3;1
+Lexington;Municipality;2019;121;2;1;27;91;812;149;627;36;3
+Roxboro;Municipality;2019;61;1;3;12;45;365;89;269;7;3
+Southport;Municipality;2019;4;0;3;0;1;97;6;90;1;0
+Sugar Mountain;Municipality;2019;0;0;0;0;0;8;3;5;0;0
+Atlantic Beach;Municipality;2018;10;0;;3;7;92;38;52;2;0
+Concord;Municipality;2018;93;3;;40;50;1679;201;1414;64;1
+Drexel;Municipality;2018;0;0;;0;0;33;7;21;5;0
+Elizabeth City;Municipality;2018;95;3;;14;78;939;208;689;42;5
+Farmville;Municipality;2018;31;0;;4;27;129;43;81;5;1
+Granite Falls;Municipality;2018;6;0;;2;4;293;7;271;15;0
+King;Municipality;2018;14;0;;2;12;302;15;284;3;1
+Kings Mountain;Municipality;2018;37;0;;7;30;400;78;308;14;9
+Mars Hill;Municipality;2018;2;0;;0;2;14;2;10;2;0
+Morehead City;Municipality;2018;31;0;;6;25;396;60;330;6;2
+Shallotte;Municipality;2018;5;0;;2;3;229;23;197;9;0
+Spencer;Municipality;2018;16;0;;4;12;99;29;65;5;0
+Star;Municipality;2018;0;0;;0;0;18;4;12;2;0
+Wingate;Municipality;2018;5;1;;1;3;68;35;28;5;1
+Aberdeen;Municipality;2017;18;1;;9;8;275;37;232;6;2
+Beaufort;Municipality;2017;5;0;;2;3;141;30;109;2;1
+Beech Mountain;Municipality;2017;2;0;;0;2;19;2;17;0;0
+Carthage;Municipality;2017;2;0;;0;2;82;18;60;4;0
+Clayton;Municipality;2017;23;0;;9;14;367;71;277;19;0
+Creedmoor;Municipality;2017;8;0;;4;4;139;32;103;4;1
+Durham;Municipality;2017;2132;23;;852;1257;10296;2334;7200;762;31
+Granite Falls;Municipality;2017;2;0;;1;1;220;9;194;17;0
+Hillsborough;Municipality;2017;28;0;;7;21;345;38;300;7;0
+Hope Mills;Municipality;2017;107;1;;32;74;809;124;674;11;3
+Kannapolis;Municipality;2017;84;0;;40;44;980;222;688;70;4
+Kitty Hawk;Municipality;2017;2;0;;0;2;184;35;146;3;0
+Leland;Municipality;2017;17;0;;4;13;349;56;287;6;3
+Marion;Municipality;2017;34;0;;3;31;630;220;375;35;2
+Mars Hill;Municipality;2017;2;0;;0;2;10;2;8;0;0
+Mount Airy;Municipality;2017;32;0;;7;25;448;59;342;47;1
+Murfreesboro;Municipality;2017;6;0;;2;4;84;23;59;2;0
+Newport;Municipality;2017;5;0;;0;5;77;14;62;1;0
+Pinehurst;Municipality;2017;5;0;;1;4;130;7;121;2;0
+Plymouth;Municipality;2017;49;1;;5;43;184;57;122;5;0
+Reidsville;Municipality;2017;118;1;;24;93;749;152;561;36;6
+Roanoke Rapids;Municipality;2017;107;2;;28;77;850;208;617;25;3
+Rowland;Municipality;2017;14;0;;6;8;81;40;39;2;0
+Stallings;Municipality;2017;12;0;;4;8;181;52;120;9;0
+Wadesboro;Municipality;2017;83;6;;11;66;319;107;197;15;3
+Warsaw;Municipality;2017;8;0;;1;7;116;36;77;3;1
+Whiteville;Municipality;2017;69;4;;20;45;440;80;344;16;0
+Aberdeen;Municipality;2016;25;0;3;10;12;289;52;226;11;1
+Ahoskie;Municipality;2016;43;2;3;8;30;291;81;201;9;0
+Beaufort;Municipality;2016;10;0;0;0;10;90;19;67;4;1
+Boiling Spring Lakes;Municipality;2016;11;0;2;2;7;173;29;138;6;7
+Burgaw;Municipality;2016;5;0;1;2;2;145;7;132;6;0
+Carthage;Municipality;2016;3;0;1;0;2;63;9;52;2;0
+Cherryville;Municipality;2016;20;0;1;2;17;171;61;105;5;0
+Concord;Municipality;2016;124;5;13;45;61;2205;346;1759;100;8
+Dobson;Municipality;2016;1;0;0;0;1;38;8;29;1;0
+Fayetteville;Municipality;2016;1531;33;99;316;1083;9201;1868;6942;391;60
+Forest City;Municipality;2016;56;0;2;3;51;514;133;350;31;2
+Garner;Municipality;2016;86;0;6;28;52;993;172;782;39;1
+Kenansville;Municipality;2016;5;0;0;2;3;10;3;7;0;0
+Maysville;Municipality;2016;4;0;1;1;2;21;6;15;0;0
+Monroe;Municipality;2016;227;1;5;68;153;1964;348;1534;82;7
+Mount Olive;Municipality;2016;16;0;0;6;10;213;53;152;8;1
+Murphy;Municipality;2016;15;1;2;3;9;117;24;85;8;0
+New Bern;Municipality;2016;124;2;7;41;74;1046;167;856;23;5
+Plymouth;Municipality;2016;34;0;2;1;31;161;23;130;8;6
+Rowland;Municipality;2016;16;0;0;7;9;59;22;37;0;0
+Salisbury;Municipality;2016;332;14;9;74;235;1662;416;1169;77;15
+Sylva;Municipality;2016;10;0;0;0;10;237;53;168;16;0
+Wilmington;Municipality;2016;759;15;44;204;496;4771;1277;3219;275;11
+Winterville;Municipality;2016;16;0;0;4;12;147;46;99;2;0
+Wrightsville Beach;Municipality;2016;13;0;2;3;8;179;35;136;8;1
+Durham;County;2016;80;5;5;22;48;566;231;295;40;0
+Madison;County;2016;7;1;0;1;5;182;86;91;5;1
+Pamlico;County;2016;6;0;1;2;3;207;33;158;16;1
+Pitt;County;2016;157;5;6;28;118;1066;423;573;70;1
+Wake;County;2016;173;5;15;25;128;1678;582;967;129;14
+Yadkin;County;2016;57;1;4;6;46;485;179;268;38;1
+Clay;County;2016;26;1;1;1;23;278;117;138;23;0
+Hertford;County;2016;21;5;0;2;14;227;124;93;10;0
+McDowell;County;2016;37;1;8;9;19;706;247;383;76;22
+Richmond3;County;2016;156;3;6;23;124;;440;;66;5
+Swain;County;2016;20;0;4;2;14;205;101;89;15;0
+Tyrrell;County;2016;8;0;2;0;6;40;5;35;0;0
+Guilford;County;2019;206;3;8;28;167;1063;399;561;103;14
+Pamlico;County;2019;25;0;5;0;20;206;60;127;19;1
+Rowan;County;2019;149;4;16;16;113;999;265;636;98;11
+Yadkin;County;2019;66;1;11;4;50;451;130;286;35;4
+Greene;County;2019;60;4;24;2;30;304;131;145;28;1
+McDowell;County;2019;59;1;8;5;45;881;380;411;90;12
+Moore;County;2019;62;1;9;7;45;580;173;385;22;3
+Transylvania;County;2019;38;0;14;0;24;257;78;163;16;3
+Yancey;County;2019;5;0;0;1;4;47;17;26;4;1
+Johnston;County;2020;136;4;27;20;85;1471;356;1001;114;7
+New Hanover;County;2020;143;2;19;25;97;1304;207;1042;55;6
+Ashe;County;2020;36;0;11;0;25;200;85;98;17;1
+Carteret;County;2020;85;1;16;4;64;604;197;370;37;3
+Duplin;County;2020;77;4;6;10;57;851;413;344;94;5
+Hertford;County;2020;22;7;2;1;12;146;59;77;10;1
+Montgomery;County;2020;49;1;6;2;40;247;60;149;38;1
+Yancey;County;2020;12;0;4;4;4;187;74;102;11;0
+Cabarrus;County;2018;46;1;;18;27;595;171;406;18;5
+Davidson;County;2018;112;6;;30;76;1563;808;601;154;8
+Granville;County;2018;52;0;;7;45;467;197;239;31;4
+Madison;County;2018;17;0;;0;17;163;66;84;13;2
+Orange;County;2018;60;1;;7;52;510;178;304;28;2
+Moore;County;2018;73;2;;4;67;631;286;323;22;
+Alexander;County;2017;59;1;;2;56;556;193;328;35;6
+Davie;County;2017;51;0;;4;47;542;175;334;33;0
+Guilford;County;2017;161;2;;24;135;1166;381;722;63;9
+Haywood;County;2017;127;2;;6;119;951;434;452;65;3
+Alleghany;County;2017;9;0;;0;9;88;25;53;10;3
+Granville;County;2017;56;0;;10;46;616;275;306;35;6
+Angier;Municipality;2017;6;0;;2;4;120;47;69;4;0
+Conover;Municipality;2017;25;0;;6;19;452;86;353;13;1
+Dobson;Municipality;2017;2;0;;1;1;62;12;46;4;0
+Eden;Municipality;2017;91;0;;21;70;572;133;412;27;5
+Fuquay-Varina;Municipality;2017;33;0;;7;26;376;63;292;21;1
+Goldsboro;Municipality;2017;269;10;;75;184;1796;337;1399;60;2
+Greensboro;Municipality;2017;2104;46;;664;1394;10332;2062;7424;846;115
+Havelock;Municipality;2017;21;0;;3;18;486;160;316;10;3
+Henderson;Municipality;2017;182;6;;45;131;673;203;429;41;5
+Highlands;Municipality;2017;2;0;;0;2;34;9;25;0;0
+Holly Springs;Municipality;2017;16;0;;6;10;317;36;273;8;0
+Huntersville;Municipality;2017;61;2;;17;42;993;100;857;36;5
+Jacksonville;Municipality;2017;218;5;;71;142;1961;380;1529;52;9
+Kernersville;Municipality;2017;78;2;;24;52;1249;147;1052;50;5
+Kings Mountain;Municipality;2017;26;2;;7;17;362;95;266;1;2
+Kinston;Municipality;2017;266;6;;40;220;1219;293;892;34;3
+Knightdale;Municipality;2017;10;0;;4;6;269;40;213;16;1
+Murphy;Municipality;2017;19;0;;5;14;133;48;77;8;0
+Newton;Municipality;2017;46;0;;4;42;451;126;304;21;4
+Robbins;Municipality;2017;2;0;;0;2;45;6;39;0;0
+Shallotte;Municipality;2017;5;0;;2;3;171;17;149;5;0
+Spruce Pine;Municipality;2017;1;0;;0;1;39;1;36;2;0
+Sylva;Municipality;2017;11;0;;1;10;268;53;206;9;0
+Thomasville;Municipality;2017;116;2;;45;69;1270;320;882;68;3
+Troutman;Municipality;2017;3;0;;0;3;83;9;70;4;1
+Valdese;Municipality;2017;2;0;;0;2;44;10;30;4;0
+Weaverville;Municipality;2017;7;0;;4;3;131;2;128;1;0
+West Jefferson;Municipality;2017;2;0;;0;2;80;2;77;1;1
+Windsor;Municipality;2017;10;1;;3;6;38;8;30;0;0
+Wrightsville Beach;Municipality;2017;13;0;;3;10;115;23;91;1;0
+Yadkinville;Municipality;2017;10;1;;2;7;100;19;76;5;1
+Aberdeen;Municipality;2019;41;0;3;7;31;301;54;229;18;0
+Albemarle;Municipality;2019;146;1;4;23;118;882;179;667;36;14
+Benson;Municipality;2019;31;0;4;5;22;200;51;136;13;1
+Burgaw;Municipality;2019;13;0;5;3;5;130;17;111;2;2
+Durham;Municipality;2019;2046;37;121;626;1262;10672;1972;7942;758;39
+Hickory;Municipality;2019;165;4;16;39;106;1793;235;1410;148;6
+High Point;Municipality;2019;828;19;44;133;632;3726;621;2705;400;18
+Holly Ridge;Municipality;2019;9;0;1;4;4;86;50;31;5;0
+Kill Devil Hills;Municipality;2019;19;0;5;2;12;281;55;219;7;0
+Kings Mountain;Municipality;2019;15;1;3;5;6;343;67;246;30;0
+Kitty Hawk;Municipality;2019;4;0;2;1;1;127;17;109;1;0
+Knightdale;Municipality;2019;42;0;10;9;23;326;23;285;18;1
+Maggie Valley;Municipality;2019;14;0;1;0;13;103;50;45;8;0
+Mebane;Municipality;2019;45;0;5;9;31;691;53;611;27;1
+Morehead City;Municipality;2019;28;0;1;2;25;;;380;14;1
+Newton;Municipality;2019;46;0;6;8;32;458;97;338;23;2
+Ocean Isle Beach;Municipality;2019;3;0;2;0;1;44;16;27;1;0
+Pinehurst;Municipality;2019;11;1;4;0;6;113;22;87;4;0
+Raeford;Municipality;2019;17;2;3;4;8;107;23;78;6;0
+Raleigh;Municipality;2019;1222;5;164;322;731;8520;1200;6572;748;36
+Rutherfordton;Municipality;2019;0;0;0;0;0;145;1;142;2;0
+Shallotte;Municipality;2019;9;2;1;3;3;315;31;277;7;0
+Waynesville;Municipality;2019;62;4;3;2;53;685;143;508;34;4
+Weaverville;Municipality;2019;4;0;2;0;2;153;1;146;6;0
+Wilkesboro;Municipality;2019;15;0;4;2;9;229;12;204;13;2
+Winterville;Municipality;2019;9;0;2;1;6;86;21;63;2;3
+Youngsville;Municipality;2019;2;0;0;0;2;36;3;32;1;0
+Beulaville;Municipality;2020;7;0;0;1;6;62;15;44;3;0
+Chadbourn;Municipality;2020;16;1;0;1;14;84;21;57;6;0
+Creedmoor;Municipality;2020;13;0;6;2;5;76;29;36;11;1
+Davidson;Municipality;2020;5;0;2;0;3;104;11;84;9;0
+Duck;Municipality;2020;2;0;1;0;1;15;3;12;0;0
+Edenton;Municipality;2020;47;0;3;2;42;240;139;90;11;0
+Kitty Hawk;Municipality;2020;9;0;2;0;7;120;10;105;5;0
+Lenoir;Municipality;2020;50;0;11;6;33;607;154;366;87;1
+Lincolnton;Municipality;2020;59;4;6;3;46;486;56;396;34;1
+Louisburg;Municipality;2020;30;0;1;4;25;117;19;94;4;1
+Matthews;Municipality;2020;61;5;7;20;29;1082;129;897;56;4
+Mebane;Municipality;2020;46;0;4;3;39;578;37;521;20;1
+Newland;Municipality;2020;1;0;0;1;0;13;2;8;3;1
+Oxford;Municipality;2020;91;1;1;13;76;216;37;163;16;1
+Richlands;Municipality;2020;1;0;1;0;0;12;1;9;2;0
+Salisbury;Municipality;2020;251;7;10;46;188;1218;165;951;102;8
+Stantonsburg;Municipality;2020;5;0;1;0;4;19;3;16;0;0
+Tabor City;Municipality;2020;14;0;1;2;11;104;16;77;11;0
+Wake Forest;Municipality;2020;66;1;2;8;55;519;57;436;26;0
+Waxhaw;Municipality;2020;9;0;4;1;4;172;27;140;5;1
+Waynesville;Municipality;2020;54;1;5;4;44;758;131;594;33;5
+Winterville;Municipality;2020;9;0;0;3;6;68;16;48;4;1
+Yadkinville;Municipality;2020;13;1;4;2;6;80;17;62;1;0
+Youngsville;Municipality;2020;3;0;0;2;1;30;5;25;0;0
+Asheboro;Municipality;2016;104;1;11;39;53;1501;300;1161;40;10
+Elon;Municipality;2016;3;0;0;0;3;81;28;53;0;0
+Fuquay-Varina;Municipality;2016;28;1;6;7;14;479;84;383;12;2
+Granite Falls;Municipality;2016;5;0;0;5;0;283;11;257;15;0
+Henderson;Municipality;2016;160;3;6;32;119;873;210;638;25;6
+Kitty Hawk;Municipality;2016;12;0;2;2;8;132;31;98;3;1
+Knightdale;Municipality;2016;21;0;1;7;13;316;31;273;12;0
+Laurel Park;Municipality;2016;0;0;0;0;0;9;0;7;2;0
+North Wilkesboro;Municipality;2016;22;0;1;3;18;144;3;135;6;1
+Pinebluff;Municipality;2016;1;0;0;1;0;15;11;3;1;0
+Pinehurst;Municipality;2016;6;2;0;2;2;84;0;82;2;0
+Reidsville;Municipality;2016;102;1;3;25;73;766;167;573;26;1
+Spencer;Municipality;2016;19;0;0;3;16;139;46;85;8;1
+Tabor City;Municipality;2016;17;1;1;4;11;132;36;89;7;0
+Tarboro;Municipality;2016;59;1;2;14;42;370;68;297;5;0
+Troutman;Municipality;2016;6;0;1;1;4;80;14;64;2;1
+Troy;Municipality;2016;11;2;1;2;6;78;26;49;3;0
+Wendell;Municipality;2016;16;0;2;2;12;109;28;76;5;0
+Whispering Pines;Municipality;2016;0;0;0;0;0;12;2;10;0;0
+Youngsville;Municipality;2016;1;0;0;0;1;40;10;25;5;0
+Beaufort;Municipality;2018;10;1;;0;9;135;46;84;5;1
+Benson;Municipality;2018;26;0;;1;25;154;34;108;12;4
+Davidson;Municipality;2018;12;0;;0;12;127;18;106;3;0
+Forest City;Municipality;2018;36;0;;12;24;555;165;361;29;1
+Four Oaks;Municipality;2018;12;0;;0;12;56;8;40;8;0
+Holly Ridge;Municipality;2018;5;0;;0;5;36;13;21;2;0
+Holly Springs;Municipality;2018;19;0;;1;18;267;33;226;8;1
+Huntersville;Municipality;2018;74;4;;14;56;884;157;691;36;3
+Kinston;Municipality;2018;226;3;;38;185;1305;313;943;49;8
+Louisburg;Municipality;2018;27;0;;5;22;137;25;105;7;2
+Oxford;Municipality;2018;68;0;;10;58;411;98;298;15;0
+Ramseur;Municipality;2018;6;0;;2;4;78;22;53;3;0
+Reidsville;Municipality;2018;104;2;;21;81;693;121;521;51;5
+Rutherfordton;Municipality;2018;1;0;;1;0;158;14;139;5;1
+Selma;Municipality;2018;44;2;;7;35;239;85;134;20;1
+Weaverville;Municipality;2018;2;0;;2;0;141;0;136;5;0
+Winterville;Municipality;2018;14;0;;3;11;90;19;62;9;0
+Wrightsville Beach;Municipality;2018;12;0;;1;11;100;28;71;1;0
+Buncombe;County;2016;155;5;9;28;113;1826;666;1019;141;8
+Burke;County;2016;91;5;2;16;68;1143;459;575;109;2
+Forsyth;County;2016;276;2;13;40;221;2168;551;1508;109;19
+Gaston;County;2016;15;0;0;0;15;0;0;0;0;0
+Camden;County;2016;10;0;1;2;7;64;17;46;1;0
+Dare;County;2016;13;0;1;0;12;523;128;389;6;0
+Halifax3;County;2016;69;3;1;13;52;;;504;18;6
+Harnett;County;2016;233;4;14;33;182;1868;734;1032;102;19
+Polk;County;2016;16;1;3;1;11;255;78;161;16;1
+Surry;County;2016;51;1;13;9;28;1089;466;567;56;13
+Alamance;County;2019;118;3;11;10;94;649;230;368;51;4
+Granville;County;2019;57;1;5;3;48;316;99;198;19;3
+Johnston;County;2019;152;3;16;17;116;1463;404;950;109;11
+Lincoln;County;2019;131;1;14;10;106;943;214;655;74;5
+Person;County;2019;56;0;2;2;52;357;151;185;21;6
+Pitt;County;2019;138;3;8;22;105;915;315;541;59;6
+Carteret;County;2019;69;2;16;3;48;640;199;408;33;4
+Alamance;County;2018;96;0;;6;90;677;296;342;39;3
+Haywood;County;2018;117;0;;4;113;927;402;440;85;2
+Stokes;County;2018;61;0;;0;61;685;180;437;68;2
+Yadkin;County;2018;97;1;;4;92;555;231;285;39;3
+Beaufort;County;2018;38;1;;8;29;470;186;264;20;6
+Tyrrell;County;2018;6;0;;1;5;30;11;18;1;0
+Alexander;County;2020;60;1;10;2;47;429;135;251;43;4
+Buncombe;County;2020;216;3;9;32;172;1808;475;1043;290;17
+Currituck;County;2020;70;0;6;2;62;283;67;197;19;5
+Pitt;County;2020;177;5;3;30;139;765;204;517;44;7
+Polk;County;2020;15;1;2;1;11;218;87;111;20;1
+Catawba;County;2017;132;8;;16;108;1227;443;691;93;14
+New Hanover;County;2017;127;5;;41;81;1709;419;1239;51;6
+Clay;County;2017;19;0;;1;18;308;140;142;26;1
+Scotland;County;2017;49;2;;11;36;404;219;160;25;12
+Biscoe;Municipality;2020;2;0;1;0;1;189;10;177;2;0
+Blowing Rock;Municipality;2020;3;0;0;0;3;40;27;12;1;0
+Burgaw;Municipality;2020;14;0;5;1;8;137;11;124;2;3
+Butner;Municipality;2020;24;0;4;6;14;151;20;126;5;0
+Concord;Municipality;2020;118;6;8;25;79;1375;111;1140;124;3
+Dunn;Municipality;2020;76;3;4;14;55;749;325;393;31;3
+Elon;Municipality;2020;10;1;1;1;7;60;23;36;1;0
+Enfield;Municipality;2020;33;2;0;4;27;71;32;34;5;3
+Erwin;Municipality;2020;17;0;4;1;12;127;24;97;6;4
+Fuquay-Varina;Municipality;2020;23;0;1;8;14;303;19;268;16;0
+Graham;Municipality;2020;75;3;7;10;55;351;70;234;47;7
+Huntersville;Municipality;2020;99;2;7;14;76;881;122;699;60;1
+Kannapolis;Municipality;2020;122;2;8;23;89;1460;220;1104;136;4
+Kill Devil Hills;Municipality;2020;17;0;3;1;13;214;38;169;7;1
+Lowell;Municipality;2020;5;0;1;2;2;58;19;23;16;0
+Newport;Municipality;2020;4;0;1;1;2;88;30;54;4;0
+North Wilkesboro;Municipality;2020;12;0;0;0;12;191;115;62;14;1
+Pembroke;Municipality;2020;14;1;3;5;5;190;60;116;14;0
+Pine Level;Municipality;2020;3;0;0;2;1;16;8;7;1;0
+Pineville;Municipality;2020;61;1;4;17;39;954;129;760;65;1
+Raeford;Municipality;2020;20;1;3;1;15;138;54;79;5;0
+Red Springs;Municipality;2020;33;1;2;7;23;276;142;119;15;4
+Smithfield;Municipality;2020;65;0;1;17;47;487;73;397;17;5
+Stallings;Municipality;2020;9;0;2;0;7;172;35;124;13;1
+Windsor;Municipality;2020;3;1;1;0;1;35;8;24;3;0
+Banner Elk;Municipality;2019;5;0;1;1;3;11;2;8;1;0
+Belhaven;Municipality;2019;0;0;0;0;0;21;3;16;2;1
+Black Mountain;Municipality;2019;8;0;0;3;5;189;32;137;20;2
+Carolina Beach;Municipality;2019;29;0;4;2;23;187;27;153;7;0
+Charlotte-Mecklenburg;Municipality;2019;6982;103;317;1975;4587;37070;5426;28304;3340;151
+Concord;Municipality;2019;117;4;1;28;84;1586;149;1338;99;8
+Davidson;Municipality;2019;8;0;2;1;5;121;17;94;10;0
+Elizabeth City;Municipality;2019;89;1;10;16;62;762;243;468;51;3
+Forest City;Municipality;2019;34;1;3;8;22;585;207;357;21;1
+Huntersville;Municipality;2019;79;1;4;23;51;948;114;769;65;0
+Marion;Municipality;2019;12;0;1;1;10;419;95;301;23;0
+Murfreesboro;Municipality;2019;5;0;1;4;0;74;28;43;3;0
+Pineville;Municipality;2019;68;1;4;21;42;1131;115;956;60;3
+Rockingham;Municipality;2019;39;1;6;13;19;431;146;269;16;3
+Smithfield;Municipality;2019;71;2;5;15;49;461;56;387;18;1
+Sylva;Municipality;2019;9;0;3;0;6;149;14;127;8;0
+Wendell;Municipality;2019;6;0;1;2;3;77;22;45;10;0
+Zebulon;Municipality;2019;24;0;1;6;17;234;24;199;11;1
+Angier;Municipality;2016;14;0;2;2;10;129;62;59;8;3
+Apex;Municipality;2016;40;1;2;13;24;601;83;501;17;1
+Banner Elk;Municipality;2016;2;0;0;0;2;16;3;12;1;0
+Benson;Municipality;2016;20;0;0;13;7;235;71;148;16;0
+Boone;Municipality;2016;35;0;13;2;20;393;74;307;12;1
+Clayton;Municipality;2016;28;1;1;9;17;380;86;285;9;0
+Davidson;Municipality;2016;9;0;1;1;7;137;19;114;4;1
+Duck;Municipality;2016;0;0;0;0;0;35;12;23;0;0
+Elizabeth City;Municipality;2016;127;2;6;35;84;835;213;602;20;1
+Haw River;Municipality;2016;13;0;1;2;10;83;27;49;7;0
+King;Municipality;2016;28;1;4;1;22;233;23;208;2;1
+Kings Mountain;Municipality;2016;20;0;1;8;11;293;68;224;1;1
+Kinston;Municipality;2016;257;2;8;37;210;1296;326;938;32;6
+Leland;Municipality;2016;26;0;1;3;22;427;85;323;19;1
+Lenoir;Municipality;2016;56;0;0;13;43;843;161;630;52;4
+Matthews;Municipality;2016;46;0;5;22;19;1075;110;909;56;4
+Mebane;Municipality;2016;47;0;2;5;40;578;46;516;16;3
+Mount Airy;Municipality;2016;46;1;1;10;34;511;94;378;39;4
+Newland;Municipality;2016;0;0;0;0;0;23;5;17;1;0
+Raeford;Municipality;2016;13;0;0;5;8;194;25;165;4;1
+Rocky Mount3;Municipality;2016;435;4;12;116;303;;593;;98;12
+Selma;Municipality;2016;36;0;4;15;17;329;130;185;14;1
+Snow Hill;Municipality;2016;3;0;0;2;1;53;8;44;1;0
+Stanley;Municipality;2016;11;0;0;1;10;85;26;57;2;0
+Wallace;Municipality;2016;8;0;1;3;4;168;32;127;9;0
+Warsaw;Municipality;2016;19;0;0;2;17;102;25;68;9;0
+White Lake;Municipality;2016;3;0;1;0;2;87;17;67;3;0
+Bailey;Municipality;2017;0;0;;0;0;14;8;5;1;1
+Banner Elk;Municipality;2017;0;0;;0;0;12;3;9;0;0
+Belmont;Municipality;2017;42;0;;9;33;634;38;575;21;2
+Charlotte-Mecklenburg;Municipality;2017;6068;86;;2017;3965;34894;6416;25856;2622;194
+Davidson;Municipality;2017;4;0;;0;4;157;22;130;5;0
+Elizabeth City;Municipality;2017;125;1;;23;101;821;188;608;25;2
+Elkin;Municipality;2017;23;1;;3;19;337;43;281;13;1
+Elon;Municipality;2017;6;0;;2;4;52;19;32;1;0
+Fletcher;Municipality;2017;2;0;;1;1;119;43;66;10;1
+Greenville;Municipality;2017;578;4;;154;420;3394;724;2566;104;13
+Mint Hill;Municipality;2017;43;2;;22;19;467;105;332;30;3
+Mount Olive;Municipality;2017;12;0;;5;7;109;24;82;3;0
+New Bern;Municipality;2017;140;1;;47;92;1005;198;792;15;2
+Oxford;Municipality;2017;49;1;;12;36;427;95;314;18;2
+Pine Knoll Shores;Municipality;2017;1;0;;0;1;17;1;16;0;1
+Swansboro;Municipality;2017;12;0;;0;12;107;18;88;1;0
+Tarboro;Municipality;2017;39;0;;11;28;359;73;276;10;2
+Tryon;Municipality;2017;1;0;;0;1;34;13;20;1;0
+Whispering Pines;Municipality;2017;0;0;;0;0;18;5;13;0;0
+Biscoe;Municipality;2018;0;0;;0;0;195;4;189;2;0
+Chadbourn;Municipality;2018;16;1;;4;11;63;8;51;4;0
+Duck;Municipality;2018;1;0;;0;1;32;14;18;0;0
+Durham;Municipality;2018;1881;33;;723;1125;9755;2238;6688;829;35
+Gibsonville;Municipality;2018;11;0;;2;9;70;34;35;1;0
+Henderson;Municipality;2018;268;10;;65;193;804;248;519;37;8
+Hickory;Municipality;2018;160;3;;39;118;1884;300;1390;194;4
+Jacksonville;Municipality;2018;208;3;;45;160;1763;337;1334;92;3
+Kitty Hawk;Municipality;2018;4;0;;0;4;125;24;99;2;0
+Lenoir;Municipality;2018;51;0;;12;39;845;197;549;99;0
+Madison;Municipality;2018;4;0;;1;3;57;12;44;1;0
+Murphy;Municipality;2018;10;1;;1;8;175;25;135;15;0
+Nags Head;Municipality;2018;7;0;;1;6;138;49;89;0;0
+Newton;Municipality;2018;66;0;;8;58;453;136;302;15;6
+Rockwell;Municipality;2018;4;0;;2;2;27;5;17;5;0
+Trent Woods;Municipality;2018;0;0;;0;0;18;8;9;1;0
+Davie;County;2016;58;0;5;3;50;589;190;375;24;1
+Edgecombe;County;2016;65;5;6;13;41;461;202;233;26;7
+Lincoln;County;2016;85;0;12;4;69;1024;305;655;64;6
+Nash;County;2016;70;2;11;5;52;425;183;218;24;2
+Pender;County;2016;57;0;11;8;38;867;208;607;52;2
+Rowan;County;2016;151;7;12;14;118;905;293;562;50;4
+Wayne;County;2016;133;0;4;29;100;1592;676;796;120;4
+Anson;County;2016;33;0;0;5;28;274;184;85;5;2
+Chowan;County;2016;16;0;1;1;14;127;60;64;3;4
+Montgomery;County;2016;43;2;4;4;33;284;149;120;15;3
+Sampson3;County;2016;100;3;9;22;66;;;359;75;5
+Scotland3;County;2016;57;3;7;7;40;;;167;44;11
+Stanly;County;2016;29;1;1;2;25;440;183;244;13;7
+Currituck;County;2019;63;0;8;1;54;268;69;187;12;2
+Gaston;County;2019;17;0;0;0;17;5;0;4;1;0
+Ashe;County;2019;57;0;14;1;42;151;68;71;12;1
+Dare;County;2019;12;1;3;0;8;239;53;176;10;1
+Macon;County;2019;25;0;5;1;19;476;136;307;33;4
+Swain;County;2019;27;2;4;2;19;242;118;91;33;0
+Tyrrell;County;2019;4;0;1;0;3;23;10;12;1;0
+Wilkes;County;2019;132;3;27;8;94;676;241;349;86;8
+Anson;County;2020;35;1;1;1;32;209;99;90;20;6
+Granville;County;2020;41;1;7;3;30;287;95;177;15;4
+Haywood;County;2020;77;3;14;5;55;831;346;407;78;4
+Lincoln;County;2020;143;2;10;7;124;1003;243;693;67;6
+Yadkin;County;2020;46;0;7;3;36;456;131;276;49;0
+Cherokee;County;2020;72;0;8;2;62;949;299;588;62;10
+Scotland;County;2020;42;3;2;4;33;190;105;72;13;2
+Buncombe;County;2018;145;1;;29;115;1450;500;774;176;12
+Johnston;County;2018;196;6;;21;169;1564;465;986;113;3
+New Hanover;County;2018;106;1;;20;85;1320;278;983;59;13
+Pitt;County;2018;195;2;;24;169;890;276;562;52;5
+Bertie;County;2018;18;0;;4;14;123;40;67;16;0
+Clay;County;2018;16;0;;1;15;258;101;142;15;2
+Perquimans;County;2018;9;0;;1;8;82;38;41;3;1
+Davidson;County;2017;117;3;;29;85;1608;949;507;152;10
+Graham;County;2017;16;0;;1;15;176;39;121;16;1
+Montgomery;County;2017;26;1;;3;22;236;105;126;5;3
+Rutherford;County;2017;146;0;;7;139;848;461;318;69;7
+Surry;County;2017;56;2;;8;46;1120;436;572;112;7
+Angier;Municipality;2021;12;0;0;7;5;226;151;68;7;0
+Charlotte-Mecklenburg;Municipality;2021;7480;98;315;1345;5722;30013;3704;23173;3136;131
+Elkin;Municipality;2021;10;0;3;0;7;215;33;171;11;1
+Fletcher;Municipality;2021;7;1;0;1;5;160;48;91;21;0
+Franklinton;Municipality;2021;2;0;1;0;1;29;5;24;0;0
+Gibsonville;Municipality;2021;19;0;2;1;16;93;41;42;10;0
+Greensboro;Municipality;2021;2629;51;77;545;1956;10590;1919;7549;1122;111
+Greenville;Municipality;2021;464;4;24;73;363;2038;292;1651;95;17
+Hillsborough;Municipality;2021;38;1;0;4;33;319;20;291;8;0
+Kenansville;Municipality;2021;1;0;0;0;1;8;1;7;0;0
+King;Municipality;2021;8;0;1;2;5;145;8;125;12;1
+Kitty Hawk;Municipality;2021;10;0;0;2;8;69;6;61;2;0
+Marshville;Municipality;2021;15;2;0;0;13;67;20;42;5;0
+Mayodan;Municipality;2021;9;0;3;0;6;115;12;96;7;0
+New Bern;Municipality;2021;153;7;11;21;114;803;159;614;30;4
+Raleigh;Municipality;2021;2236;26;165;489;1556;10295;1332;7896;1067;41
+Robbins;Municipality;2021;3;0;0;1;2;133;104;26;3;0
+Rolesville;Municipality;2021;4;0;0;0;4;50;9;38;3;0
+Southern Shores;Municipality;2021;1;0;1;0;0;15;7;6;2;0
+Stoneville;Municipality;2021;1;0;0;0;1;14;1;11;2;0
+Wadesboro;Municipality;2021;111;3;3;10;95;303;110;171;22;1
+Wallace;Municipality;2021;13;0;0;2;11;144;12;126;6;0
+Waynesville;Municipality;2021;51;1;5;4;41;750;178;552;20;3
+Windsor;Municipality;2021;6;2;0;0;4;24;3;20;1;0
+Wingate;Municipality;2021;13;0;5;2;6;73;18;50;5;1
+Woodfin;Municipality;2021;15;0;1;1;13;72;20;43;9;0
+Alamance;County;2021;192;10;13;7;162;654;160;398;96;7
+Alexander;County;2021;79;1;6;2;70;388;137;205;46;3
+Granville;County;2021;59;3;10;2;44;357;149;183;25;6
+New Hanover;County;2021;139;6;19;16;98;1139;163;922;54;9
+Pitt;County;2021;153;4;9;21;119;697;224;431;42;5
+Duplin;County;2021;72;4;17;8;43;886;435;361;90;6
+Sampson;County;2021;153;3;27;14;109;788;306;395;87;9
+Surry;County;2021;66;2;28;7;29;577;106;356;115;9
+Wilkes;County;2021;99;7;17;3;72;650;260;315;75;6
+Archdale;Municipality;2021;28;2;2;0;24;190;36;141;13;1
+Asheville;Municipality;2021;704;6;65;117;516;4991;686;3786;519;24
+Atlantic Beach;Municipality;2021;4;0;1;1;2;69;19;47;3;1
+Beulaville;Municipality;2021;5;0;0;0;5;45;12;33;0;0
+Cape Carteret;Municipality;2021;1;0;0;0;1;22;5;16;1;0
+Carrboro;Municipality;2021;69;2;3;10;54;411;95;293;23;2
+Cherryville;Municipality;2021;19;1;1;3;14;149;40;96;13;0
+Dallas;Municipality;2021;19;3;3;4;9;123;25;85;13;1
+Duck;Municipality;2021;0;0;0;0;0;21;1;20;0;0
+Dunn;Municipality;2021;78;0;6;16;56;617;195;401;21;9
+Erwin;Municipality;2021;17;4;4;4;5;111;30;75;6;0
+Fair Bluff;Municipality;2021;1;0;1;0;0;11;1;10;0;1
+Forest City;Municipality;2021;50;1;3;5;41;459;67;369;23;1
+Goldsboro;Municipality;2021;317;7;8;41;261;1484;241;1145;98;4
+Hendersonville;Municipality;2021;61;1;7;6;47;758;197;490;71;2
+Highlands;Municipality;2021;3;0;0;1;2;29;5;23;1;0
+High Point;Municipality;2021;595;19;31;107;438;3174;488;2361;325;26
+Huntersville;Municipality;2021;98;5;8;12;73;735;93;565;77;4
+Jacksonville;Municipality;2021;274;6;20;37;211;1391;224;1096;71;2
+Kinston;Municipality;2021;205;4;15;16;170;985;237;689;59;22
+Madison;Municipality;2021;7;0;4;0;3;59;14;41;4;1
+Morrisville;Municipality;2021;28;0;3;6;19;568;90;458;20;1
+Mount Holly;Municipality;2021;36;1;4;6;25;241;28;185;28;1
+Pineville;Municipality;2021;83;0;6;14;63;1087;160;859;68;3
+Snow Hill;Municipality;2021;3;0;1;1;1;36;6;29;1;0
+Stantonsburg;Municipality;2021;0;0;0;0;0;11;5;5;1;0
+Taylorsville;Municipality;2021;2;0;0;1;1;55;13;40;2;0
+Whispering Pines;Municipality;2021;1;0;0;0;1;15;0;15;0;0
+Wilson;Municipality;2021;283;8;10;40;225;1227;211;923;93;8
+Winston-Salem;Municipality;2021;2875;38;95;239;2503;10103;1755;7529;819;64
+Caldwell;County;2021;69;3;5;5;56;908;283;505;120;11
+Haywood;County;2021;97;1;21;3;72;917;346;485;86;5
+Lincoln;County;2021;91;2;12;5;72;877;151;625;101;7
+Ashe;County;2021;41;1;10;1;29;147;55;73;19;0
+Dare;County;2021;17;2;2;1;12;172;40;130;2;0
+Moore;County;2021;62;6;12;1;43;522;119;379;24;5
+Polk;County;2021;13;1;4;0;8;177;63;90;24;1
+Yancey;County;2021;12;1;1;0;10;70;34;31;5;1
+Brevard;Municipality;2021;9;0;1;2;6;104;13;85;6;3
+Chapel Hill;Municipality;2021;110;1;7;24;78;1237;188;996;53;2
+Davidson;Municipality;2021;10;0;3;1;6;81;13;62;6;0
+Elizabethtown;Municipality;2021;22;0;0;4;18;132;28;100;4;0
+Garner;Municipality;2021;146;4;8;22;112;1014;95;833;86;2
+Jefferson;Municipality;2021;2;0;1;0;1;17;3;14;0;0
+Knightdale;Municipality;2021;38;0;3;8;27;407;33;350;24;1
+Laurinburg;Municipality;2021;249;10;7;21;211;568;212;302;54;5
+Lincolnton;Municipality;2021;53;1;5;3;44;515;70;393;52;1
+Lumberton;Municipality;2021;455;1;20;63;371;1312;290;951;71;5
+Morehead City;Municipality;2021;34;2;8;1;23;261;27;224;10;0
+Newland;Municipality;2021;2;0;1;0;1;11;2;6;3;0
+Oxford;Municipality;2021;70;0;4;6;60;182;30;137;15;0
+Rockingham;Municipality;2021;90;11;5;8;66;627;137;455;35;2
+Sharpsburg;Municipality;2021;2;0;0;0;2;35;12;22;1;0
+Southern Pines;Municipality;2021;76;0;12;3;61;296;105;180;11;1
+Spruce Pine;Municipality;2021;0;0;0;0;0;5;1;3;1;0
+Troutman;Municipality;2021;11;0;4;1;6;52;7;37;8;0
+Tryon;Municipality;2021;3;0;2;0;1;71;54;14;3;0
+Waxhaw;Municipality;2021;16;0;5;1;10;146;21;117;8;1
+Youngsville;Municipality;2021;1;0;0;1;0;28;4;24;0;0
+Zebulon;Municipality;2021;27;2;1;1;23;233;49;172;12;1
+Currituck;County;2021;57;0;8;1;48;316;65;237;14;2
+Franklin;County;2021;113;5;19;6;83;600;145;415;40;2
+Madison;County;2021;23;2;4;2;15;219;128;71;20;4
+Rowan;County;2021;162;6;10;11;135;947;230;596;121;4
+Avery;County;2021;14;2;3;0;9;108;15;72;21;1
+Hertford;County;2021;24;8;4;1;11;211;131;70;10;1
+Macon;County;2021;29;2;8;1;18;457;124;293;40;6
+Vance;County;2021;124;9;8;6;101;511;197;274;40;9
+Wilson;County;2021;45;6;2;5;32;270;44;188;38;7
+Asheboro;Municipality;2017;127;2;;43;82;1527;243;1207;77;6
+Bessemer City;Municipality;2017;13;0;;2;11;92;26;60;6;1
+Beulaville;Municipality;2017;7;0;;0;7;26;5;21;0;0
+Boone;Municipality;2017;25;1;;6;18;382;52;318;12;1
+Burnsville;Municipality;2017;3;0;;0;3;39;3;33;3;0
+Carrboro;Municipality;2017;38;0;;9;29;430;91;324;15;0
+Emerald Isle;Municipality;2017;12;0;;1;11;179;89;82;8;0
+Erwin;Municipality;2017;30;1;;6;23;212;64;144;4;0
+Fairmont;Municipality;2017;17;0;;7;10;137;62;68;7;2
+Gastonia;Municipality;2017;567;4;;158;405;3714;587;2865;262;22
+Indian Beach;Municipality;2017;1;0;;0;1;7;0;7;0;0
+King;Municipality;2017;17;0;;0;17;269;19;245;5;1
+Long View;Municipality;2017;33;3;;6;24;224;81;111;32;6
+Matthews;Municipality;2017;53;0;;14;39;1005;127;827;51;9
+Maxton;Municipality;2017;11;1;;8;2;168;96;65;7;2
+Mount Holly;Municipality;2017;27;2;;7;18;261;53;197;11;5
+North Wilkesboro;Municipality;2017;8;0;;2;6;151;1;145;5;3
+Raeford;Municipality;2017;15;0;;7;8;191;44;142;5;0
+Richlands;Municipality;2017;0;0;;0;0;28;3;23;2;0
+Rutherfordton;Municipality;2017;0;0;;0;0;146;1;142;3;0
+Surf City;Municipality;2017;6;0;;0;6;143;12;130;1;0
+Tabor City;Municipality;2017;14;1;;1;12;144;48;87;9;3
+Zebulon;Municipality;2017;27;0;;4;23;222;41;176;5;0
+Bessemer City;Municipality;2016;10;0;1;3;6;87;38;47;2;1
+Black Mountain;Municipality;2016;12;0;1;1;10;124;21;96;7;0
+Blowing Rock;Municipality;2016;2;0;0;0;2;35;9;26;0;0
+Clinton;Municipality;2016;52;0;1;16;35;471;123;332;16;3
+Farmville;Municipality;2016;33;1;1;5;26;168;53;112;3;0
+Hendersonville;Municipality;2016;50;0;9;23;18;844;119;680;45;2
+Highlands;Municipality;2016;1;0;0;0;1;66;23;42;1;0
+Hudson;Municipality;2016;6;0;3;1;2;105;22;80;3;0
+Lake Royale;Municipality;2016;3;1;1;0;1;47;10;37;0;0
+Louisburg;Municipality;2016;11;0;0;4;7;89;24;63;2;0
+Lumberton;Municipality;2016;393;9;5;132;247;2998;920;1917;161;21
+Manteo;Municipality;2016;0;0;0;0;0;60;6;50;4;0
+Mooresville;Municipality;2016;100;0;10;27;63;1443;178;1232;33;8
+Pilot Mountain;Municipality;2016;2;0;0;0;2;57;13;43;1;1
+Pittsboro;Municipality;2016;14;0;0;1;13;133;16;113;4;2
+Rockwell;Municipality;2016;2;0;0;1;1;58;8;43;7;0
+Star;Municipality;2016;1;0;0;1;0;16;4;12;0;0
+Surf City;Municipality;2016;3;0;1;0;2;170;14;149;7;0
+Trent Woods;Municipality;2016;0;0;0;0;0;30;23;7;0;0
+Wadesboro;Municipality;2016;62;0;2;7;53;331;89;230;12;0
+Woodfin;Municipality;2016;8;0;0;4;4;90;39;42;9;0
+Yadkinville;Municipality;2016;16;0;2;2;12;116;27;88;1;1
+Asheboro;Municipality;2018;117;1;;18;98;1168;214;891;63;2
+Belmont;Municipality;2018;39;0;;8;31;550;45;476;29;0
+Boone;Municipality;2018;18;0;;5;13;289;53;230;6;1
+Burlington;Municipality;2018;414;4;;61;349;1877;481;1303;93;0
+Cleveland;Municipality;2018;2;0;;0;2;25;3;17;5;0
+Edenton;Municipality;2018;52;0;;5;47;145;29;107;9;0
+Emerald Isle;Municipality;2018;15;0;;1;14;189;87;93;9;0
+Greensboro;Municipality;2018;1780;37;;536;1207;9831;2117;7035;679;76
+Highlands;Municipality;2018;3;0;;0;3;54;19;31;4;0
+Leland;Municipality;2018;27;1;;2;24;320;59;257;4;1
+Mount Gilead;Municipality;2018;4;1;;3;0;61;15;40;6;0
+Murfreesboro;Municipality;2018;4;0;;3;1;61;19;40;2;0
+Robbins;Municipality;2018;4;0;;0;4;26;6;18;2;0
+Smithfield;Municipality;2018;49;0;;12;37;454;64;372;18;1
+Snow Hill;Municipality;2018;10;0;;3;7;53;10;43;0;1
+Southern Pines;Municipality;2018;33;4;;9;20;312;62;243;7;0
+Stanley;Municipality;2018;8;0;;1;7;123;30;86;7;0
+Wake Forest;Municipality;2018;49;0;;16;33;653;61;577;15;1
+Waynesville;Municipality;2018;54;0;;6;48;517;80;395;42;3
+Wilson;Municipality;2018;250;5;;75;170;1719;408;1153;158;8
+Windsor;Municipality;2018;10;0;;0;10;34;4;27;3;0
+Apex;Municipality;2020;30;1;5;3;21;697;93;587;17;2
+Atlantic Beach;Municipality;2020;6;0;1;0;5;116;58;55;3;0
+Beech Mountain;Municipality;2020;0;0;0;0;0;16;9;7;0;0
+Black Mountain;Municipality;2020;13;0;4;0;9;221;63;139;19;2
+Canton;Municipality;2020;16;0;2;1;13;265;89;151;25;0
+Cape Carteret;Municipality;2020;2;0;0;0;2;20;3;16;1;0
+Charlotte-Mecklenburg;Municipality;2020;8015;119;245;1763;5888;31053;4312;23757;2984;158
+Gibsonville;Municipality;2020;15;0;5;2;8;89;29;48;12;1
+Granite Falls;Municipality;2020;10;0;1;2;7;269;81;173;15;2
+Greenville;Municipality;2020;415;13;26;71;305;2481;360;2006;115;19
+Haw River;Municipality;2020;7;0;0;0;7;34;6;27;1;0
+Mint Hill;Municipality;2020;59;0;6;7;46;361;75;266;20;1
+Plymouth;Municipality;2020;39;1;2;3;33;85;28;53;4;3
+Star;Municipality;2020;2;0;1;0;1;17;1;16;0;0
+Thomasville;Municipality;2020;118;2;3;23;90;735;162;470;103;5
+Valdese;Municipality;2020;12;0;5;0;7;54;14;33;7;0
+Wendell;Municipality;2020;12;0;1;4;7;104;25;70;9;0
+Wilson;Municipality;2020;270;7;9;41;213;1439;251;1068;120;9
+Atlantic Beach;Municipality;2019;9;0;3;1;5;114;43;66;5;1
+Bessemer City;Municipality;2019;13;0;0;2;11;85;18;58;9;2
+Bunn;Municipality;2019;1;0;0;0;1;18;2;14;2;0
+Canton;Municipality;2019;16;0;3;0;13;226;71;132;23;0
+Cleveland;Municipality;2019;4;0;1;1;2;14;2;11;1;0
+Elon;Municipality;2019;8;0;1;3;4;82;34;44;4;0
+Enfield;Municipality;2019;23;0;0;6;17;65;21;37;7;3
+Greensboro;Municipality;2019;2440;43;113;621;1663;10994;2215;7792;987;90
+Louisburg;Municipality;2019;23;0;2;5;16;149;30;116;3;1
+Maysville;Municipality;2019;0;0;0;0;0;8;4;4;0;0
+Mint Hill;Municipality;2019;59;4;8;11;36;383;67;268;48;3
+Newport;Municipality;2019;7;0;3;0;4;51;10;38;3;0
+Pittsboro;Municipality;2019;26;0;2;2;22;82;19;61;2;1
+Valdese;Municipality;2019;15;0;0;0;15;67;12;44;11;0
+Wadesboro;Municipality;2019;99;0;6;16;77;336;77;247;12;4
+Washington;Municipality;2019;71;0;4;10;57;357;62;281;14;2
+Caldwell;County;2019;75;2;18;9;46;1199;439;594;166;13
+Craven;County;2019;119;4;8;11;96;919;399;436;84;3
+Haywood;County;2019;118;0;21;2;95;835;366;405;64;6
+Iredell;County;2019;121;2;5;10;104;780;361;356;63;7
+Madison;County;2019;14;0;2;0;12;178;74;82;22;4
+Union;County;2019;235;3;77;23;132;1987;419;1449;119;7
+Avery;County;2019;18;0;2;0;16;179;92;79;8;2
+Stanly;County;2019;24;1;3;2;18;481;203;240;38;2
+Warren;County;2019;40;4;8;5;23;216;101;101;14;2
+Chatham;County;2017;75;1;;9;65;602;242;336;24;2
+Iredell;County;2017;202;3;;18;181;1439;589;746;104;6
+Orange;County;2017;68;1;;15;52;591;267;299;25;3
+Camden;County;2017;0;0;;0;0;59;24;35;0;0
+Stanly;County;2017;29;0;;6;23;476;214;245;17;1
+Transylvania;County;2017;34;0;;6;28;317;101;197;19;3
+Watauga;County;2017;20;0;;1;19;299;32;253;14;1
+Wilkes;County;2017;126;1;;11;114;738;298;363;77;14
+Catawba;County;2018;98;2;;15;81;1112;362;645;105;7
+Craven;County;2018;114;0;;7;107;791;309;423;59;4
+Graham;County;2018;24;1;;2;21;235;64;149;22;0
+Martin;County;2018;51;2;;7;42;282;121;136;25;3
+Polk;County;2018;7;1;;0;6;207;69;123;15;2
+Watauga;County;2018;11;0;;1;10;253;38;204;11;1
+Wilkes;County;2018;153;3;;7;143;694;287;356;51;12
+Yancey;County;2018;13;0;;3;10;71;29;32;10;2
+Currituck;County;2016;37;0;5;2;30;356;129;215;12;1
+Orange;County;2016;43;2;5;6;30;505;213;273;19;1
+Person;County;2016;49;6;3;3;37;294;133;149;12;2
+Ashe;County;2016;24;0;3;0;21;197;73;110;14;0
+Beaufort;County;2016;68;1;5;9;53;496;190;285;21;1
+Lee;County;2016;47;2;4;10;31;515;136;346;33;3
+Rutherford;County;2016;103;0;0;5;98;1010;542;391;77;9
+Guilford;County;2020;227;5;11;40;171;988;274;578;136;11
+Person;County;2020;54;2;4;5;43;303;110;165;28;3
+Caswell;County;2020;18;3;4;3;8;121;35;75;11;1
+Greene;County;2020;49;9;11;2;27;234;76;138;20;3
+Pasquotank;County;2020;88;1;8;3;76;266;115;130;21;3
+Albemarle;Municipality;2021;87;3;10;19;55;786;106;639;41;12
+Belhaven;Municipality;2021;1;0;0;0;1;22;5;16;1;0
+Benson;Municipality;2021;29;0;1;2;26;172;35;122;15;1
+Burlington;Municipality;2021;493;8;32;38;415;2647;402;2037;208;9
+Carolina Beach;Municipality;2021;25;0;4;2;19;131;23;96;12;0
+Chadbourn;Municipality;2021;8;3;1;0;4;65;14;45;6;0
+Clayton;Municipality;2021;44;2;1;6;35;490;44;412;34;4
+Eden;Municipality;2021;63;1;4;7;51;367;104;252;11;1
+Franklin;Municipality;2021;8;0;3;0;5;247;121;106;20;2
+Granite Falls;Municipality;2021;7;0;3;1;3;169;42;113;14;1
+Hickory;Municipality;2021;250;8;12;31;199;1861;325;1359;177;11
+Jonesville;Municipality;2021;8;0;1;1;6;95;37;53;5;0
+Mebane;Municipality;2021;54;1;1;11;41;590;47;506;37;2
+Mint Hill;Municipality;2021;61;1;9;5;46;283;38;218;27;3
+Nags Head;Municipality;2021;6;0;3;0;3;112;13;93;6;0
+North Wilkesboro;Municipality;2021;10;0;1;1;8;141;38;86;17;0
+Pinehurst;Municipality;2021;10;0;4;1;5;107;29;71;7;0
+Reidsville;Municipality;2021;124;1;8;13;102;547;66;433;48;6
+Richlands;Municipality;2021;3;0;0;0;3;17;3;13;1;0
+Robersonville;Municipality;2021;3;0;0;0;3;17;6;7;4;0
+Roxboro;Municipality;2021;93;0;11;5;77;278;67;199;12;4
+Smithfield;Municipality;2021;65;1;3;10;51;497;68;382;47;2
+Spencer;Municipality;2021;11;0;2;2;7;75;15;56;4;2
+Stallings;Municipality;2021;20;0;9;1;10;162;24;126;12;0
+Statesville;Municipality;2021;324;2;13;11;298;1102;231;772;99;5
+Winterville;Municipality;2021;7;0;0;0;7;69;17;49;3;0
+Wrightsville Beach;Municipality;2021;22;0;5;1;16;68;14;49;5;0
+Burke;County;2021;117;3;23;8;83;751;216;418;117;7
+Durham;County;2021;96;0;3;14;79;533;138;346;49;1
+Forsyth;County;2021;249;6;14;35;194;1404;312;986;106;15
+Union;County;2021;198;2;41;10;145;1423;295;1027;101;10
+Wake;County;2021;224;7;14;17;186;1344;236;906;202;18
+Cherokee;County;2021;92;0;7;6;79;755;175;524;56;10
+Halifax;County;2021;86;6;15;9;56;371;130;206;35;6
+Montgomery;County;2021;52;4;6;6;36;226;63;134;29;5
+Robeson;County;2021;1041;22;18;76;925;2331;824;1209;298;68
+Tyrrell;County;2021;6;0;1;1;4;24;14;8;2;0
+Ayden;Municipality;2021;30;0;1;5;24;65;8;54;3;0
+Bessemer City;Municipality;2021;25;0;2;2;21;107;32;59;16;0
+Biltmore Forest;Municipality;2021;3;0;0;0;3;19;8;11;0;0
+Biscoe;Municipality;2021;5;0;0;0;5;132;15;114;3;0
+Bunn;Municipality;2021;0;0;0;0;0;6;3;3;0;0
+Coats;Municipality;2021;5;0;1;1;3;99;53;41;5;0
+Durham;Municipality;2021;2160;47;125;546;1442;9674;1494;7417;763;36
+Elizabeth City;Municipality;2021;72;7;5;10;50;440;169;233;38;6
+Elon;Municipality;2021;9;0;3;1;5;52;15;35;2;0
+Enfield;Municipality;2021;31;2;1;3;25;54;31;22;1;2
+Four Oaks;Municipality;2021;3;0;1;1;1;38;17;18;3;0
+Graham;Municipality;2021;76;3;5;11;57;404;87;263;54;1
+Grifton;Municipality;2021;6;0;1;0;5;17;9;8;0;0
+Hope Mills;Municipality;2021;106;0;7;20;79;636;93;507;36;6
+Hudson;Municipality;2021;4;1;0;1;2;92;10;75;7;0
+Kannapolis;Municipality;2021;136;3;18;28;87;1223;188;896;139;7
+Kernersville;Municipality;2021;79;1;6;16;56;871;130;689;52;3
+Kings Mountain;Municipality;2021;51;2;7;3;39;262;38;176;48;1
+Long View;Municipality;2021;7;0;1;0;6;143;32;88;23;0
+Louisburg;Municipality;2021;24;1;0;8;15;83;9;68;6;4
+North Topsail Beach;Municipality;2021;4;1;1;0;2;31;13;16;2;0
+Oak Island;Municipality;2021;14;0;4;1;9;116;36;74;6;0
+Plymouth;Municipality;2021;30;1;2;3;24;93;40;49;4;5
+Ranlo;Municipality;2021;2;0;0;1;1;41;20;16;5;1
+Roanoke Rapids;Municipality;2021;114;3;9;14;88;552;101;415;36;4
+Rockwell;Municipality;2021;2;0;1;1;0;32;1;28;3;0
+Rocky Mount;Municipality;2021;503;12;13;63;415;1313;329;884;100;18
+Salisbury;Municipality;2021;315;13;10;42;250;1335;165;1064;106;6
+Shelby;Municipality;2021;181;1;16;16;148;601;109;421;71;4
+Surf City;Municipality;2021;9;0;1;1;7;77;14;61;2;0
+Swansboro;Municipality;2021;6;0;3;0;3;86;14;70;2;0
+Tabor City;Municipality;2021;21;3;4;2;12;98;22;68;8;0
+Thomasville;Municipality;2021;106;2;7;16;81;686;172;449;65;8
+Weldon;Municipality;2021;17;5;0;2;10;54;17;33;4;0
+White Lake;Municipality;2021;6;0;1;0;5;18;6;12;0;0
+Whiteville;Municipality;2021;50;1;5;6;38;341;79;241;21;1
+Wilkesboro;Municipality;2021;22;0;3;2;17;320;62;236;22;0
+Williamston;Municipality;2021;69;2;5;7;55;272;92;170;10;1
+Yadkinville;Municipality;2021;4;0;2;1;1;139;108;28;3;1
+Buncombe;County;2021;159;3;19;16;121;1666;420;983;263;18
+Davidson;County;2021;95;0;4;10;81;1261;381;719;161;16
+Iredell;County;2021;133;5;6;4;118;735;234;428;73;5
+Johnston;County;2021;133;2;25;10;96;1485;280;1047;158;5
+Wayne;County;2021;201;6;12;14;169;1073;317;570;186;8
+Bertie;County;2021;36;3;7;0;26;200;69;115;16;4
+Carteret;County;2021;89;1;20;3;65;516;147;330;39;0
+Rutherford;County;2021;76;6;16;8;46;471;185;223;63;6
+Transylvania;County;2021;35;0;3;3;29;173;72;83;18;4
+Warren;County;2021;34;2;4;0;28;315;98;182;35;3
+Aberdeen;Municipality;2021;31;1;4;4;22;196;19;172;5;1
+Asheboro;Municipality;2021;88;8;8;11;61;892;160;663;69;4
+Carthage;Municipality;2021;7;0;2;1;4;74;16;56;2;1
+Clinton;Municipality;2021;112;0;1;4;107;374;164;191;19;1
+Cornelius;Municipality;2021;36;1;4;1;30;358;40;289;29;3
+Creedmoor;Municipality;2021;12;0;2;1;9;39;10;26;3;0
+Emerald Isle;Municipality;2021;6;0;0;0;6;104;34;69;1;0
+Fuquay-Varina;Municipality;2021;32;0;3;5;24;305;36;250;19;0
+Gastonia;Municipality;2021;711;11;28;118;554;3096;336;2414;346;30
+Havelock;Municipality;2021;42;1;6;4;31;357;83;265;9;0
+Henderson;Municipality;2021;246;5;8;39;194;639;117;473;49;11
+Holly Ridge;Municipality;2021;4;1;0;0;3;29;6;18;5;0
+Holly Springs;Municipality;2021;33;0;5;3;25;419;22;378;19;2
+Lenoir;Municipality;2021;60;5;9;9;37;688;157;454;77;3
+Marion;Municipality;2021;9;0;3;1;5;657;432;197;28;0
+Matthews;Municipality;2021;77;0;2;17;58;1033;226;767;40;2
+Monroe;Municipality;2021;292;7;42;29;214;1296;207;1016;73;10
+Mooresville;Municipality;2021;123;1;15;8;99;991;96;828;67;5
+Mount Gilead;Municipality;2021;3;0;1;1;1;40;9;26;5;1
+Mount Olive;Municipality;2021;13;0;0;0;13;83;17;60;6;0
+Pine Knoll Shores;Municipality;2021;0;0;0;0;0;12;5;7;0;0
+Sylva;Municipality;2021;20;0;1;0;19;98;14;72;12;0
+Wendell;Municipality;2021;12;1;1;2;8;101;21;68;12;0
+West Jefferson;Municipality;2021;4;0;1;0;3;76;9;65;2;0
+Wilmington;Municipality;2021;655;14;86;107;448;3527;577;2715;235;11
+Camden;County;2021;22;0;6;0;16;59;18;31;10;0
+Orange;County;2021;86;1;6;5;74;471;111;324;36;1
+Pamlico;County;2021;39;0;2;1;36;226;61;147;18;0
+Person;County;2021;36;4;9;3;20;419;226;170;23;2
+Rockingham;County;2021;49;6;18;3;22;584;146;375;63;5
+Yadkin;County;2021;43;6;8;1;28;357;96;212;49;1
+Caswell;County;2021;12;0;6;0;6;60;10;45;5;0
+Pasquotank;County;2021;106;1;16;1;88;199;81;98;20;3
+Ahoskie;Municipality;2021;38;7;2;6;23;124;24;85;15;1
+Apex;Municipality;2021;41;0;10;8;23;594;53;517;24;4
+Beaufort;Municipality;2021;12;0;2;1;9;67;17;45;5;0
+Blowing Rock;Municipality;2021;2;0;1;1;0;22;2;20;0;0
+Boone;Municipality;2021;33;0;7;2;24;278;38;226;14;1
+Broadway;Municipality;2021;6;0;0;2;4;21;2;15;4;0
+China Grove;Municipality;2021;3;0;0;1;2;56;16;32;8;0
+Drexel;Municipality;2021;0;0;0;0;0;0;0;0;0;0
+East Spencer;Municipality;2021;12;9;1;0;2;20;3;11;6;1
+Farmville;Municipality;2021;45;4;5;2;34;101;17;80;4;0
+Lexington;Municipality;2021;99;1;6;7;85;596;115;434;47;4
+Lowell;Municipality;2021;10;0;2;1;7;70;32;27;11;0
+Maxton;Municipality;2021;13;9;0;3;1;105;22;71;12;1
+Newton;Municipality;2021;55;3;3;3;46;411;85;284;42;2
+Pine Level;Municipality;2021;4;0;1;1;2;18;5;11;2;0
+Scotland Neck;Municipality;2021;21;2;4;3;12;26;13;6;7;1
+Spring Lake;Municipality;2021;53;1;4;9;39;304;46;235;23;0
+Taylortown;Municipality;2021;0;0;0;0;0;12;4;8;0;0
+Trent Woods;Municipality;2021;1;0;0;0;1;12;5;7;0;0
+Chatham;County;2021;94;1;25;6;62;602;194;362;46;4
+Craven;County;2021;94;1;8;3;82;500;167;270;63;2
+Harnett;County;2021;241;14;17;17;193;1422;330;950;142;15
+Martin;County;2021;41;1;8;4;28;197;64;111;22;1
+Richmond;County;2021;228;4;12;14;198;1083;352;583;148;21
+Swain;County;2021;23;0;6;0;17;289;147;122;20;4
+Black Mountain;Municipality;2021;10;0;6;0;4;171;24;135;12;1
+Burgaw;Municipality;2021;13;0;2;0;11;57;5;51;1;0
+Butner;Municipality;2021;24;0;3;1;20;147;24;117;6;2
+Cary;Municipality;2021;130;4;9;31;86;1710;180;1427;103;6
+Columbus;Municipality;2021;0;0;0;0;0;40;0;33;7;0
+Concord;Municipality;2021;82;4;5;24;49;1203;118;941;144;4
+Conover;Municipality;2021;48;2;5;5;36;319;51;229;39;0
+Cooleemee;Municipality;2021;0;0;0;0;0;27;8;18;1;0
+Dobson;Municipality;2021;3;0;1;0;2;20;5;14;1;0
+Edenton;Municipality;2021;56;1;4;2;49;65;22;39;4;0
+Fairmont;Municipality;2021;32;2;2;7;21;78;22;53;3;1
+Fayetteville;Municipality;2021;2026;47;81;242;1656;6058;929;4669;460;58
+Haw River;Municipality;2021;9;0;1;0;8;53;13;38;2;0
+Holden Beach;Municipality;2021;3;0;0;1;2;36;14;20;2;0
+Indian Beach;Municipality;2021;1;0;0;0;1;9;2;6;1;0
+Kill Devil Hills;Municipality;2021;23;0;3;1;19;200;42;155;3;0
+Lillington;Municipality;2021;8;0;2;1;5;77;29;42;6;0
+Maggie Valley;Municipality;2021;7;0;0;1;6;216;163;46;7;0
+Manteo;Municipality;2021;7;0;3;2;2;30;10;19;1;0
+Murfreesboro;Municipality;2021;7;1;0;0;6;48;15;30;3;0
+Newport;Municipality;2021;8;0;1;1;6;80;26;50;4;0
+Pittsboro;Municipality;2021;3;0;2;0;1;59;8;47;4;0
+Raeford;Municipality;2021;12;0;1;0;11;101;16;81;4;0
+Red Springs;Municipality;2021;34;1;1;5;27;157;31;115;11;2
+Rowland;Municipality;2021;16;4;0;3;9;39;10;28;1;0
+Rutherfordton;Municipality;2021;1;0;0;1;0;21;0;20;1;0
+Selma;Municipality;2021;37;2;3;11;21;174;40;108;26;1
+Troy;Municipality;2021;28;3;1;1;23;107;33;65;9;0
+Valdese;Municipality;2021;9;0;1;0;8;73;22;39;12;0
+Wake Forest;Municipality;2021;69;0;5;11;53;462;39;398;25;3
+Washington;Municipality;2021;85;0;5;10;70;290;39;239;12;3
+Cabarrus;County;2021;47;2;8;10;27;566;118;390;58;3
+Catawba;County;2021;189;1;47;17;124;1052;300;625;127;13
+Gaston;County;2021;205;9;15;16;165;1001;249;568;184;11
+Guilford;County;2021;215;5;16;28;166;938;194;655;89;8
+Henderson;County;2021;112;3;22;8;79;1227;476;639;112;10
+Bladen;County;2021;108;6;12;8;82;425;132;248;45;5
+Chowan;County;2021;7;0;3;1;3;65;23;35;7;1
+Cleveland;County;2021;180;1;34;17;128;637;175;365;97;3
+Greene;County;2021;54;7;20;6;21;242;99;118;25;2
+McDowell;County;2021;51;1;13;2;35;733;306;344;83;4
+Scotland;County;2021;68;3;6;3;56;274;111;131;32;7
+Watauga;County;2021;35;6;7;1;21;218;77;132;9;3
